@@ -1,0 +1,80 @@
+.body-login {
+  background: repeating-linear-gradient(to bottom, #858585, black);
+  height: 100vh;
+}
+
+.outer {
+  margin-top: 50px;
+}
+
+.login-container {
+  margin: 0 auto;
+  background-color: #000000;
+  color: #ffffff;
+  width: 17%;
+  padding: 30px 50px;
+  border-radius: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 4px;
+}
+
+input {
+  border: 1px solid #5c5c5c;
+  height: 33px;
+  padding-left: 15px;
+  width: 90%;
+  margin-bottom: 25px;
+  background-color: #222326;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: "Rubik", sans-serif;
+  color: #858585;
+}
+
+.submit-container {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.submit-login:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.submit-login {
+  background-color: #ff8700;
+  border-radius: 1rem;
+  width: 50%;
+  border: 1px solid #ff8700;
+}
+
+.liner-grey {
+  background-color: #898788;
+  height: 1px;
+  margin-bottom: 35px;
+}
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  color: #858585;
+}
+
+.span-sign-up {
+  color: #ffffff;
+  margin-left: 8px;
+}
+
+.span-sign-up:hover {
+  color: #ff8700;
+}

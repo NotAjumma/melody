@@ -1,0 +1,140 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 45px 10px 45px;
+  background-color: #1e1e1e;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.logo {
+  background-image: url(../assets/logo.png);
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.nav-line {
+  width: 100%;
+  height: 2.5px;
+  background-color: rgb(235, 231, 231);
+}
+.nav-text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  font-family: "Poppins", sans-serif;
+  color: #f8f8f8;
+}
+
+.nav-border {
+  color: #f8f8f8 !important;
+  margin-right: 15px;
+}
+a {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+.right-nav {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+ul {
+  gap: 15px;
+}
+
+.ul {
+  align-items: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 999;
+}
+
+nav ul li a {
+  position: relative;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: rgb(255, 255, 255);
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #1e1e1e;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+}
+
+nav ul li a.active::after,
+nav ul li a:hover::after {
+  transform: scaleX(1);
+}
+*/ h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+/* SIDEBAR CSS */
+
+.sidebar {
+  background-color: #1e1e1e;
+  height: 1500px;
+  width: 18%;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto;
+}
+
+.sidebar-profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.sidebar-button {
+  display: flex;
+  padding: 15px;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  padding-left: 50px;
+}
+
+.sidebar-button:hover {
+  background-color: rgb(181, 181, 181);
+}
+
+.sidebar-button-name {
+  margin-left: 50px;
+}
+
+.membership-notify {
+  background-color: #d1814c;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 4px 10px;
+  font-size: 12px;
+  position: absolute;
+  right: 40px;
+}

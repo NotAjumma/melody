@@ -38,6 +38,18 @@ $routes->get('edit-view/(:num)', 'UserCrud::singleUser/$1');
 $routes->post('edit-view/update', 'UserCrud::update');
 $routes->get('delete/(:num)', 'UserCrud::delete/$1');
 
+//Admin
+$routes->get('admin/dashboard', 'UserCrud::index');
+$routes->get('admin/user-list', 'UserCrud::index');
+$routes->get('admin/verify-membership', 'UserCrud::index');
+$routes->get('admin/edit-profile', 'UserCrud::index');
+
+//Signup-login
+$routes->get('login', 'LoginController::index');
+$routes->get('signup', 'LoginController::signup');
+$routes->post('submit-login', 'LoginController::loginProcess');
+$routes->post('submit-signup', 'LoginController::signupProcess');
+
 
 
 
