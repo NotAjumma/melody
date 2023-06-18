@@ -6,6 +6,8 @@
     <title>Login</title>
     <link rel="stylesheet" href="<?= base_url('css/login.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +22,7 @@
   </head>
   <body class="body-login">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <?php include(APPPATH . 'views/components/navbar.php'); ?>
     <div class="outer"></div>
     <div class="login-container">
       <form method="post" id="login" name="login" action="submit-login">
@@ -27,14 +30,15 @@
         <div class="header large-bold-text">Log in to Melody</div>
         <div class="username-container">
           <div class="small-medium-text">Username</div>
-          <div>
-            <input type="text" placeholder="Username" name="username" id="username" />
+          <div class="input-container-login">
+            <input class="input-login" type="text" placeholder="Username" name="username" id="username" />
           </div>
         </div>
         <div class="password-container">
           <div class="small-medium-text">Password</div>
-          <div>
+          <div class="input-container-login">
             <input
+              class="input-login"
               type="password"
               placeholder="Password"
               name="password"
@@ -44,7 +48,7 @@
             <i
               class="fa-regular fa-eye-slash"
               id="togglePassword"
-              style="margin-left: -30px; cursor: pointer; color: #5c5c5c"
+              style="margin-left: -30px; margin-top:7px; cursor: pointer; color: #5c5c5c"
             ></i>
           </div>
         </div>

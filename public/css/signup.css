@@ -67,6 +67,7 @@ input {
 
 .span-link {
   color: #ff8700;
+  text-decoration: underline !important;
 }
 
 .span-link:hover {

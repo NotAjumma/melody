@@ -6,12 +6,15 @@
     <title>Signup</title>
     <link rel="stylesheet" href="<?= base_url('css/signup.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
     <script
       src="https://kit.fontawesome.com/607f9bcbf8.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <?php include(APPPATH . 'views/components/navbar.php'); ?>
     <div class="outer-layer"></div>
     <div class="sign-up-container">
       <form method="post" id="signup" name="signup" action="submit-signup">
