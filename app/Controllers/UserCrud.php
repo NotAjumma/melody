@@ -11,7 +11,14 @@ class UserCrud extends Controller
         
         $userModel = new UsersModel();
         $data['users'] = $userModel->orderBy('id', 'DESC')->findAll();
-        return view('user_view', $data);
+        return view('pages/admin/dashboard', $data);
+    }
+    // show users list (Dummy)
+    public function profile(){
+        
+        $userModel = new UsersModel();
+        $data['users'] = $userModel->orderBy('id', 'DESC')->findAll();
+        return view('pages/user/profile', $data);
     }
     // add user form
     public function create(){

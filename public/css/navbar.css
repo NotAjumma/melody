@@ -108,7 +108,7 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .sidebar-button {
@@ -137,4 +137,10 @@ nav ul li a:hover::after {
   font-size: 12px;
   position: absolute;
   right: 40px;
+}
+.user-name {
+  color: #ffffff;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 2rem;
 }

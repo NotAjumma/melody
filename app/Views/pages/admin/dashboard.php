@@ -4,7 +4,7 @@
   <!-- <meta http-equiv="refresh" content="5" /> -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Codeigniter 4 CRUD App Example - positronx.io</title>
+  <title>Dashboard</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
   <!-- Bootstrap CSS -->
@@ -29,7 +29,7 @@
   <!-- <div id="app">
     <breadcrumb-component></breadcrumb-component>
   </div> -->
-<div class="container mt-4">
+<!-- <div class="container mt-4">
     <div class="d-flex justify-content-end">
       <a href="user-form" class="btn btn-success mb-2">Add User</a>
     </div>
@@ -75,7 +75,7 @@
       $('#users-list').DataTable();
     });
   </script>
-</div>
+</div> -->
   
 </body>
 </html>

@@ -30,7 +30,7 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 // CRUD RESTful Routes
-$routes->get('/', 'UserCrud::index');
+
 $routes->get('users-list', 'UserCrud::index');
 $routes->get('user-form', 'UserCrud::create');
 $routes->post('submit-form', 'UserCrud::store');
@@ -44,11 +44,16 @@ $routes->get('admin/user-list', 'UserCrud::index');
 $routes->get('admin/verify-membership', 'UserCrud::index');
 $routes->get('admin/edit-profile', 'UserCrud::index');
 
+//User
+$routes->get('user/profile', 'UserCrud::profile');
+
 //Signup-login
-$routes->get('login', 'LoginController::index');
+$routes->get('/', 'LoginController::index');
+$routes->get('login', 'LoginController::login');
 $routes->get('signup', 'LoginController::signup');
 $routes->post('submit-login', 'LoginController::loginProcess');
 $routes->post('submit-signup', 'LoginController::signupProcess');
+$routes->get('logout', 'LoginController::logout');
 
 
 

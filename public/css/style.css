@@ -26,6 +26,20 @@
   font-family: "Rubik", sans-serif;
 }
 
+.karla-medium-text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 38px;
+  font-family: "Karla", sans-serif;
+}
+
+.regular-medium-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 38px;
+  font-family: "Rubik", sans-serif;
+}
+
 .small-extrabold-text {
   font-size: 14px;
   font-weight: 600;
@@ -40,11 +54,11 @@
   font-family: "Rubik", sans-serif;
 }
 
-.small-medium-text {
+.karla-small-medium-text {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 .small-text {

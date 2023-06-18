@@ -7,7 +7,11 @@ use CodeIgniter\Controller;
 
 class LoginController extends Controller
 {
-    public function index()
+     public function index()
+    {
+        return view('pages/index');
+    }
+    public function login()
     {
         return view('pages/login');
     }
@@ -29,11 +33,12 @@ class LoginController extends Controller
         // You can customize this part based on your application's requirements
 
         // Example: Set session data and redirect based on the role ID
-        session()->set('user_id', $user['id']);
+        session()->set('username', $user['username'] );
+        session()->set('role_id', $user['role_id'] );
         if ($user['role_id'] == 1) {
             return redirect()->to('admin/dashboard');
         } else {
-            return redirect()->to('user/dashboard');
+            return redirect()->to('user/profile');
         }
     } else {
         // Invalid credentials, display an error message
@@ -92,6 +97,14 @@ class LoginController extends Controller
 
     public function logout()
     {
-        // Your code to handle user logout
+        // Load the session library
+        $session = session();
+
+        // Destroy the session
+        $session->destroy();
+
+        // Redirect the user to the login page or any other desired page
+        return redirect()->to('/');
     }
+
 }
