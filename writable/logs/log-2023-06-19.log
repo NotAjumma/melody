@@ -1,0 +1,11 @@
+CRITICAL - 2023-06-19 11:31:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\edit_user.php on line 22.
+ 1 APPPATH\Views\edit_user.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\edit_user.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\UserCrud.php(43): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserCrud->singleUser('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

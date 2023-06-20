@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta http-equiv="refresh" content="5" />
+  <!-- <meta http-equiv="refresh" content="5" /> -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Codeigniter 4 CRUD App Example - positronx.io</title>

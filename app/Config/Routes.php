@@ -54,6 +54,9 @@ $routes->get('signup', 'LoginController::signup');
 $routes->post('submit-login', 'LoginController::loginProcess');
 $routes->post('submit-signup', 'LoginController::signupProcess');
 $routes->get('logout', 'LoginController::logout');
+$routes->get('check-login-status', 'LoginController::checkLoginStatus');
+$routes->get('profile', 'LoginController::profile');
+
 
 
 

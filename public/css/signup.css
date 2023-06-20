@@ -2,6 +2,10 @@
   margin-top: 50px;
 }
 
+.bottom-div {
+  margin-bottom: 7rem;
+}
+
 .sign-up-container {
   margin: 0 auto;
   display: flex;

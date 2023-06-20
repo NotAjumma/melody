@@ -3,26 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
     <link rel="stylesheet" href="<?= base_url('css/login.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
-    <script
-      src="https://kit.fontawesome.com/607f9bcbf8.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+   
   </head>
   <body class="body-login">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <?php include(APPPATH . 'views/components/navbar.php'); ?>
     <div class="outer"></div>
     <div class="login-container">
       <form method="post" id="login" name="login" action="submit-login">
@@ -71,6 +57,7 @@
         </div>
       </div>
     </div>
+    <div class="bottom-div"></div>
   </body>
   <script>
     const togglePassword = document.querySelector("#togglePassword");

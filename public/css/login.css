@@ -11,7 +11,7 @@
   margin: 0 auto;
   background-color: #000000;
   color: #ffffff;
-  width: 21%;
+  width: 22%;
   padding: 30px 50px;
   border-radius: 1rem;
 }
@@ -61,6 +61,7 @@
   border-radius: 1rem;
   width: 50%;
   border: 1px solid #ff8700;
+  padding: 0.5rem;
 }
 
 .liner-grey {

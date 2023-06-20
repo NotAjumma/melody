@@ -5,6 +5,13 @@
   font-family: "Rubik", sans-serif;
 }
 
+.large-extrabold-text {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  font-family: "Rubik", sans-serif;
+}
+
 .large-bold-text {
   font-size: 30px;
   font-weight: 600;
@@ -12,6 +19,11 @@
   font-family: "Rubik", sans-serif;
 }
 
+.large-regular-text {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+}
 .large-medium-text {
   font-size: 24px;
   font-weight: 600;
@@ -40,11 +52,25 @@
   font-family: "Rubik", sans-serif;
 }
 
+.regular-small-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 38px;
+  font-family: "Rubik", sans-serif;
+}
+
 .small-extrabold-text {
   font-size: 14px;
   font-weight: 600;
   line-height: 28px;
   font-family: "Rubik", sans-serif;
+}
+
+.button-text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: "Karla", sans-serif;
 }
 
 .small-bold-text {
@@ -64,9 +90,13 @@
 .small-text {
   font-size: 14px;
   font-weight: 300;
-  line-height: 28px;
+  line-height: 20px;
   font-family: "Rubik", sans-serif;
 }
 
 .small-bold-text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  font-family: "Karla", sans-serif;
 }

@@ -9,52 +9,100 @@ class LoginController extends Controller
 {
      public function index()
     {
-        return view('pages/index');
+        $data['title'] = 'Homepage'; 
+        return  view('components/navbar',$data) .
+                view('pages/index') .
+                view('components/footer.php');
     }
     public function login()
     {
-        return view('pages/login');
+        $session = session();
+
+        // Check if the user is logged in
+        if (session()->has('username')) {
+            // User is logged in, redirect to promotion page
+            return redirect()->to('profile');
+        } else {
+            // User is not logged in, redirect to login page
+            $data['title'] = 'Login'; 
+            return  view('components/navbar',$data) .
+                    view('pages/login') ;
+        }
+        
+    }
+    
+      public function profile()
+    {
+        $session = session();
+
+        // Check if the user is logged in
+        if (session()->has('username') && session('role_id') == 1) {
+            $data['title'] = 'Admin Dashboard'; 
+            return  view('components/navbar',$data) .
+                    view('pages/admin/dashboard') .
+                    view('components/footer.php');
+        } else if (session()->has('username') && session('role_id') == 2) {
+            $data['title'] = 'Profile'; 
+            return  view('components/navbar',$data) .
+                    view('pages/user/profile') .
+                    view('components/footer.php');
+        }
+        
     }
 
     public function loginProcess()
-{
-    $usersModel = new UsersModel();
+    {
+        $usersModel = new UsersModel();
+        
+        // Retrieve the input values from the form
+        $username = $this->request->getPost('username');
+        $password = $this->request->getPost('password');
 
-    // Retrieve the input values from the form
-    $username = $this->request->getPost('username');
-    $password = $this->request->getPost('password');
+        // Validate the user's credentials
+        $user = $usersModel->where('username', $username)->first();
 
-    // Validate the user's credentials
-    $user = $usersModel->where('username', $username)->first();
+        if ($user && password_verify($password, $user['password'])) {
+            // Valid credentials, proceed with login logic
+            // For example, set session data or redirect to a protected area
+            // You can customize this part based on your application's requirements
 
-    if ($user && password_verify($password, $user['password'])) {
-        // Valid credentials, proceed with login logic
-        // For example, set session data or redirect to a protected area
-        // You can customize this part based on your application's requirements
-
-        // Example: Set session data and redirect based on the role ID
-        session()->set('username', $user['username'] );
-        session()->set('role_id', $user['role_id'] );
-        if ($user['role_id'] == 1) {
-            return redirect()->to('admin/dashboard');
+            // Example: Set session data and redirect based on the role ID
+            session()->set('username', $user['username'] );
+            session()->set('role_id', $user['role_id'] );
+            if ($user['role_id'] == 1) {
+                // $data['title'] = 'Admin Dashboard'; 
+                return redirect()->to(base_url('profile'));
+                // return  view('components/navbar',$data) .
+                //         view('pages/admin/dashboard') .
+                //         view('components/footer.php');
+            } else if ($user['role_id'] == 2) {
+                return redirect()->to(base_url('profile'));
+                // $data['title'] = 'User Dashboard'; 
+                // return  view('components/navbar',$data) .
+                //         view('pages/user/profile') .
+                //         view('components/footer.php');
+            } else {
+                return  view('components/navbar',$data) .
+                        view('pages/login') .
+                        view('components/footer');
+            }
         } else {
-            return redirect()->to('user/profile');
-        }
-    } else {
-        // Invalid credentials, display an error message
-        // You can customize this part based on your application's requirements
+            // Invalid credentials, display an error message
+            // You can customize this part based on your application's requirements
 
-        // Example: Set flashdata and redirect back to login page
-        session()->setFlashdata('error', 'Invalid username or password');
-        return redirect()->back();
+            // Example: Set flashdata and redirect back to login page
+            session()->setFlashdata('error', 'Invalid username or password');
+            return redirect()->back();
+        }
     }
-}
 
 
 
     public function signup()
     {
-        return view('pages/signup');
+        $data['title'] = 'Signup'; 
+        return  view('components/navbar',$data) .
+                view('pages/signup') ;
     }
 
     public function signupProcess()
@@ -105,6 +153,21 @@ class LoginController extends Controller
 
         // Redirect the user to the login page or any other desired page
         return redirect()->to('/');
+    }
+
+    public function checkLoginStatus()
+    {
+        // Load the session library
+        $session = session();
+
+        // Check if the user is logged in
+        if (session()->has('username')) {
+            // User is logged in, redirect to promotion page
+            return redirect()->to('promotion');
+        } else {
+            // User is not logged in, redirect to login page
+            return redirect()->to('login');
+        }
     }
 
 }

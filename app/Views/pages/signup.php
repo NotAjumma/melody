@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Signup</title>
     <link rel="stylesheet" href="<?= base_url('css/signup.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -14,7 +13,6 @@
     ></script>
   </head>
   <body>
-    <?php include(APPPATH . 'views/components/navbar.php'); ?>
     <div class="outer-layer"></div>
     <div class="sign-up-container">
       <form method="post" id="signup" name="signup" action="submit-signup">
@@ -150,6 +148,7 @@
         </div>
       </form>
     </div>
+    <div class="bottom-div"></div>
   </body>
   <script>
     const togglePassword = document.querySelector("#togglePassword");
