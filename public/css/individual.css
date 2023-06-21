@@ -1,0 +1,74 @@
+.first-layer {
+  margin: 0 auto;
+  width: 35%;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.chose-container {
+  background-color: #ffd2d7;
+  border-radius: 1rem 1rem 0 0;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.term-text {
+  padding-left: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.hyper-link {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.hyper-link:hover {
+  color: #fec27e;
+}
+
+.method-container {
+  margin-top: 0.7rem;
+  border: 1px solid #1e1e1e;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.method-container:hover,
+.month-container:hover {
+  transform: scale(1.02);
+}
+
+.badge {
+  padding: 0.3rem;
+  background-color: #ffd2d7;
+  border-radius: 0.2rem;
+  width: 25%;
+  margin-bottom: 0.5rem;
+}
+
+.midle-text {
+  margin-bottom: 0;
+}
+
+.one-time-payment-container {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.month-container {
+  margin-top: 0.5rem;
+  border: 1px solid #1e1e1e;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.first-layer {
+  color: #000000;
+}

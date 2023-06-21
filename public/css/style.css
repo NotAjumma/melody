@@ -30,6 +30,7 @@
   font-size: 25px;
   font-weight: 500;
   line-height: 35px;
+  font-family: "Rubik", sans-serif;
 }
 .large-medium-text {
   font-size: 24px;
@@ -66,11 +67,25 @@
   font-family: "Rubik", sans-serif;
 }
 
+.karla-regular-small-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Karla", sans-serif;
+}
+
+.karla-regular-blod-small-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: "Karla", sans-serif;
+}
+
 .small-extrabold-text {
   font-size: 14px;
   font-weight: 600;
   line-height: 28px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 .button-text {
@@ -78,13 +93,6 @@
   font-weight: 600;
   line-height: 20px;
   font-family: "Karla", sans-serif;
-}
-
-.small-bold-text {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 28px;
-  font-family: "Rubik", sans-serif;
 }
 
 .karla-small-medium-text {
@@ -98,12 +106,19 @@
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 .small-bold-text {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 18px;
+  font-family: "Karla", sans-serif;
+}
+
+.extrasmall-bold-text {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
   font-family: "Karla", sans-serif;
 }

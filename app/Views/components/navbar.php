@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-  <title>Melody - <?php echo $title; ?></title>
+  <title><?php echo $title; ?></title>
 </head>
 <script src="js/navbar.js"></script>
 
@@ -40,7 +40,7 @@
     <div class="right-nav">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link dropdown-toggle" href="<?= base_url('plan') ?>">Premium <span class="sr-only">(current)</span></a>
+          <a class="nav-link dropdown-toggle" href="<?= base_url() ?>">Premium <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item ">
           <a class="nav-link dropdown-toggle" href="<?= base_url('about-us') ?>">About us</a>

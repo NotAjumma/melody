@@ -135,7 +135,7 @@
                       Download 30 songs on 1 mobile device
                     </div>
                   </div>
-                  <div class="get-started-button top-button button-text">
+                  <div onclick="planButton('<?php base_url()?>','individual')" class="get-started-button top-button button-text">
                     Get Started
                   </div>
                   <div class="term-container-bottom small-text">
