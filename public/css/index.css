@@ -3,13 +3,13 @@
 }
 
 .header-layer {
-  background-color: #ff8700;
+  background-color: #6874e8;
 }
 
 .header-index {
   padding: 4rem 0;
   color: #ffffff;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .content-index {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   padding: 4rem 0;
 }
@@ -81,7 +81,7 @@
 }
 
 .plans-container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -121,9 +121,9 @@
 }
 
 .plan-badge {
-  border: 2px solid #ff8700;
+  border: 2px solid #6874e8;
   border-radius: 0.4rem;
-  background-color: #ff8700;
+  background-color: #6874e8;
   color: #ffffff;
   padding: 0.1rem 0.6rem;
 }

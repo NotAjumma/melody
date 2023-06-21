@@ -44,6 +44,7 @@ class LoginController extends Controller
         } else if (session()->has('username') && session('role_id') == 2) {
             $data['title'] = 'Profile'; 
             return  view('components/navbar',$data) .
+                    // view('components/promotionHeader.php') .
                     view('pages/user/profile') .
                     view('components/footer.php');
         }

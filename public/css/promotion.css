@@ -1,0 +1,178 @@
+.header-layer {
+  z-index: 5;
+}
+
+.header-index-promotion {
+  padding: 4rem;
+  color: #191414;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  background-color: #f7accf;
+}
+
+.button-container {
+  display: flex;
+}
+
+.top-button {
+  padding: 0.7rem;
+  border-radius: 3rem;
+  width: 7rem;
+  text-align: center;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.started-button {
+  border: 1px solid #191414;
+  background-color: #191414;
+  color: #ffffff;
+}
+
+.view-button {
+  border: 2px solid #191414;
+}
+
+.top-button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.term-container {
+  margin-top: 1rem;
+}
+
+.contet-layer {
+  background-color: #ffffff;
+}
+
+.content-index {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.why-go-premium-container {
+  text-align: center;
+  color: #000000;
+}
+
+.header-content-index {
+  margin-bottom: 2rem;
+}
+
+.icons-container {
+  display: flex;
+  gap: 7rem;
+  justify-content: center;
+}
+
+.img-icon {
+  width: 8rem;
+  margin-bottom: 1.2rem;
+}
+
+.plan-layer {
+  background-color: #f8f8f8;
+  padding-bottom: 7rem;
+}
+
+.plans-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-plan,
+.desc-plan {
+  text-align: center;
+}
+
+.desc-plan {
+  margin-bottom: 3rem;
+}
+
+.header-plan {
+  padding-top: 4rem;
+}
+
+.plan-container-layer {
+  display: flex;
+}
+
+.plan-container-outside {
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.term-container-bottom {
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.plan-container-inside {
+  border: 1px solid #f8f8f8;
+  box-shadow: 0 0 10px rgba(94, 94, 94, 0.5);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.plan-badge {
+  border: 2px solid #ff8700;
+  border-radius: 0.4rem;
+  background-color: #ff8700;
+  color: #ffffff;
+  padding: 0.1rem 0.6rem;
+}
+
+.top-desc {
+  line-height: 24px !important;
+}
+
+.badge-text {
+  width: 80%;
+}
+
+.top-container {
+  margin-top: 0.5rem;
+}
+
+.grey-line {
+  border: 1px solid #787878;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.features-list {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 10px;
+}
+
+.feature-icon {
+  margin-top: 5px;
+}
+
+.feature-desc {
+  width: 90%;
+  line-height: 20px !important;
+}
+
+.get-started-button {
+  background-color: #191414;
+  color: #ffffff;
+  width: auto !important;
+  margin-top: 2.5rem;
+}
+
+.header-text {
+  width: 95%;
+}
+
+.header-img {
+  height: 18rem;
+  width: 30rem;
+  border-radius: 2rem;
+}

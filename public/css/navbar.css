@@ -4,13 +4,14 @@
   padding: 10px 45px 10px 45px;
   background-color: #1e1e1e;
   color: #ffffff !important;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
 .sidebar-container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
+  display: flex;
 }
 
 .body-content {
@@ -119,10 +120,19 @@ nav ul li a:hover::after {
 /* SIDEBAR CSS */
 
 .sidebar {
-  background-color: #1e1e1e;
+  background-color: #1c1c1c;
   height: 100%;
-  width: 18%;
-  position: fixed !important;
+  width: 30%;
+  z-index: 1;
+  overflow: auto;
+  top: 0;
+  padding-top: 70px;
+}
+
+.sidebar-user {
+  background-color: #1c1c1c;
+  height: 100%;
+  width: 100%;
   z-index: 1;
   overflow: auto;
   top: 0;
@@ -139,15 +149,15 @@ nav ul li a:hover::after {
 .sidebar-button {
   display: flex;
   padding: 15px;
-  border-top: 1px solid #808080;
-  border-bottom: 1px solid #808080;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.02);
   cursor: pointer;
   color: rgb(255, 255, 255);
   padding-left: 50px;
 }
 
 .sidebar-button:hover {
-  background-color: rgb(181, 181, 181);
+  background-color: #fd951f;
 }
 
 .sidebar-button-name {
@@ -172,4 +182,15 @@ nav ul li a:hover::after {
 
 .nav-container {
   background-color: #1e1e1e !important;
+}
+
+.middle-content {
+  display: flex;
+  height: 60rem;
+  z-index: 5;
+}
+
+.body-back {
+  z-index: 1;
+  background: repeating-linear-gradient(to bottom, #a75900, #1e1e1e);
 }
