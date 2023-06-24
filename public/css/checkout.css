@@ -1,0 +1,139 @@
+.bottom-layer {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.header-payment-layer {
+  background-color: black;
+}
+
+.header-payment {
+  margin: 0 auto;
+  width: 25%;
+}
+
+.top-header-payment {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-inside-header {
+  border-radius: 1rem 1rem 0rem 0;
+  background-color: #ffc862;
+  padding: 1rem;
+}
+
+.first-top,
+.sec-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.free-text {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+}
+
+.bottom-inside-header {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.header-payment-bottom {
+  padding-bottom: 2rem;
+}
+
+.top-details {
+  justify-content: space-between;
+  display: flex;
+}
+
+.right-top-details {
+  text-align: end;
+}
+
+.ul-bullet-details {
+  padding-left: 1rem;
+}
+
+.hyper-link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.hyper-link:hover {
+  color: #fec27e;
+}
+
+.billing-detail {
+  margin: 0.5rem 0;
+}
+
+.bottom-layer {
+  margin-top: 3rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-layer,
+.info-top-layer {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.top-payment-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 5rem;
+  margin-top: 3rem;
+  align-items: center;
+}
+.list-card {
+  padding: 0rem 5rem;
+  margin-top: 3rem;
+}
+
+.buy-now-button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  border: 1px solid #1ed760;
+  background-color: #1ed760;
+  width: 10rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.bottom-footer-layer {
+  padding: 5rem;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 6px;
+  padding: 0.5rem;
+  border: 1px solid grey;
+  box-shadow: 0 0 10px rgba(82, 82, 82, 0.5);
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

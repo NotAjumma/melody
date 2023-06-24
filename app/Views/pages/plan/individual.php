@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="<?= base_url('css/individual.css') ?>" />
 <link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
 
+<script src="<?= base_url('js/plan.js') ?>"></script>
     <div class="first-layer">
       <div class="header-top">
         <div class="large-medium-text">You chose</div>
@@ -20,12 +21,12 @@
         <div class="sub-text karla-regular-blod-small-text">
           Auto-renews monthly; cancel anytime.
         </div>
-        <div class="method-container">
+        <div class="method-container" onclick="checkout('<?php base_url()?>','promote')">
           <div class="badge">
             <div class="button-text">2 months for RM15.90</div>
           </div>
           <div class="method-text karla-medium-text midle-text">
-            Subscribe by mobile or ShoopePay
+            Subscribe by card
           </div>
           <div class="karla-regular-blod-small-text">
             RM15.90/month after offer period
@@ -51,7 +52,7 @@
           <div class="karla-regular-blod-small-text">One-time payment of RM47.70</div>
         </div>
         <div class="month-container">
-          <div class="medium-text midle-text">1 months</div>
+          <div class="karla-medium-text midle-text">1 months</div>
           <div class="karla-regular-blod-small-text">One-time payment of RM15.90</div>
         </div>
       </div>

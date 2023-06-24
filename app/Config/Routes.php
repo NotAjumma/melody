@@ -59,6 +59,9 @@ $routes->get('profile', 'LoginController::profile');
 
 //Plans
 $routes->get('plan/individual', 'PlanController::individual');
+//Checkout
+$routes->get('plan/checkout/promote', 'PlanController::checkout');
+
 
 
 

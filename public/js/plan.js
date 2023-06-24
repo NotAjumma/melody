@@ -3,13 +3,14 @@ function scrollToSection(sectionId) {
   section.scrollIntoView({ behavior: "smooth" });
 }
 
-function planButton(baseurl, path) {
+function changeButton(baseurl) {
   // Change the URL path based on the provided parameter
-  var url = baseurl + "plan/" + path;
+  var url = baseurl;
   console.log(url);
   window.location.href = url;
 
-  setTimeout(function () {
-    scrollToSection(sectionId);
-  }, 1000); // Adjust the delay as needed
+  // setTimeout(function () {
+  //   var sectionId = "plan-layer";
+  //   scrollToSection(sectionId);
+  // }, 1000); // Adjust the delay as needed
 }

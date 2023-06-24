@@ -10,7 +10,7 @@
 }
 
 .chose-container {
-  background-color: #ffd2d7;
+  background-color: #ffc862;
   border-radius: 1rem 1rem 0 0;
   padding: 1rem;
   margin-top: 1rem;
@@ -46,9 +46,8 @@
 
 .badge {
   padding: 0.3rem;
-  background-color: #ffd2d7;
+  background-color: #ffc862;
   border-radius: 0.2rem;
-  width: 25%;
   margin-bottom: 0.5rem;
 }
 

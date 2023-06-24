@@ -14,4 +14,11 @@ class PlanController extends Controller
                 view('pages/plan/individual') .
                 view('components/footer.php');
     }
+    public function checkout()
+    {
+        $data['title'] = 'Checkout Premium'; 
+        return  view('components/navbar',$data) .
+                view('pages/plan/card') .
+                view('components/footer.php');
+    }
 }
