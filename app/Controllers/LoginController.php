@@ -156,19 +156,27 @@ class LoginController extends Controller
         return redirect()->to('/');
     }
 
-    public function checkLoginStatus()
+    public function checkLoginStatus($page)
     {
         // Load the session library
         $session = session();
 
         // Check if the user is logged in
         if (session()->has('username')) {
-            // User is logged in, redirect to promotion page
-            return redirect()->to('promotion');
+            // User is logged in, redirect to the specified page
+            if ($page == 'checkout') {
+               return redirect()->to(site_url('plan/checkout/promote'));
+            } elseif ($page == 'promotion') {
+                return redirect()->to('promotion');
+            } else {
+                // Invalid page parameter, redirect to default page
+                return redirect()->to('default');
+            }
         } else {
             // User is not logged in, redirect to login page
             return redirect()->to('login');
         }
     }
+
 
 }

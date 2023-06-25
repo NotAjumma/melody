@@ -5,7 +5,7 @@
 
 <script src="<?= base_url('js/checkout.js') ?>"></script>
 <script src="<?= base_url('js/plan.js') ?>"></script>
-<form method="post" action="">
+<form method="post" id="checkout" name="checkout" action="submit-checkout">
   <div class="header-payment-layer">
     <div class="header-payment">
       <div class="top-header-payment">
@@ -18,10 +18,10 @@
         <div class="top-inside-header">
           <div class="first-top">
             <div>
-              <div class="small-extrabold-text">Premium Individual</div>
+              <div class="small-double-extrabold-text">Premium Individual</div>
             </div>
             <div class="right-top-details">
-              <div class="free-text">Free</div>
+              <div class="free-text">2 months</div>
             </div>
           </div>
           <div class="sec-top">
@@ -29,33 +29,65 @@
               <div class="small-text">1 Premium Account</div>
             </div>
             <div class="right-top-details">
-              <div class="small-text">For 1 month</div>
+              <div class="small-text">For RM14.90</div>
             </div>
           </div>
         </div>
         <div class="bottom-inside-header">
-          <div class="top-details small-extrabold-text">
+          <?php $currentDate = date('Y-m-d'); 
+          $startDate = $currentDate;
+          $duration = 2; // Replace with the actual duration in months
+
+          // Create a DateTime object for the start date
+          $startDateTime = new DateTime($startDate);
+
+          // Add the duration to the start date
+          $endDateTime = clone $startDateTime;
+          $endDateTime->modify('+' . $duration . ' months');
+
+          // Get the end date in the desired format (e.g., 'Y-m-d')
+          $endDate = $endDateTime->format('Y-m-d');
+
+          $endDateWord = $endDateTime->format('d M Y');
+
+          // Output the end date
+          // echo $endDate; 
+          ?>
+          <div class="top-details small-double-extrabold-text">
             <div class="left-top-details">
-              <div>Start free month</div>
-              <div>Start billing date</div>
+              <div>Start Today</div>
+              <div>Start <span><?php echo $endDateWord ?></span></div>
             </div>
             <div class="right-top-details">
-              <div>Today</div>
-              <div>24 Jul 2023</div>
+              <div>RM14.90 for 2 months</div>
+              <div>RM14.90 / month</div>
             </div>
           </div>
           <div class="bullet-details">
             <ul class="ul-bullet-details extrasmall-bold-text">
               <li class="billing-detail">
-                Only RM14.90 / month after 1 month trial
+                Normal price is RM14.90 / month
               </li>
               <li class="billing-detail">
-                You won't be charged until 24 Jul 2023
+                You will next be billed on <span><?php echo $endDateWord ?></span>
               </li>
               <li class="billing-detail">Cancel anytime.</li>
             </ul>
           </div>
         </div>
+        
+      <?php $session = session();
+      $username = $session->get('username'); 
+      
+      ?>
+      <input type="hidden" name="sub_id" value="1" />
+      <input type="hidden" name="username" value="<?php echo $username ?>" />
+      <input type="hidden" name="total_amount" value="14.90" />
+      <input type="hidden" name="total_duration" value="2" />
+      <input type="hidden" name="started_date" value="<?php echo $startDate ?>" />
+      <input type="hidden" name="ended_date" value="<?php echo $endDate ?>" />
+
+      
       </div>
     </div>
     <div class="header-payment-bottom"></div>
@@ -313,12 +345,12 @@
 <div class="form-container">
   <div class="field-container">
     <label for="name">Name</label>
-    <input id="name" maxlength="20" type="text" />
+    <input id="name" maxlength="20" type="text" name="name" />
   </div>
   <div class="field-container">
     <label for="cardnumber">Card Number</label
     ><span id="generatecard">generate random</span>
-    <input id="cardnumber" type="text"  inputmode="numeric" />
+    <input id="cardnumber" type="text"  inputmode="numeric" name="card_number" />
     <svg
       id="ccicon"
       class="ccicon"
@@ -337,14 +369,17 @@
       type="text"
       
       inputmode="numeric"
+      name="expiration"
     />
   </div>
   <div class="field-container">
     <label for="securitycode">Security Code</label>
-    <input id="securitycode" type="text"  inputmode="numeric" />
+    <input id="securitycode" type="text"  inputmode="numeric" name="security_code"/>
   </div>
 </div>
 </div>
+    <input type="hidden" id="card-type" name="card_type" value="" />
+
 <button type="submit" class="buy-now-button button-text">BUY NOW</button>
   <div class="bottom-footer-layer"></div>
 </form>

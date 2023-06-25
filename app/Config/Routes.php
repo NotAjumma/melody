@@ -54,13 +54,14 @@ $routes->get('signup', 'LoginController::signup');
 $routes->post('submit-login', 'LoginController::loginProcess');
 $routes->post('submit-signup', 'LoginController::signupProcess');
 $routes->get('logout', 'LoginController::logout');
-$routes->get('check-login-status', 'LoginController::checkLoginStatus');
+$routes->get('check-login-status/(:any)', 'LoginController::checkLoginStatus/$1');
 $routes->get('profile', 'LoginController::profile');
 
 //Plans
 $routes->get('plan/individual', 'PlanController::individual');
 //Checkout
-$routes->get('plan/checkout/promote', 'PlanController::checkout');
+$routes->get('plan/checkout/promote', 'PlanController::checkoutForm');
+$routes->post('plan/checkout/submit-checkout', 'PlanController::checkoutStore');
 
 
 

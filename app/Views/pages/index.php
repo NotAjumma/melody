@@ -14,7 +14,7 @@
               Just RM15.90/month after. Cancel anytime
             </div>
             <div class="button-container button-text">
-                <a href="<?= base_url('check-login-status') ?>" style="color: white; text-decoration: none;" >
+                <a href="<?= base_url('check-login-status/promotion') ?>" style="color: white; text-decoration: none;" >
               <div class="started-button top-button">
                 <div >Get Started</div>
               </div></a>
@@ -102,7 +102,8 @@
                 </div>
                 <div class="grey-line"></div>
                 <div class="bottom-container">
-                  <div class="features-list">
+                  <div class="total-feature-list">
+                    <div class="features-list">
                     <div class="feature-icon">
                       <i
                         class="fa-solid fa-check fa-lg"
@@ -135,6 +136,8 @@
                       Download 30 songs on 1 mobile device
                     </div>
                   </div>
+                  </div>
+                  
                   <div onclick="planButton('<?php base_url()?>','individual')" class="get-started-button top-button button-text">
                     Get Started
                   </div>
@@ -144,6 +147,7 @@
                 </div>
               </div>
 
+              <!-- Individual Plan -->
               <div class="plan-container-inside">
                 <div class="plan-badge small-bold-text">
                   <div class="badge-text">
@@ -151,49 +155,63 @@
                   </div>
                 </div>
                 <div class="top-container">
-                  <div class="top-name large-medium-text">Mini</div>
+                  <div class="top-name large-medium-text">Individual</div>
                   <div class="top-desc regular-medium-text">
                     RM21.50/month after offer period
                     <br />
-                    1 account on mobile only.
+                    1 account only.
                   </div>
                 </div>
                 <div class="grey-line"></div>
                 <div class="bottom-container">
-                  <div class="features-list">
-                    <div class="feature-icon">
-                      <i
-                        class="fa-solid fa-check fa-lg"
-                        style="color: #000000"
-                      ></i>
+                  <div class="total-feature-list">
+                    <div class="features-list">
+                      <div class="feature-icon">
+                        <i
+                          class="fa-solid fa-check fa-lg"
+                          style="color: #000000"
+                        ></i>
+                      </div>
+                      <div class="feature-desc regular-small-text">
+                        Ad-free music listening on mobile
+                      </div>
                     </div>
-                    <div class="feature-desc regular-small-text">
-                      Ad-free music listening on mobile
+                    <div class="features-list">
+                      <div class="feature-icon">
+                        <i
+                          class="fa-solid fa-check fa-lg"
+                          style="color: #000000"
+                        ></i>
+                      </div>
+                      <div class="feature-desc regular-small-text">
+                        Play anewhere - even offline
+                      </div>
+                    </div>
+                    <div class="features-list">
+                      <div class="feature-icon">
+                        <i
+                          class="fa-solid fa-check fa-lg"
+                          style="color: #000000"
+                        ></i>
+                      </div>
+                      <div class="feature-desc regular-small-text">
+                        On-demand playback
+                      </div>
+                    </div>
+                    <div class="features-list">
+                      <div class="feature-icon">
+                        <i
+                          class="fa-solid fa-check fa-lg"
+                          style="color: #000000"
+                        ></i>
+                      </div>
+                      <div class="feature-desc regular-small-text">
+                        One-time or subscriotion plans
+                      </div>
                     </div>
                   </div>
-                  <div class="features-list">
-                    <div class="feature-icon">
-                      <i
-                        class="fa-solid fa-check fa-lg"
-                        style="color: #000000"
-                      ></i>
-                    </div>
-                    <div class="feature-desc regular-small-text">
-                      Group Session
-                    </div>
-                  </div>
-                  <div class="features-list">
-                    <div class="feature-icon">
-                      <i
-                        class="fa-solid fa-check fa-lg"
-                        style="color: #000000"
-                      ></i>
-                    </div>
-                    <div class="feature-desc regular-small-text">
-                      Download 30 songs on 1 mobile device
-                    </div>
-                  </div>
-                  <div class="get-started-button top-button button-text">
+                  
+                  <div onclick="planButton('<?php base_url()?>','individual')" class="get-started-button top-button button-text">
                     Get Started
                   </div>
                   <div class="term-container-bottom small-text">
@@ -204,20 +222,23 @@
               <div class="plan-container-inside">
                 <div class="plan-badge small-bold-text">
                   <div class="badge-text">
-                    2 months for RM15.90 for first time user
+                    Able to custom plan base on your favourite features.
                   </div>
                 </div>
+
+                <!-- Custome Plan -->
                 <div class="top-container">
-                  <div class="top-name large-medium-text">Mini</div>
+                  <div class="top-name large-medium-text">Melody Pro</div>
                   <div class="top-desc regular-medium-text">
-                    From RM0.75/day
+                    Starting from RM0.75/day
                     <br />
-                    1 account on mobile only.
+                    Up to 6 accounts.
                   </div>
                 </div>
                 <div class="grey-line"></div>
                 <div class="bottom-container">
-                  <div class="features-list">
+                  <div class="total-feature-list">
+                    <div class="features-list">
                     <div class="feature-icon">
                       <i
                         class="fa-solid fa-check fa-lg"
@@ -225,7 +246,7 @@
                       ></i>
                     </div>
                     <div class="feature-desc regular-small-text">
-                      Ad-free music listening on mobile
+                      Ad-free music listening
                     </div>
                   </div>
                   <div class="features-list">
@@ -236,7 +257,7 @@
                       ></i>
                     </div>
                     <div class="feature-desc regular-small-text">
-                      Group Session
+                      High-Quality Audio
                     </div>
                   </div>
                   <div class="features-list">
@@ -247,11 +268,47 @@
                       ></i>
                     </div>
                     <div class="feature-desc regular-small-text">
-                      Download 30 songs on 1 mobile device
+                      Unlimited Skips
                     </div>
                   </div>
-                  <div class="get-started-button top-button button-text">
-                    Get Started
+                  <div class="features-list">
+                    <div class="feature-icon">
+                      <i
+                        class="fa-solid fa-check fa-lg"
+                        style="color: #000000"
+                      ></i>
+                    </div>
+                    <div class="feature-desc regular-small-text">
+                      Lyrics Integration
+                    </div>
+                  </div>
+                  <div class="features-list">
+                    <div class="feature-icon">
+                      <i
+                        class="fa-solid fa-check fa-lg"
+                        style="color: #000000"
+                      ></i>
+                    </div>
+                    <div class="feature-desc regular-small-text">
+                      Multi-Device Sync
+                    </div>
+                  </div>
+                  <div class="features-list">
+                    <div class="feature-icon">
+                      <i
+                        class="fa-solid fa-check fa-lg"
+                        style="color: #000000"
+                      ></i>
+                    </div>
+                    <div class="feature-desc regular-small-text">
+                      and more ..
+                    </div>
+                  </div>
+
+                  </div>
+                  
+                  <div class="custom-button top-button button-text">
+                    Let's Custom
                   </div>
                   <div class="term-container-bottom small-text">
                     Offer not available for users who have already tried Premium

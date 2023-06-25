@@ -154,7 +154,7 @@
 }
 
 .feature-icon {
-  margin-top: 5px;
+  margin-top: 0.5rem;
 }
 
 .feature-desc {
@@ -167,4 +167,15 @@
   color: #ffffff;
   width: auto !important;
   margin-top: 2.5rem;
+}
+
+.custom-button {
+  background-color: #fd951f;
+  color: #ffffff;
+  width: auto !important;
+  margin-top: 2.5rem;
+}
+
+.total-feature-list {
+  height: 10rem;
 }

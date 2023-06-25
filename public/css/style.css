@@ -81,6 +81,13 @@
   font-family: "Karla", sans-serif;
 }
 
+.small-double-extrabold-text {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: "Karla", sans-serif;
+}
+
 .small-extrabold-text {
   font-size: 14px;
   font-weight: 600;

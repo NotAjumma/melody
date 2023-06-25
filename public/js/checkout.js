@@ -90,11 +90,27 @@ window.onload = function () {
       for (var i = 0; i < dynamicMasked.compiledMasks.length; i++) {
         let re = new RegExp(dynamicMasked.compiledMasks[i].regex);
         if (number.match(re) != null) {
+          // Retrieve the card type
+          var cardType = dynamicMasked.compiledMasks[i].cardtype;
+
+          // Pass the card type to a function or update the card.php view
+          updateCardType(cardType);
           return dynamicMasked.compiledMasks[i];
         }
       }
     },
   });
+
+  function updateCardType(cardType) {
+    // Handle the card type update here
+    // You can update the card.php view or perform any necessary actions
+    console.log("Card Type:", cardType);
+    // Get the card type input element
+    var cardTypeInput = document.getElementById("card-type");
+
+    // Update the value of the card type input
+    cardTypeInput.value = cardType;
+  }
 
   //Mask the Expiration Date
   var expirationdate_mask = new IMask(expirationdate, {

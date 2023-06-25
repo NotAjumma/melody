@@ -21,7 +21,8 @@
         <div class="sub-text karla-regular-blod-small-text">
           Auto-renews monthly; cancel anytime.
         </div>
-        <div class="method-container" onclick="checkout('<?php base_url()?>','promote')">
+        <a href="<?= base_url('check-login-status/checkout') ?>" style="color: #000000; text-decoration: none;" >
+        <div class="method-container" >
           <div class="badge">
             <div class="button-text">2 months for RM15.90</div>
           </div>
@@ -32,6 +33,7 @@
             RM15.90/month after offer period
           </div>
         </div>
+        </a>
       </div>
       <div class="one-time-payment-container">
         <div class="large-medium-text">One-time Payment</div>
