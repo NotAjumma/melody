@@ -24,13 +24,13 @@
         <a href="<?= base_url('check-login-status/checkout') ?>" style="color: #000000; text-decoration: none;" >
         <div class="method-container" >
           <div class="badge">
-            <div class="button-text">2 months for RM15.90</div>
+            <div class="button-text">2 months for RM14.90</div>
           </div>
           <div class="method-text karla-medium-text midle-text">
             Subscribe by card
           </div>
           <div class="karla-regular-blod-small-text">
-            RM15.90/month after offer period
+            RM14.90/month after offer period
           </div>
         </div>
         </a>

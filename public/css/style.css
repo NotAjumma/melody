@@ -1,3 +1,10 @@
+.banner-bold-text {
+  font-size: 3.8rem;
+  font-weight: 600;
+  line-height: 58px;
+  font-family: "Rubik", sans-serif;
+}
+
 .extralarge-bold-text {
   font-size: 40px;
   font-weight: 600;

@@ -45,10 +45,19 @@
             class="submit-login small-bold-text"
           >Log in</button>
         </div>
+        <?php
+          $message = $_GET['message'] ?? '';
+          if ($message === null || $message == "") {
+            $message = "profile";
+        }
+          ?>
+          <input type="hidden" name="messageRedirect" value="<?php echo $message; ?>" />
+
+        <div>
       </form>
       <div class="liner-grey"></div>
       <div class="sign-up-container">
-        <div>
+        
           Don't have an account?<a
             href="<?= base_url('signup') ?>"
             class="span-sign-up small-bold-text"

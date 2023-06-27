@@ -1,0 +1,69 @@
+.profile-content {
+  padding: 3.5rem;
+}
+
+.sub-header-text {
+  margin: 2rem 0;
+}
+
+.data-row {
+  display: flex;
+  /* justify-content: space-around; */
+  text-align: start;
+  align-items: start;
+}
+
+.attribute-data {
+  width: 50%;
+  color: #6a6a6a;
+}
+
+.grey-line {
+  /* height: 1px; */
+  border-bottom: 1px solid #dedede;
+  margin: 1.3rem 0;
+  border-radius: 1rem;
+}
+
+.edit-profile-button {
+  border: 1px solid #252525;
+  border-radius: 1.5rem;
+  width: 10rem;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.edit-profile-button:hover {
+  transform: scale(1.05);
+}
+
+.your-plan-container {
+  margin-top: 5rem;
+}
+
+.plan-container {
+  border: 3px solid #ffc862;
+  border-radius: 0.5rem;
+  /* padding: 2.5rem; */
+}
+
+.premium-plan-container {
+  padding: 5rem 0 5rem 2rem;
+  background-color: #ffc862;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.bottom-plan-container {
+  padding: 2.5rem 2rem 2.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.member-container {
+  border: 1px solid #dedede;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}

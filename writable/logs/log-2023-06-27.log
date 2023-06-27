@@ -1,0 +1,702 @@
+CRITICAL - 2023-06-27 09:46:49 --> Too few arguments to function App\Controllers\LoginController::checkLoginStatus(), 1 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 09:49:02 --> Too few arguments to function App\Controllers\LoginController::checkLoginStatus(), 1 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 09:49:06 --> Too few arguments to function App\Controllers\LoginController::checkLoginStatus(), 1 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 09:50:51 --> Too few arguments to function App\Controllers\LoginController::checkLoginStatus(), 1 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 09:50:58 --> Too few arguments to function App\Controllers\LoginController::checkLoginStatus(), 1 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\LoginController.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:04:04 --> Undefined variable $redirect
+in APPPATH\Views\pages\login.php on line 16.
+ 1 APPPATH\Views\pages\login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $redirect', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:04:14 --> Undefined variable $redirect
+in APPPATH\Views\pages\login.php on line 16.
+ 1 APPPATH\Views\pages\login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $redirect', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:04:15 --> Undefined variable $redirect
+in APPPATH\Views\pages\login.php on line 16.
+ 1 APPPATH\Views\pages\login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $redirect', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:04:34 --> Undefined variable $redirect
+in APPPATH\Views\pages\login.php on line 16.
+ 1 APPPATH\Views\pages\login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $redirect', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:21:53 --> Undefined variable $request
+in APPPATH\Views\pages\login.php on line 16.
+ 1 APPPATH\Views\pages\login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:22:16 --> Undefined variable $request
+in APPPATH\Views\pages\login.php on line 16.
+ 1 APPPATH\Views\pages\login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:22:38 --> Undefined variable $request
+in APPPATH\Views\pages\login.php on line 53.
+ 1 APPPATH\Views\pages\login.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:22:46 --> Undefined variable $request
+in APPPATH\Views\pages\login.php on line 53.
+ 1 APPPATH\Views\pages\login.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:22:48 --> Undefined variable $request
+in APPPATH\Views\pages\login.php on line 53.
+ 1 APPPATH\Views\pages\login.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:22:52 --> Undefined variable $request
+in APPPATH\Views\pages\login.php on line 53.
+ 1 APPPATH\Views\pages\login.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:23:21 --> Undefined variable $message
+in APPPATH\Views\pages\login.php on line 54.
+ 1 APPPATH\Views\pages\login.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:24:01 --> Undefined variable $message
+in APPPATH\Views\pages\login.php on line 18.
+ 1 APPPATH\Views\pages\login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:25:17 --> Undefined variable $request
+in APPPATH\Views\pages\login.php on line 17.
+ 1 APPPATH\Views\pages\login.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\LoginController.php(29): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:26:37 --> Undefined variable $request
+in APPPATH\Controllers\LoginController.php on line 62.
+ 1 APPPATH\Controllers\LoginController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:27:39 --> syntax error, unexpected variable "$user", expecting "," or ";"
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:27:58 --> syntax error, unexpected variable "$user", expecting "," or ";"
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:28:01 --> syntax error, unexpected variable "$user", expecting "," or ";"
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:28:11 --> syntax error, unexpected variable "$user", expecting "," or ";"
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:28:23 --> Undefined variable $request
+in APPPATH\Controllers\LoginController.php on line 62.
+ 1 APPPATH\Controllers\LoginController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:30:09 --> Undefined variable $request
+in APPPATH\Controllers\LoginController.php on line 62.
+ 1 APPPATH\Controllers\LoginController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:30:26 --> Undefined variable $request
+in APPPATH\Controllers\LoginController.php on line 62.
+ 1 APPPATH\Controllers\LoginController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:33:00 --> Too few arguments to function App\Controllers\LoginController::loginProcess(), 0 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\LoginController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:33:24 --> Too few arguments to function App\Controllers\LoginController::loginProcess(), 0 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\LoginController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:34:44 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:34:59 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:35:36 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:37:03 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:37:50 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:38:29 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:38:51 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:38:59 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:39:36 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:40:29 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:41:01 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:41:13 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(86): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:41:53 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(89): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:42:10 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(89): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:44:28 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(91): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:44:39 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(91): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:44:59 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(91): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:46:07 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(91): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:46:34 --> CodeIgniter\HTTP\URI::removeDotSegments(): Argument #1 ($path) must be of type string, null given, called in C:\xampp\htdocs\melody\system\Helpers\url_helper.php on line 71
+in SYSTEMPATH\HTTP\URI.php on line 197.
+ 1 SYSTEMPATH\Helpers\url_helper.php(71): CodeIgniter\HTTP\URI::removeDotSegments(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(118): _get_uri(null, Object(Config\App))
+ 3 SYSTEMPATH\Helpers\url_helper.php(158): site_url(null, null, Object(Config\App))
+ 4 APPPATH\Controllers\LoginController.php(91): base_url(null)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:49:28 --> Undefined variable $users
+in APPPATH\Views\pages\admin\dashboard.php on line 52.
+ 1 APPPATH\Views\pages\admin\dashboard.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 5 APPPATH\Controllers\LoginController.php(42): view('pages/admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:50:38 --> Undefined variable $users
+in APPPATH\Views\pages\admin\dashboard.php on line 52.
+ 1 APPPATH\Views\pages\admin\dashboard.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 5 APPPATH\Controllers\LoginController.php(42): view('pages/admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 10:50:52 --> Undefined variable $users
+in APPPATH\Views\pages\admin\dashboard.php on line 52.
+ 1 APPPATH\Views\pages\admin\dashboard.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 5 APPPATH\Controllers\LoginController.php(42): view('pages/admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 16:36:16 --> Undefined variable $users
+in APPPATH\Views\pages\admin\dashboard.php on line 52.
+ 1 APPPATH\Views\pages\admin\dashboard.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 5 APPPATH\Controllers\LoginController.php(42): view('pages/admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:59:38 --> mysqli_sql_exception: Table 'melodydb.subscription' doesn't exist in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(89): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-27 17:59:38 --> Table 'melodydb.subscription' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = :subscription.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\LoginController.php(89): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 18:01:06 --> mysqli_sql_exception: Table 'melodydb.subscription' doesn't exist in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(88): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-27 18:01:06 --> Table 'melodydb.subscription' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = :subscription.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\LoginController.php(88): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 18:01:18 --> mysqli_sql_exception: Table 'melodydb.subscription' doesn't exist in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(88): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-27 18:01:18 --> Table 'melodydb.subscription' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = :subscription.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\LoginController.php(88): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 18:01:36 --> mysqli_sql_exception: Table 'melodydb.subscription' doesn't exist in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(88): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-27 18:01:36 --> Table 'melodydb.subscription' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = :subscription.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\LoginController.php(88): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 18:01:45 --> mysqli_sql_exception: Table 'melodydb.subscription' doesn't exist in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(88): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-27 18:01:45 --> Table 'melodydb.subscription' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subscription`
+WHERE `subscription`.`id` = :subscription.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\LoginController.php(88): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 18:06:51 --> Array to string conversion
+in APPPATH\Views\pages\user\profile.php on line 64.
+ 1 APPPATH\Views\pages\user\profile.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\LoginController.php(50): view('pages/user/profile')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 18:06:57 --> Array to string conversion
+in APPPATH\Views\pages\user\profile.php on line 64.
+ 1 APPPATH\Views\pages\user\profile.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\LoginController.php(50): view('pages/user/profile')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 18:09:29 --> Array to string conversion
+in APPPATH\Views\pages\user\profile.php on line 64.
+ 1 APPPATH\Views\pages\user\profile.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\LoginController.php(50): view('pages/user/profile')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 18:09:30 --> Array to string conversion
+in APPPATH\Views\pages\user\profile.php on line 64.
+ 1 APPPATH\Views\pages\user\profile.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\LoginController.php(50): view('pages/user/profile')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

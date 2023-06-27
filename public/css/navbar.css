@@ -186,7 +186,6 @@ nav ul li a:hover::after {
 
 .middle-content {
   display: flex;
-  height: 60rem;
   z-index: 5;
 }
 

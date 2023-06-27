@@ -2,13 +2,30 @@
   z-index: 5;
 }
 
-.header-index-promotion {
-  padding: 4rem;
+.header-index-text-banner {
+  text-align: center;
+}
+
+.header-index-banner {
   color: #191414;
   width: 60%;
   margin: 0 auto;
+}
+
+.banner-promotion {
   display: flex;
+  padding: 4rem;
   background-color: #f7accf;
+}
+
+.banner-custom {
+  padding: 7rem;
+  background-color: #009ffd;
+}
+
+.banner-individual {
+  padding: 7rem;
+  background-color: #ffc862;
 }
 
 .button-container {
@@ -171,8 +188,13 @@
   width: 95%;
 }
 
+.header-text-banner {
+  width: 95%;
+  margin-bottom: 0.5rem;
+}
+
 .header-img {
   height: 18rem;
-  width: 30rem;
+  width: 28rem;
   border-radius: 2rem;
 }

@@ -90,8 +90,9 @@
   <?php if (session()->has('role_id')) { ?>
     <div class="body-back">
     <?php if  (session('role_id') == 2){ ?>
-    <div class="header-layer">
-      <div class="header-index-promotion">
+      <!-- promotion Banner -->
+    <!-- <div class="header-layer">
+      <div class="header-index-banner banner-promotion">
           <div class="header-index-text">
           <div class="header-text extralarge-bold-text">
               Get 2 months of Premium only at RM15.90 for first time user.
@@ -115,7 +116,36 @@
           <img class="header-img" src="assets/banner.jpg" />
           </div>
       </div>
+    </div> -->
+
+    <!-- Premium Individual Banner -->
+    <div class="header-layer">
+      <div class="header-index-banner banner-individual">
+          <div class="header-index-text-banner">
+          <div class="header-text-banner banner-bold-text">
+              Premium Individual<br>Only for you
+          </div>
+          <div class="regular-medium-text">
+              Your Personal Sound Haven
+          </div>
+     
+      </div>
     </div>
+
+    <!-- Premium Custom Banner -->
+    <!-- <div class="header-layer">
+      <div class="header-index-banner banner-custom">
+          <div class="header-index-text-banner">
+          <div class="header-text-banner banner-bold-text">
+              Premium Custom<br>Melody Pro
+          </div>
+          <div class="regular-medium-text">
+              Craft Your Personalized Melodic Symphony
+          </div>
+     
+      </div>
+    </div> -->
+    
     <?php } ?>
     <div class="middle-content" >
     <div class="sidebar-container">
@@ -126,6 +156,8 @@
               
         </div>
         <div class="user-name karla-medium-text"><?php echo $username ?></div>
+
+        <!-- Admin sidebar -->
         <?php if (session()->get('role_id') == 1) : ?>
         <div class="sidebar-buttons small-medium-text">
           <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','dashboard')">
@@ -154,7 +186,8 @@
             </div>
           </div>
         </div>
-
+          
+        <!-- User sidebar -->
         <?php else: ?>
           <div class="sidebar-buttons">
           <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','profile')">
@@ -163,10 +196,10 @@
               Profile
             </div>
           </div>
-          <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','membership')">
-            <div><i class="fa-solid fa-money-check" style="color: #ffffff;"></i></div>
+          <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','edit-profile')">
+            <div><i class="fa-solid fa-id-card-clip"></i></div>
             <div class="sidebar-button-name">
-              Membership
+              Available Plans
             </div>
           </div>
           <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','edit-profile')">
@@ -175,6 +208,20 @@
               Edit Profile
             </div>
           </div>
+          <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','edit-profile')">
+            <div><i class="fa-solid fa-lock"></i></div>
+            <div class="sidebar-button-name">
+              Change password
+            </div>
+          </div>
+          <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','edit-profile')">
+            <div><i class="fa-solid fa-credit-card"></i></div>
+            <div class="sidebar-button-name">
+              Saved payment cards
+            </div>
+          </div>
+         
+          
         </div>
         <?php endif; ?>
       </div>

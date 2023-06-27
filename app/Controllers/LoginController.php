@@ -3,6 +3,8 @@
 namespace App\Controllers;
 
 use App\Models\UsersModel;
+use App\Models\UserSubscriptionModel;
+use App\Models\SubscriptionModel;
 use CodeIgniter\Controller;
 
 class LoginController extends Controller
@@ -54,11 +56,15 @@ class LoginController extends Controller
     public function loginProcess()
     {
         $usersModel = new UsersModel();
+        $userSubscriptionModel = new UserSubscriptionModel();
+        $subscriptionModel = new SubscriptionModel();
         
         // Retrieve the input values from the form
         $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
 
+        $messageRedirect = $this->request->getPost('messageRedirect');
+        
         // Validate the user's credentials
         $user = $usersModel->where('username', $username)->first();
 
@@ -69,15 +75,44 @@ class LoginController extends Controller
 
             // Example: Set session data and redirect based on the role ID
             session()->set('username', $user['username'] );
+            session()->set('email', $user['email'] );
+            session()->set('dob', $user['date_of_birth'] );
             session()->set('role_id', $user['role_id'] );
+
+            // Find the user subscription based on the username
+            $userSubscription = $userSubscriptionModel->where('username', $username)->first();
+            if ($userSubscription) {
+                $sub_id = $userSubscription['sub_id'];
+                session()->set('plan', $sub_id);
+            
+                // Find the subscription based on the sub_id
+                $subscription = $subscriptionModel->find($sub_id);
+
+                if ($subscription) {
+                    $sub_name = $subscription['sub_name'];
+                    session()->set('plan_name', $sub_name);
+                    // echo $sub_name;
+
+                    // // Get the subscription features
+                    // $subscriptionFeatures = $subscriptionModel->select('feature_id')
+                    //     ->where('id', $sub_id)
+                    //     ->findAll();
+
+                    // // Extract the feature IDs
+                    // $featureIds = array_column($subscriptionFeatures, 'feature_id');
+                    // session()->set('list_feature', $featureIds);
+                }
+            }
+
             if ($user['role_id'] == 1) {
                 // $data['title'] = 'Admin Dashboard'; 
-                return redirect()->to(base_url('profile'));
+                return redirect()->to(base_url($messageRedirect));
+
                 // return  view('components/navbar',$data) .
                 //         view('pages/admin/dashboard') .
                 //         view('components/footer.php');
             } else if ($user['role_id'] == 2) {
-                return redirect()->to(base_url('profile'));
+                return redirect()->to(base_url($messageRedirect));
                 // $data['title'] = 'User Dashboard'; 
                 // return  view('components/navbar',$data) .
                 //         view('pages/user/profile') .
@@ -173,8 +208,16 @@ class LoginController extends Controller
                 return redirect()->to('default');
             }
         } else {
+             if ($page == 'checkout') {
+               return redirect()->to('login?message=plan/checkout/promote');
+            } elseif ($page == 'promotion') {
+                return redirect()->to('promotion');
+            } else {
+                // Invalid page parameter, redirect to default page
+                return redirect()->to('default');
+            }
             // User is not logged in, redirect to login page
-            return redirect()->to('login');
+            
         }
     }
 

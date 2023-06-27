@@ -8,13 +8,13 @@
         <div class="header-index">
           <div class="header-index-text">
             <div class="large-bold-text">
-              Get 2 months of Premium only at RM15.90 for first time user.
+              Get 2 months of Premium only at RM14.90 for first time user.
             </div>
             <div class="regular-medium-text">
-              Just RM15.90/month after. Cancel anytime
+              Just RM14.90/month after. Cancel anytime
             </div>
             <div class="button-container button-text">
-                <a href="<?= base_url('check-login-status/promotion') ?>" style="color: white; text-decoration: none;" >
+                <a href="<?= base_url('check-login-status/checkout') ?>" style="color: #ffffff; text-decoration: none;" >
               <div class="started-button top-button">
                 <div >Get Started</div>
               </div></a>
@@ -50,7 +50,7 @@
                   <img src="assets/add.png" class="img-icon" />
                 </div>
                 <div class="icon-header medium-text">
-                  Ad-free muic listening.
+                  Ad-free music listening.
                 </div>
                 <div class="icon-desc karla-small-medium-text">
                   Enjoy nonstop music.
@@ -151,13 +151,13 @@
               <div class="plan-container-inside">
                 <div class="plan-badge small-bold-text">
                   <div class="badge-text">
-                    2 months for RM15.90 for first time user
+                    2 months for RM14.90 for first time user
                   </div>
                 </div>
                 <div class="top-container">
                   <div class="top-name large-medium-text">Individual</div>
                   <div class="top-desc regular-medium-text">
-                    RM21.50/month after offer period
+                    RM14.90/month after offer period
                     <br />
                     1 account only.
                   </div>
@@ -230,7 +230,7 @@
                 <div class="top-container">
                   <div class="top-name large-medium-text">Melody Pro</div>
                   <div class="top-desc regular-medium-text">
-                    Starting from RM0.75/day
+                    Starting from RM3/month
                     <br />
                     Up to 6 accounts.
                   </div>
