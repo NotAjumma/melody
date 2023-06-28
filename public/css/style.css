@@ -102,6 +102,13 @@
   font-family: "Karla", sans-serif;
 }
 
+.button-bold-text {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 20px;
+  font-family: "Karla", sans-serif;
+}
+
 .button-text {
   font-size: 14px;
   font-weight: 600;

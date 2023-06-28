@@ -1,6 +1,6 @@
 function sidebarButton(baseurl, path) {
   // Change the URL path based on the provided parameter
-  var url = baseurl + "admin/" + path;
+  var url = baseurl + path;
   console.log(url);
   window.location.href = url;
 }

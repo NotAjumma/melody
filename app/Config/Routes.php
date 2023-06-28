@@ -57,6 +57,7 @@ $routes->get('logout', 'LoginController::logout');
 $routes->get('check-login-status/(:any)', 'LoginController::checkLoginStatus/$1');
 // $routes->get('check-login-status', 'LoginController::checkLoginStatus');
 $routes->get('profile', 'LoginController::profile');
+$routes->get('edit-profile', 'LoginController::editProfile');
 
 //Plans
 $routes->get('plan/individual', 'PlanController::individual');

@@ -86,10 +86,10 @@
    
 
 
-<?php if (current_url() === site_url('submit-login') || current_url() === site_url('profile')) : ?>
+<?php if (current_url() === site_url('submit-login') || current_url() === site_url('profile') || current_url() === site_url('edit-profile')) : ?>
   <?php if (session()->has('role_id')) { ?>
     <div class="body-back">
-    <?php if  (session('role_id') == 2){ ?>
+    <?php if  (session('role_id') == 2 && current_url() === site_url('profile')){ ?>
       <!-- promotion Banner -->
     <!-- <div class="header-layer">
       <div class="header-index-banner banner-promotion">
@@ -191,31 +191,31 @@
         <?php else: ?>
           <div class="sidebar-buttons">
           <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','profile')">
-            <div><i class="fa-solid fa-house" style="color: #ffffff;"></i></div>
+            <div class="icon-div" ><i class="fa-solid fa-house" style="color: #ffffff;"></i></div>
             <div class="sidebar-button-name">
               Profile
             </div>
           </div>
           <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','edit-profile')">
-            <div><i class="fa-solid fa-id-card-clip"></i></div>
+            <div class="icon-div" ><i class="fa-solid fa-id-card-clip"></i></div>
             <div class="sidebar-button-name">
               Available Plans
             </div>
           </div>
           <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','edit-profile')">
-            <div><i class="fa-solid fa-user-pen" style="color: #ffffff;"></i></div>
+            <div class="icon-div" ><i class="fa-solid fa-user-pen" style="color: #ffffff;"></i></div>
             <div class="sidebar-button-name">
               Edit Profile
             </div>
           </div>
           <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','edit-profile')">
-            <div><i class="fa-solid fa-lock"></i></div>
+            <div class="icon-div" ><i class="fa-solid fa-lock"></i></div>
             <div class="sidebar-button-name">
               Change password
             </div>
           </div>
           <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','edit-profile')">
-            <div><i class="fa-solid fa-credit-card"></i></div>
+            <div class="icon-div" ><i class="fa-solid fa-credit-card"></i></div>
             <div class="sidebar-button-name">
               Saved payment cards
             </div>

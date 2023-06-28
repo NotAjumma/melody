@@ -193,3 +193,7 @@ nav ul li a:hover::after {
   z-index: 1;
   background: repeating-linear-gradient(to bottom, #a75900, #1e1e1e);
 }
+/* 
+.icon-div {
+  width: 30%;
+} */

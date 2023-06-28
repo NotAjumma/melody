@@ -40,14 +40,51 @@ class LoginController extends Controller
         // Check if the user is logged in
         if (session()->has('username') && session('role_id') == 1) {
             $data['title'] = 'Admin Dashboard'; 
+             
+
             return  view('components/navbar',$data) .
                     view('pages/admin/dashboard') .
                     view('components/footer.php');
         } else if (session()->has('username') && session('role_id') == 2) {
             $data['title'] = 'Profile'; 
+            $data['username'] = $session->get('username'); 
+            $data['nickname'] = $session->get('nickname'); 
+            $data['email'] = $session->get('email'); 
+            $dob = $session->get('dob'); 
+            $data['plan_name'] = $session->get('plan_name'); 
+            $data['plan_name'] = $session->get('list_feature');
+            $data['formattedDate'] = date('F j, Y', strtotime($dob));   
+
             return  view('components/navbar',$data) .
                     // view('components/promotionHeader.php') .
-                    view('pages/user/profile') .
+                    view('pages/user/profile',$data) .
+                    view('components/footer.php');
+        }
+        
+    }
+
+     public function editProfile()
+    {
+        $session = session();
+
+        // Check if the user is logged in
+        if (session()->has('username') && session('role_id') == 1) {
+            $data['title'] = 'Admin Dashboard'; 
+            return  view('components/navbar',$data) .
+                    view('pages/admin/dashboard') .
+                    view('components/footer.php');
+        } else if (session()->has('username') && session('role_id') == 2) {
+            $data['title'] = 'Edit Profile'; 
+            $data['username'] = $session->get('username'); 
+            $data['nickname'] = $session->get('nickname'); 
+            $data['email'] = $session->get('email'); 
+            $data['dob'] = $session->get('dob'); 
+            $data['gender'] = $session->get('gender'); 
+            $data['plan_name'] = $session->get('list_feature');
+            // $data['formattedDate'] = date('F j, Y', strtotime($dob));  
+            return  view('components/navbar',$data) .
+                    // view('components/promotionHeader.php') .
+                    view('pages/user/edit_profile',$data) .
                     view('components/footer.php');
         }
         
@@ -75,9 +112,11 @@ class LoginController extends Controller
 
             // Example: Set session data and redirect based on the role ID
             session()->set('username', $user['username'] );
+            session()->set('nickname', $user['nickname'] );
             session()->set('email', $user['email'] );
             session()->set('dob', $user['date_of_birth'] );
             session()->set('role_id', $user['role_id'] );
+            session()->set('gender', $user['gender'] );
 
             // Find the user subscription based on the username
             $userSubscription = $userSubscriptionModel->where('username', $username)->first();
