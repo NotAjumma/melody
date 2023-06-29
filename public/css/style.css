@@ -143,3 +143,11 @@
   line-height: 15px;
   font-family: "Karla", sans-serif;
 }
+
+.error-input-text {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 0px;
+  font-family: "Karla", sans-serif;
+  color: #ff0000;
+}

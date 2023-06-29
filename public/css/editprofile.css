@@ -37,12 +37,24 @@
 
 .input-row {
   margin: 1.8rem 0;
+  margin-bottom: 0.5rem;
 }
 
 .save-profile-button {
   border: 1px solid #ff8700;
   border-radius: 1.5rem;
   width: 10rem;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 1rem;
+  background-color: #ff8700;
+}
+
+.change-password-button {
+  border: 1px solid #ff8700;
+  border-radius: 1.5rem;
+  width: 13rem;
   padding: 1rem;
   text-align: center;
   cursor: pointer;
@@ -69,4 +81,23 @@
   width: 100%;
   height: 3rem;
   padding-left: 1rem;
+}
+
+.input-upload-profile {
+  padding: 1rem;
+}
+
+.input-change-password {
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.2rem;
+  border: 1px solid #252525;
+  padding: 1rem;
+  font-size: 1.8rem !important;
+}
+
+.error-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
 }

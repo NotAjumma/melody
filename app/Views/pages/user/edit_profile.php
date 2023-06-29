@@ -7,6 +7,7 @@
  
  <div style=" width: 70%; background-color: white">
         <!-- edit here for profile page -->
+        <form action="submit-edit-profile" method="post">
         <div class="profile-content">
           <div class="edit-header-text extralarge-bold-text">Edit Profile</div>
           <div class="input-container">
@@ -48,7 +49,7 @@
                   name="gender"
                 >
                   
-                  <option><?php echo $nickname ?></option>
+                  <option><?php echo $gender ?></option>
                   <option value="Prefer not to say">Prefer not to say</option>
                   <option value="Male">Male</option>
                   <option value="Female">Female</option>
@@ -68,14 +69,30 @@
                 />
               </div>
             </div>
+            <div class="input-row">
+              <div class="label-input-edit karla-regular-blod-small-text">
+                Profile Picture
+              </div>
+              <div>
+                <input
+                  class="input-upload-profile karla-regular-small-text"
+                  type="file"
+                  name="profile_pic"
+                  id="profile_pic"
+                />
+              </div>
+            </div>
           </div>
+
+          <input type="read" value="<?php echo $username ?>" name="username" id="username" />
 
           <div class="grey-line"></div>
           <div class="save-profile-button-container">
             <div class="cancel-profile-button button-bold-text" onclick="sidebarButton('<?php base_url()?>','profile')">Cancel</div>
-            <div class="save-profile-button button-bold-text">Save Profile</div>
+            <button type="submit" class="save-profile-button button-bold-text">Save Profile</button>
           </div>
         </div>
+        </form>
       </div>
       <!-- Dont delete this below div -->
 </div>

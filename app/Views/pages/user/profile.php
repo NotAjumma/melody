@@ -59,14 +59,36 @@
                 </div>
               </div>
               <div class="bottom-plan-container">
-                <div class="">
+                <div class="list-features">
                   <div class="karla-half-medium-small-text">
-                   
+                   <?php
+
+                  $featuresModel = new \App\Models\FeaturesModel();
+                  
+
+                  $featureNames = $featuresModel->getFeatureNamesBySubId($plan_id);
+
+                  if (!empty($featureNames)) {
+                      $lastIndex = count($featureNames) - 1;
+                      foreach ($featureNames as $index => $featureName) {
+                          echo $featureName['feature_name'];
+                          if ($index !== $lastIndex) {
+                              echo ", ";
+                          } else {
+                              echo ".";
+                          }
+                      }
+                  } else {
+                      echo "No feature names found for the given sub_id.";
+                  }
+
+
+                   ?>
                   </div>
                 </div>
-                <div class="member-container karla-half-medium-small-text">
+                <!-- <div class="member-container karla-half-medium-small-text">
                   You're a member of a Custom plan.
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

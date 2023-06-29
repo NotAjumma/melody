@@ -67,3 +67,7 @@
   padding: 1rem;
   border-radius: 0.3rem;
 }
+
+.list-features::first-letter {
+  text-transform: uppercase;
+}

@@ -45,7 +45,14 @@ $routes->get('admin/verify-membership', 'UserCrud::index');
 $routes->get('admin/edit-profile', 'UserCrud::index');
 
 //User
-$routes->get('user/profile', 'UserCrud::profile');
+// $routes->get('user/profile', 'UserCrud::profile');
+$routes->get('edit-profile', 'UserController::editProfile');
+$routes->post('submit-edit-profile', 'UserController::editProfileProcess');
+$routes->get('profile', 'UserController::profile');
+$routes->get('change-password', 'UserController::changePassword');
+$routes->post('submit-change-password', 'UserController::changePasswordProcess');
+
+
 
 //Signup-login
 $routes->get('/', 'LoginController::index');
@@ -56,8 +63,7 @@ $routes->post('submit-signup', 'LoginController::signupProcess');
 $routes->get('logout', 'LoginController::logout');
 $routes->get('check-login-status/(:any)', 'LoginController::checkLoginStatus/$1');
 // $routes->get('check-login-status', 'LoginController::checkLoginStatus');
-$routes->get('profile', 'LoginController::profile');
-$routes->get('edit-profile', 'LoginController::editProfile');
+
 
 //Plans
 $routes->get('plan/individual', 'PlanController::individual');
