@@ -1,0 +1,1325 @@
+CRITICAL - 2023-06-30 06:21:01 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 76.
+ 1 APPPATH\Controllers\UserController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:21:01 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:21:28 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:22:58 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:23:49 --> Undefined variable $sub_id
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:23:50 --> Undefined variable $sub_id
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:23:51 --> Undefined variable $sub_id
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:24:55 --> Undefined variable $sub_id
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:24:56 --> Undefined variable $sub_id
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:25:37 --> Undefined variable $sub_id
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:25:46 --> Undefined variable $sub_id
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:27:18 --> Undefined variable $sub_id
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:27:20 --> Undefined variable $sub_id
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:27:33 --> Undefined variable $sub_id
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:27:48 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:28:48 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:28:50 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:28:58 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:31:00 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:31:28 --> syntax error, unexpected identifier "var_dump", expecting "," or ";"
+in APPPATH\Views\pages\user\profile.php on line 58.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 3 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:31:38 --> syntax error, unexpected identifier "var_dump", expecting "," or ";"
+in APPPATH\Views\pages\user\profile.php on line 58.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 3 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:31:40 --> syntax error, unexpected identifier "var_dump", expecting "," or ";"
+in APPPATH\Views\pages\user\profile.php on line 58.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 3 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:31:48 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:31:57 --> syntax error, unexpected identifier "var_dump", expecting "," or ";"
+in APPPATH\Views\pages\user\profile.php on line 47.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 3 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:32:44 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 57.
+ 1 APPPATH\Views\pages\user\profile.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:32:57 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 47.
+ 1 APPPATH\Views\pages\user\profile.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:33:07 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 58.
+ 1 APPPATH\Views\pages\user\profile.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:34:12 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\UserController.php on line 81.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:34:15 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\UserController.php on line 81.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:34:48 --> Undefined variable $userSubscriptionModel
+in APPPATH\Controllers\UserController.php on line 38.
+ 1 APPPATH\Controllers\UserController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:34:58 --> Undefined variable $userSubscriptionModel
+in APPPATH\Controllers\UserController.php on line 38.
+ 1 APPPATH\Controllers\UserController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:35:11 --> Undefined variable $userSubscriptionModel
+in APPPATH\Controllers\UserController.php on line 38.
+ 1 APPPATH\Controllers\UserController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:35:28 --> Undefined variable $sub_name
+in APPPATH\Views\pages\user\profile.php on line 58.
+ 1 APPPATH\Views\pages\user\profile.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_name', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:42:31 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 159.
+ 1 APPPATH\Views\components\navbar.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 159)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(171): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->changePassword()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:42:48 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 159.
+ 1 APPPATH\Views\components\navbar.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 159)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(171): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->changePassword()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:43:59 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 159.
+ 1 APPPATH\Views\components\navbar.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 159)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(171): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->changePassword()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 07:04:23 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 159.
+ 1 APPPATH\Views\components\navbar.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 159)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(171): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->changePassword()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 07:04:25 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 159.
+ 1 APPPATH\Views\components\navbar.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 159)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(171): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->changePassword()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 07:04:38 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 159.
+ 1 APPPATH\Views\components\navbar.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 159)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(171): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->changePassword()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 07:07:24 --> syntax error, unexpected token "class", expecting ";"
+in APPPATH\Controllers\UserController.php on line 177.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:15:45 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:16:08 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:16:26 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:18:45 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:18:54 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:19:13 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:19:13 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:19:38 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:20:22 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:20:25 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:20:50 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:20:51 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:20:51 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:20:51 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:21:37 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:21:42 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:21:46 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:21:54 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:22:09 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:22:31 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:22:47 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:23:40 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:25:44 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:25:45 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:25:46 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:26:25 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:26:26 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:26:26 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:26:29 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:27:29 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:28:07 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:28:22 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:28:23 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:28:38 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:28:43 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:29:00 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:29:48 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:29:58 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:30:04 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:30:18 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:30:22 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:30:33 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:30:50 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:31:11 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:31:53 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:31:55 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:32:12 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:32:13 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:32:16 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:32:46 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:32:55 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:32:59 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:33:23 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:33:24 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:33:32 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:33:58 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:34:42 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:34:43 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:34:43 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:34:50 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:35:14 --> Unmatched '}'
+in APPPATH\Controllers\UserController.php on line 302.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:35:15 --> Unmatched '}'
+in APPPATH\Controllers\UserController.php on line 302.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:35:15 --> Unmatched '}'
+in APPPATH\Controllers\UserController.php on line 302.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:35:16 --> Unmatched '}'
+in APPPATH\Controllers\UserController.php on line 302.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:35:16 --> Unmatched '}'
+in APPPATH\Controllers\UserController.php on line 302.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:36:27 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:36:57 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 306.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:37:04 --> Undefined variable $userSubscriptionModel
+in APPPATH\Controllers\UserController.php on line 327.
+ 1 APPPATH\Controllers\UserController.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 327)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:37:24 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 306.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:37:24 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 306.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:37:43 --> Undefined variable $userSubscriptionModel
+in APPPATH\Controllers\UserController.php on line 327.
+ 1 APPPATH\Controllers\UserController.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 327)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:37:44 --> Undefined variable $userSubscriptionModel
+in APPPATH\Controllers\UserController.php on line 327.
+ 1 APPPATH\Controllers\UserController.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 327)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:37:49 --> Undefined variable $subscriptionModel
+in APPPATH\Controllers\UserController.php on line 331.
+ 1 APPPATH\Controllers\UserController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:37:50 --> Undefined variable $subscriptionModel
+in APPPATH\Controllers\UserController.php on line 331.
+ 1 APPPATH\Controllers\UserController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:39:18 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 306.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:39:31 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 306.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:39:32 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 306.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:39:37 --> Class "App\Controllers\CardModel" not found
+in APPPATH\Controllers\UserController.php on line 306.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:40:31 --> Undefined array key "exppiration"
+in APPPATH\Controllers\UserController.php on line 284.
+ 1 APPPATH\Controllers\UserController.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "exppiration"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:40:59 --> Undefined array key "exppiration"
+in APPPATH\Controllers\UserController.php on line 332.
+ 1 APPPATH\Controllers\UserController.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "exppiration"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 332)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:42:49 --> Undefined array key "exppiration"
+in APPPATH\Controllers\UserController.php on line 335.
+ 1 APPPATH\Controllers\UserController.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "exppiration"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 335)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:43:24 --> Undefined array key "exppiration"
+in APPPATH\Controllers\UserController.php on line 335.
+ 1 APPPATH\Controllers\UserController.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "exppiration"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 335)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:43:32 --> Undefined array key "exppiration"
+in APPPATH\Controllers\UserController.php on line 335.
+ 1 APPPATH\Controllers\UserController.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "exppiration"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 335)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:43:54 --> Undefined variable $card
+in APPPATH\Controllers\UserController.php on line 333.
+ 1 APPPATH\Controllers\UserController.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $card', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:44:04 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 333.
+ 1 APPPATH\Controllers\UserController.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:44:16 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 333.
+ 1 APPPATH\Controllers\UserController.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:44:56 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 333.
+ 1 APPPATH\Controllers\UserController.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:45:28 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 333.
+ 1 APPPATH\Controllers\UserController.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:46:03 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 327.
+ 1 APPPATH\Controllers\UserController.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 327)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:46:09 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:46:26 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:46:28 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:46:28 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:46:29 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:46:32 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:46:35 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:47:15 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:47:16 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:47:16 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:47:22 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:47:23 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:47:53 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:47:54 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:47:54 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:47:55 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:48:41 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:48:41 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:48:42 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:48:42 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:48:42 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:48:42 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:49:11 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 331.
+ 1 APPPATH\Controllers\UserController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:49:18 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 331.
+ 1 APPPATH\Controllers\UserController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:49:30 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 330.
+ 1 APPPATH\Controllers\UserController.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 330)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:49:33 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 330.
+ 1 APPPATH\Controllers\UserController.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 330)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:49:34 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 330.
+ 1 APPPATH\Controllers\UserController.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 330)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:49:34 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 330.
+ 1 APPPATH\Controllers\UserController.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 330)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:50:06 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 331.
+ 1 APPPATH\Controllers\UserController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:50:15 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 331.
+ 1 APPPATH\Controllers\UserController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:50:23 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 331.
+ 1 APPPATH\Controllers\UserController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:50:34 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 331.
+ 1 APPPATH\Controllers\UserController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:23:34 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 331.
+ 1 APPPATH\Controllers\UserController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:24:24 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 332.
+ 1 APPPATH\Controllers\UserController.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 332)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:24:40 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 333.
+ 1 APPPATH\Controllers\UserController.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:24:50 --> Undefined array key "name"
+in APPPATH\Controllers\UserController.php on line 329.
+ 1 APPPATH\Controllers\UserController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:27:32 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 331.
+ 1 APPPATH\Controllers\UserController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:27:42 --> Undefined array key "cards"
+in APPPATH\Controllers\UserController.php on line 335.
+ 1 APPPATH\Controllers\UserController.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cards"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 335)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:27:50 --> Undefined array key "card_number"
+in APPPATH\Controllers\UserController.php on line 331.
+ 1 APPPATH\Controllers\UserController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_number"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 331)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:28:23 --> Cannot use [] for reading
+in APPPATH\Controllers\UserController.php on line 335.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:28:47 --> print_r(): Argument #2 ($return) must be of type bool, array given
+in APPPATH\Controllers\UserController.php on line 335.
+ 1 APPPATH\Controllers\UserController.php(335): print_r('NEW ARRAY CARD = ', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:29:04 --> Unsupported operand types: string + array
+in APPPATH\Controllers\UserController.php on line 335.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:00:56 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\pages\user\saved_payment_card.php on line 70.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/saved_payment_card', [], true)
+ 3 APPPATH\Controllers\UserController.php(358): view('pages/user/saved_payment_card', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:22:39 --> Undefined variable $username
+in APPPATH\Controllers\UserController.php on line 368.
+ 1 APPPATH\Controllers\UserController.php(368): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 368)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:23:03 --> Undefined variable $username
+in APPPATH\Controllers\UserController.php on line 368.
+ 1 APPPATH\Controllers\UserController.php(368): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 368)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:24:39 --> Undefined variable $username
+in APPPATH\Controllers\UserController.php on line 368.
+ 1 APPPATH\Controllers\UserController.php(368): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 368)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:24:49 --> Undefined variable $username
+in APPPATH\Controllers\UserController.php on line 368.
+ 1 APPPATH\Controllers\UserController.php(368): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 368)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:24:50 --> Undefined variable $username
+in APPPATH\Controllers\UserController.php on line 368.
+ 1 APPPATH\Controllers\UserController.php(368): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 368)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:24:50 --> Undefined variable $username
+in APPPATH\Controllers\UserController.php on line 368.
+ 1 APPPATH\Controllers\UserController.php(368): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 368)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:25:21 --> Undefined variable $username
+in APPPATH\Controllers\UserController.php on line 368.
+ 1 APPPATH\Controllers\UserController.php(368): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 368)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

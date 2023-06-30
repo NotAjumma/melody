@@ -13,6 +13,15 @@
           <div class="input-container">
             <div class="input-row">
               <div class="label-input-edit karla-regular-blod-small-text">
+                Username
+              </div>
+              <div class="readonly-input karla-regular-small-text">
+                  
+                <?php echo $username ?>
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="label-input-edit karla-regular-blod-small-text">
                 Nickname
               </div>
               <div>
@@ -84,7 +93,7 @@
             </div>
           </div>
 
-          <input type="read" value="<?php echo $username ?>" name="username" id="username" />
+          <input type="hidden" value="<?php echo $username ?>" name="username" id="username" />
 
           <div class="grey-line"></div>
           <div class="save-profile-button-container">

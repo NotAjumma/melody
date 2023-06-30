@@ -82,9 +82,9 @@
         //   $valid="true";
         
         ?>
-         <input type="read" id="db_password" name="db_password" value="<?php echo $db_password ?>"/>
-         <input type="read" id="username" name="username" value="<?php echo $username ?>"/>
-         <input type="read" id="baseURL" name="baseURL" value="<?php echo base_url() ?>"/>
+         <input type="hidden" id="db_password" name="db_password" value="<?php echo $db_password ?>"/>
+         <input type="hidden" id="username" name="username" value="<?php echo $username ?>"/>
+         <input type="hidden" id="baseURL" name="baseURL" value="<?php echo base_url() ?>"/>
          
           <div class="grey-line"></div>
           <div class="save-profile-button-container">

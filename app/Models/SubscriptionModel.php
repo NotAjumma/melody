@@ -6,5 +6,12 @@ class SubscriptionModel extends Model
     protected $table = 'subscriptions';
     protected $primaryKey = 'id';
     
-    protected $allowedFields = ['sub_name', 'feature_id'];
+    protected $allowedFields = ['sub_name'];
+
+    public function getSubUsingSubId($sub_id)
+    {
+        return $this->where('id', $sub_id)
+                    ->findAll();
+    }
+
 }

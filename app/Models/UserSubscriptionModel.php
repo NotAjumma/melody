@@ -7,4 +7,11 @@ class UserSubscriptionModel extends Model
     protected $primaryKey = 'id';
     
     protected $allowedFields = ['sub_id', 'username', 'started_date', 'ended_date', 'durationMonth', 'total_amount', 'status', 'card_id'];
+
+    public function getUserSubUsingUsername($username)
+    {
+        return $this->where('username', $username)
+                    ->findAll();
+    }
+
 }

@@ -54,7 +54,7 @@
             <div class="plan-container">
               <div class="premium-plan-container">
                 <div class="large-extrabold-text">
-                 <?php echo $plan_name ?>
+                 <?php echo $sub_name ?>
                  
                 </div>
               </div>

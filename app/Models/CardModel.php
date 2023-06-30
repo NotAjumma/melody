@@ -7,4 +7,17 @@ class CardModel extends Model
     protected $primaryKey = 'id';
     
     protected $allowedFields = ['username', 'name', 'card_number', 'expiration', 'security_code', 'card_type'];
+
+     public function getCardByUsername($username)
+    {
+        return $this->where('username', $username)
+                    ->findAll();
+    }
+    
+    public function deleteCardByUsernameAndId($username, $cardId)
+    {
+        return $this->where('username', $username)
+                    ->where('id', $cardId)
+                    ->delete();
+    }
 }

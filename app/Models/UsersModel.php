@@ -43,6 +43,11 @@ class UsersModel extends Model
 
         return true; // Password updated successfully
     }
+
+    public function getUserByUsername($username)
+    {
+        return $this->where('username', $username)->first();
+    }
     
     public function updateProfile($username, $userData)
     {

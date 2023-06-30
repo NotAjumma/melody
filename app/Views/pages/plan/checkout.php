@@ -102,11 +102,11 @@
         </div>
         <!-- Master Card -->
         <div class="card-container">
-          <img src="<?= base_url('assets/card/master.png') ?>" />
+          <img src="<?= base_url('assets/card/maestro.png') ?>" />
         </div>
         <!-- American Express Card -->
         <div class="card-container">
-          <img src="<?= base_url('assets/card/american.png') ?>" />
+          <img src="<?= base_url('assets/card/american express.png') ?>" />
         </div>
         <!-- UnionPay -->
         <div class="card-container">

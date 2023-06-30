@@ -51,6 +51,9 @@ $routes->post('submit-edit-profile', 'UserController::editProfileProcess');
 $routes->get('profile', 'UserController::profile');
 $routes->get('change-password', 'UserController::changePassword');
 $routes->post('submit-change-password', 'UserController::changePasswordProcess');
+$routes->get('saved-payment-cards', 'UserController::savedPaymentCard2');
+$routes->post('/cards/delete/(:num)', 'UserController::deleteCard/$1');
+
 
 
 

@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Models\UsersModel;
 use App\Models\UserSubscriptionModel;
 use App\Models\SubscriptionModel;
+use App\Models\CardModel;
 use CodeIgniter\Controller;
 
 class UserController extends Controller
@@ -13,6 +14,13 @@ class UserController extends Controller
      public function profile()
     {
         $session = session();
+        $username = $session->get('username'); 
+        // Create an instance of the UsersModel
+        $usersModel = new UsersModel();
+        $userSubscriptionModel = new UserSubscriptionModel();
+        $subscriptionModel = new SubscriptionModel();
+
+        // Retrieve the user data by username
 
         // Check if the user is logged in
         if (session()->has('username') && session('role_id') == 1) {
@@ -24,10 +32,20 @@ class UserController extends Controller
                     view('components/footer.php');
         } else if (session()->has('username') && session('role_id') == 2) {
             $data['title'] = 'Profile'; 
-            $data['username'] = $session->get('username'); 
-            $data['nickname'] = $session->get('nickname'); 
-            $data['email'] = $session->get('email'); 
-            $dob = $session->get('dob'); 
+            $dataUser = $usersModel->getUserByUsername($username);
+            $data['username'] = $dataUser['username'];
+            $data['nickname'] = $dataUser['nickname'];
+            $data['email'] = $dataUser['email'];
+            $dob = $dataUser['date_of_birth'];
+
+            
+            $dataUserSub = $userSubscriptionModel->getUserSubUsingUsername($username);
+            $sub_id = $dataUserSub[0]['sub_id'];
+            $data['sub_id'] = $dataUserSub[0]['sub_id'];
+
+            $dataSub = $subscriptionModel->getSubUsingSubId($sub_id);
+            $data['sub_name'] = $dataSub[0]['sub_name'];
+
             $data['plan_name'] = $session->get('plan_name'); 
             $data['plan_id'] = $session->get('plan'); 
             $data['list_plan'] = $session->get('list_feature');
@@ -45,6 +63,9 @@ class UserController extends Controller
     public function editProfile()
     {
         $session = session();
+        $username = $session->get('username'); 
+        // Create an instance of the UsersModel
+        $usersModel = new UsersModel();
 
         // Check if the user is logged in
         if (session()->has('username') && session('role_id') == 1) {
@@ -54,12 +75,20 @@ class UserController extends Controller
                     view('components/footer.php');
         } else if (session()->has('username') && session('role_id') == 2) {
             $data['title'] = 'Edit Profile'; 
-            $data['username'] = $session->get('username'); 
-            $data['nickname'] = $session->get('nickname'); 
-            $data['email'] = $session->get('email'); 
-            $data['dob'] = $session->get('dob'); 
-            $data['gender'] = $session->get('gender'); 
-            $data['plan_name'] = $session->get('list_feature');
+            $dataUser = $usersModel->getUserByUsername($username);
+            $data['username'] = $dataUser['username'];
+            $data['nickname'] = $dataUser['nickname'];
+            $data['email'] = $dataUser['email'];
+            $data['dob'] = $dataUser['date_of_birth'];
+            $data['gender'] = $dataUser['gender'];
+
+            // $dataUserSub = $userSubscriptionModel->getUserSubUsingUsername($username);
+            // $sub_id = $dataUserSub[0]['sub_id'];
+
+            // $dataSub = $subscriptionModel->getSubUsingSubId($sub_id);
+            // $data['sub_name'] = $dataSub[0]['sub_name'];
+            
+
             // $data['formattedDate'] = date('F j, Y', strtotime($dob));  
             return  view('components/navbar',$data) .
                     // view('components/promotionHeader.php') .
@@ -121,6 +150,9 @@ class UserController extends Controller
      public function changePassword()
     {
         $session = session();
+        $username = $session->get('username'); 
+        // Create an instance of the UsersModel
+        $usersModel = new UsersModel();
 
         // Check if the user is logged in
         if (session()->has('username') && session('role_id') == 1) {
@@ -132,8 +164,9 @@ class UserController extends Controller
                     view('components/footer.php');
         } else if (session()->has('username') && session('role_id') == 2) {
             $data['title'] = 'Change Password'; 
-            $data['username'] = $session->get('username'); 
-            // $data['nickname'] = $session->get('nickname'); 
+            $dataUser = $usersModel->getUserByUsername($username);
+            $data['username'] = $dataUser['username'];
+            $data['nickname'] = $dataUser['nickname']; 
             // $data['email'] = $session->get('email'); 
             // $dob = $session->get('dob'); 
             // $data['plan_name'] = $session->get('plan_name'); 
@@ -215,6 +248,137 @@ class UserController extends Controller
         // Return a success message or redirect to a success page
     }
 
+     public function savedPaymentCard()
+    {
+        $session = session();
+        $username = $session->get('username'); 
+        // Create an instance of the UsersModel
+        $usersModel = new UsersModel();
+        $cardModel = new CardModel();
+
+        // Retrieve the user data by username
+
+        // Check if the user is logged in
+        if (session()->has('username') && session('role_id') == 1) {
+            $data['title'] = 'Admin Dashboard'; 
+             
+
+            return  view('components/navbar',$data) .
+                    view('pages/admin/dashboard') .
+                    view('components/footer.php');
+        } else if (session()->has('username') && session('role_id') == 2) {
+            $data['title'] = 'Profile'; 
+            $dataUser = $usersModel->getUserByUsername($username);
+            $data['username'] = $dataUser['username'];
+            $data['nickname'] = $dataUser['nickname'];
+            $data['email'] = $dataUser['email'];
+            // $dob = $dataUser['date_of_birth'];
+
+            
+            $dataCard = $cardModel->getCardByUsername($username);
+            if (!empty($dataCard)) {
+                foreach ($dataCard as $card) {
+                    // Process each card record
+                    $lastFourDigits = substr($card['card_number'], -4);
+                    $card_type = $card['card_type'];
+                    $expiration = $card['exppiration'];
+                    // ...
+                }
+            } else {
+                // No card records found
+            }
+
+
+
+            return  view('components/navbar',$data) .
+                    // view('components/promotionHeader.php') .
+                    view('pages/user/black') .
+                    view('components/footer.php');
+        }
+        
+    }
+
+     public function savedPaymentCard2()
+    {
+        $session = session();
+        $username = $session->get('username'); 
+        // Create an instance of the UsersModel
+        $usersModel = new UsersModel();
+        $cardModel = new CardModel();
+
+
+        // Retrieve the user data by username
+
+        // Check if the user is logged in
+        if (session()->has('username') && session('role_id') == 1) {
+            $data['title'] = 'Admin Dashboard'; 
+             
+
+            return  view('components/navbar',$data) .
+                    view('pages/admin/dashboard') .
+                    view('components/footer.php');
+        } else if (session()->has('username') && session('role_id') == 2) {
+            $data['title'] = 'Saved Payment Card'; 
+            $dataUser = $usersModel->getUserByUsername($username);
+            $data['username'] = $dataUser['username'];
+            $data['nickname'] = $dataUser['nickname'];
+            // print_r($data['username']);
+
+
+           $dataCard = $cardModel->getCardByUsername("naim");
+           foreach ($dataCard as $card) {
+                // Process each card record
+                $card['lastFourDigit'] = $card['card_number'];
+                $data['cards'][] = $card;
+            }
+            $data['name'] = $dataCard[0]['card_number'];
+        //   print_r("NEW ARRAY CARD: " . print_r($data['cards'], true));
+
+
+
+//  $data['nickname'] = $dataUser['nickname'];
+//            print_r($dataCard);
+//             print_r($data['nickname']);
+
+            
+            // $data['username'] = $dataCard['username'];
+
+        //    if (!empty($dataCard)) {
+        //         foreach ($dataCard as $card) {
+                    // // Process each card record
+                    // $data['lastFourDigit'] = $dataCard['card_number'];
+                    // $data['cards'][] = $card;
+                //     }
+                // } else {
+                //     // No card records found
+                // }
+
+            return  view('components/navbar',$data) .
+                    // view('components/promotionHeader.php') .
+                    view('pages/user/saved_payment_card', $data) .
+                    view('components/footer.php');
+        }
+        
+    }
+
+    public function deleteCard($id)
+    {
+        $cardModel = new CardModel();
+        $session = session();
+        $username = $session->get('username'); 
+        
+        $dataCard = $cardModel->deleteCardByUsernameAndId($username,$id);
+
+        $cardId = $this->request->getPost('cardId');
+        // Perform card deletion logic here using the $cardId
+
+        // Return a JSON response indicating success or failure
+        $response = [
+            'success' => true, // or false if deletion failed
+            'message' => 'Card deleted successfully', // Optional message
+        ];
+        return $this->response->setJSON($response);
+    }
 
 
 
