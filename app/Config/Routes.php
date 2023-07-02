@@ -39,10 +39,12 @@ $routes->post('edit-view/update', 'UserCrud::update');
 $routes->get('delete/(:num)', 'UserCrud::delete/$1');
 
 //Admin
-$routes->get('admin/dashboard', 'UserCrud::index');
-$routes->get('admin/user-list', 'UserCrud::index');
-$routes->get('admin/verify-membership', 'UserCrud::index');
-$routes->get('admin/edit-profile', 'UserCrud::index');
+$routes->get('admin/dashboard', 'AdminController::dashboard');
+$routes->get('admin/profile', 'AdminController::profile');
+$routes->get('admin/user-list', 'AdminController::userList');
+$routes->get('admin/verify-membership', 'AdminController::memberships');
+$routes->get('admin/edit-profile', 'AdminController::editProfile');
+
 
 //User
 // $routes->get('user/profile', 'UserCrud::profile');
@@ -51,7 +53,8 @@ $routes->post('submit-edit-profile', 'UserController::editProfileProcess');
 $routes->get('profile', 'UserController::profile');
 $routes->get('change-password', 'UserController::changePassword');
 $routes->post('submit-change-password', 'UserController::changePasswordProcess');
-$routes->get('saved-payment-cards', 'UserController::savedPaymentCard2');
+$routes->post('submit-add-card', 'UserController::addCard');
+$routes->get('saved-payment-cards', 'UserController::savedPaymentCard');
 $routes->post('/cards/delete/(:num)', 'UserController::deleteCard/$1');
 
 

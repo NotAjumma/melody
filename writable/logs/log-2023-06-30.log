@@ -1323,3 +1323,855 @@ in APPPATH\Controllers\UserController.php on line 368.
  3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
  4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:30:17 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:30:20 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:30:27 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:30:31 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:31:16 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:31:25 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:32:36 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:33:49 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:33:51 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:34:39 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:36:13 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 11:37:24 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`melodydb`.`usersubscription`, CONSTRAINT `card_id` FOREIGN KEY (`card_id`) REFERENCES `card` (`id`)) in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ca...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ca...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ca...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ca...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\melody\app\Models\CardModel.php(21): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\melody\app\Controllers\UserController.php(370): App\Models\CardModel->deleteCardByUsernameAndId('naim', '9')
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('9')
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 11:37:24 --> Cannot delete or update a parent row: a foreign key constraint fails (`melodydb`.`usersubscription`, CONSTRAINT `card_id` FOREIGN KEY (`card_id`) REFERENCES `card` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `card`
+WHERE `username` = :username:
+AND `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\CardModel.php(21): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\UserController.php(370): App\Models\CardModel->deleteCardByUsernameAndId('naim', '9')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('9')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 11:37:26 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`melodydb`.`usersubscription`, CONSTRAINT `card_id` FOREIGN KEY (`card_id`) REFERENCES `card` (`id`)) in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ca...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ca...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ca...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ca...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\melody\app\Models\CardModel.php(21): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\melody\app\Controllers\UserController.php(370): App\Models\CardModel->deleteCardByUsernameAndId('naim', '9')
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('9')
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 11:37:26 --> Cannot delete or update a parent row: a foreign key constraint fails (`melodydb`.`usersubscription`, CONSTRAINT `card_id` FOREIGN KEY (`card_id`) REFERENCES `card` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `card`
+WHERE `username` = :username:
+AND `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\CardModel.php(21): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\UserController.php(370): App\Models\CardModel->deleteCardByUsernameAndId('naim', '9')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('9')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 11:37:32 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`melodydb`.`usersubscription`, CONSTRAINT `card_id` FOREIGN KEY (`card_id`) REFERENCES `card` (`id`)) in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ca...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ca...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ca...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ca...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\melody\app\Models\CardModel.php(21): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\melody\app\Controllers\UserController.php(370): App\Models\CardModel->deleteCardByUsernameAndId('naim', '9')
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('9')
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 11:37:32 --> Cannot delete or update a parent row: a foreign key constraint fails (`melodydb`.`usersubscription`, CONSTRAINT `card_id` FOREIGN KEY (`card_id`) REFERENCES `card` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `card`
+WHERE `username` = :username:
+AND `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\CardModel.php(21): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\UserController.php(370): App\Models\CardModel->deleteCardByUsernameAndId('naim', '9')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('9')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 11:37:37 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`melodydb`.`usersubscription`, CONSTRAINT `card_id` FOREIGN KEY (`card_id`) REFERENCES `card` (`id`)) in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ca...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ca...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ca...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ca...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\melody\app\Models\CardModel.php(21): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\melody\app\Controllers\UserController.php(370): App\Models\CardModel->deleteCardByUsernameAndId('naim', '9')
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('9')
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 11:37:37 --> Cannot delete or update a parent row: a foreign key constraint fails (`melodydb`.`usersubscription`, CONSTRAINT `card_id` FOREIGN KEY (`card_id`) REFERENCES `card` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `card`
+WHERE `username` = \'naim\'
+AND `id` = \'9\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `card`
+WHERE `username` = :username:
+AND `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\CardModel.php(21): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\UserController.php(370): App\Models\CardModel->deleteCardByUsernameAndId('naim', '9')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteCard('9')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 12:07:21 --> syntax error, unexpected identifier "addCard", expecting "("
+in APPPATH\Controllers\UserController.php on line 383.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 12:07:27 --> syntax error, unexpected identifier "addCard", expecting "("
+in APPPATH\Controllers\UserController.php on line 383.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 12:07:46 --> syntax error, unexpected token "{", expecting "("
+in APPPATH\Controllers\UserController.php on line 383.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 12:07:48 --> syntax error, unexpected token "{", expecting "("
+in APPPATH\Controllers\UserController.php on line 383.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 12:54:14 --> syntax error, unexpected string content "pages/user/saved_payment_card);"
+in APPPATH\Controllers\UserController.php on line 405.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 12:54:15 --> syntax error, unexpected string content "pages/user/saved_payment_card);"
+in APPPATH\Controllers\UserController.php on line 405.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 12:54:16 --> syntax error, unexpected string content "pages/user/saved_payment_card);"
+in APPPATH\Controllers\UserController.php on line 405.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 12:54:17 --> syntax error, unexpected string content "pages/user/saved_payment_card);"
+in APPPATH\Controllers\UserController.php on line 405.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 12:54:18 --> syntax error, unexpected string content "pages/user/saved_payment_card);"
+in APPPATH\Controllers\UserController.php on line 405.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 12:54:19 --> syntax error, unexpected string content "pages/user/saved_payment_card);"
+in APPPATH\Controllers\UserController.php on line 405.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:14:18 --> Undefined variable $formattedDate
+in APPPATH\Views\pages\user\profile.php on line 45.
+ 1 APPPATH\Views\pages\user\profile.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $formattedDate', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(52): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:31:55 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 13:31:55 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'paksamad55@gmail.com\', \'$2y$10$a.s9p/rOlAjSZMMq9DNTv.Vikni0VHlQGYhMqe0agvhLAXysnWWtu\', \'2023-05-29\', \'Prefer not to say\', 2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'paksamad55@gmail.com\', \'$2y$10$a.s9p/rOlAjSZMMq9DNTv.Vikni0VHlQGYhMqe0agvhLAXysnWWtu\', \'2023-05-29\', \'Prefer not to say\', 2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'paksamad55@gmail.com\', \'$2y$10$a.s9p/rOlAjSZMMq9DNTv.Vikni0VHlQGYhMqe0agvhLAXysnWWtu\', \'2023-05-29\', \'Prefer not to say\', 2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (:email:, :password:, :date_of_birth:, :gender:, :role_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LoginController.php(161): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:33:45 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 13:33:45 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'paksamad55@gmail.com\', \'$2y$10$/AE5ZR0LI2UlvtRspgXom.HgW7hHk16CQjBl75DttbWD2UUoq57WC\', \'2023-05-29\', \'Prefer not to say\', 2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'paksamad55@gmail.com\', \'$2y$10$/AE5ZR0LI2UlvtRspgXom.HgW7hHk16CQjBl75DttbWD2UUoq57WC\', \'2023-05-29\', \'Prefer not to say\', 2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'paksamad55@gmail.com\', \'$2y$10$/AE5ZR0LI2UlvtRspgXom.HgW7hHk16CQjBl75DttbWD2UUoq57WC\', \'2023-05-29\', \'Prefer not to say\', 2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (:email:, :password:, :date_of_birth:, :gender:, :role_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LoginController.php(161): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:33:50 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 13:33:50 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'paksamad55@gmail.com\', \'$2y$10$DIUMztYJXTixW2MfEbVtVeDkVZ8GZBNsrUgvKxK6dFjjsSsiJc636\', \'2023-05-29\', \'Prefer not to say\', 2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'paksamad55@gmail.com\', \'$2y$10$DIUMztYJXTixW2MfEbVtVeDkVZ8GZBNsrUgvKxK6dFjjsSsiJc636\', \'2023-05-29\', \'Prefer not to say\', 2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'paksamad55@gmail.com\', \'$2y$10$DIUMztYJXTixW2MfEbVtVeDkVZ8GZBNsrUgvKxK6dFjjsSsiJc636\', \'2023-05-29\', \'Prefer not to say\', 2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (:email:, :password:, :date_of_birth:, :gender:, :role_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LoginController.php(161): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:34:09 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 13:34:09 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'muhamadadha9973@gmail.com\', \'$2y$10$FeEeMYjw7FryagdxLEykreR/elO8vKDhrSEz27dcMIuvoKO62VtKe\', \'2023-05-31\', \'Prefer not to say\', 2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'muhamadadha9973@gmail.com\', \'$2y$10$FeEeMYjw7FryagdxLEykreR/elO8vKDhrSEz27dcMIuvoKO62VtKe\', \'2023-05-31\', \'Prefer not to say\', 2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'muhamadadha9973@gmail.com\', \'$2y$10$FeEeMYjw7FryagdxLEykreR/elO8vKDhrSEz27dcMIuvoKO62VtKe\', \'2023-05-31\', \'Prefer not to say\', 2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (:email:, :password:, :date_of_birth:, :gender:, :role_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LoginController.php(161): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:35:44 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 13:35:44 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$hhAwDX2lmHltOG9S3vubduLsOOo01VVQI1KwpvaBWEn3kjS7d.nJO\', \'2023-05-30\', \'Female\', 2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$hhAwDX2lmHltOG9S3vubduLsOOo01VVQI1KwpvaBWEn3kjS7d.nJO\', \'2023-05-30\', \'Female\', 2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$hhAwDX2lmHltOG9S3vubduLsOOo01VVQI1KwpvaBWEn3kjS7d.nJO\', \'2023-05-30\', \'Female\', 2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (:email:, :password:, :date_of_birth:, :gender:, :role_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LoginController.php(161): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:36:42 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 13:36:42 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$sw1nDrpK./64XzMjjYa1tOLKlQiN3ztCuGG9dByFSFqcSUnegSFRC\', \'2023-05-30\', \'Female\', 2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$sw1nDrpK./64XzMjjYa1tOLKlQiN3ztCuGG9dByFSFqcSUnegSFRC\', \'2023-05-30\', \'Female\', 2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$sw1nDrpK./64XzMjjYa1tOLKlQiN3ztCuGG9dByFSFqcSUnegSFRC\', \'2023-05-30\', \'Female\', 2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (:email:, :password:, :date_of_birth:, :gender:, :role_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LoginController.php(161): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:37:00 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 13:37:00 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$3kkTkjY27K15VyR3u4/T1OUN9waJMXBA34F8ZjhzUVugHp9UApg7S\', \'2023-05-31\', \'Male\', 2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$3kkTkjY27K15VyR3u4/T1OUN9waJMXBA34F8ZjhzUVugHp9UApg7S\', \'2023-05-31\', \'Male\', 2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$3kkTkjY27K15VyR3u4/T1OUN9waJMXBA34F8ZjhzUVugHp9UApg7S\', \'2023-05-31\', \'Male\', 2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (:email:, :password:, :date_of_birth:, :gender:, :role_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LoginController.php(161): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:37:05 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 13:37:05 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$JYjE1e1DLEi6KgyjecugKOjG1YTR1nU8sN8FD9wiPcjGlI/E0bBcy\', \'2023-05-31\', \'Male\', 2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$JYjE1e1DLEi6KgyjecugKOjG1YTR1nU8sN8FD9wiPcjGlI/E0bBcy\', \'2023-05-31\', \'Male\', 2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'$2y$10$JYjE1e1DLEi6KgyjecugKOjG1YTR1nU8sN8FD9wiPcjGlI/E0bBcy\', \'2023-05-31\', \'Male\', 2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (:email:, :password:, :date_of_birth:, :gender:, :role_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LoginController.php(161): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:38:42 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(163): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-30 13:38:42 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'kamal\', \'$2y$10$2C/RtBRcTOYa2gtyqhB4v.KNdT8333ErBDZAwEPZOYOUw0suSzlvK\', \'2023-06-28\', \'Male\', 2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'kamal\', \'$2y$10$2C/RtBRcTOYa2gtyqhB4v.KNdT8333ErBDZAwEPZOYOUw0suSzlvK\', \'2023-06-28\', \'Male\', 2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (\'kamal@gmial.com\', \'kamal\', \'$2y$10$2C/RtBRcTOYa2gtyqhB4v.KNdT8333ErBDZAwEPZOYOUw0suSzlvK\', \'2023-06-28\', \'Male\', 2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LoginController.php(163): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:42:24 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(165): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-30 13:42:24 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmial.com\', \'kamal\', \'$2y$10$CX6s/ZdA9Ii1ck2kQsHoyuZxjEvkU9KyX9ShOiWkfczyOdAFD1dhq\', \'2023-06-28\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmial.com\', \'kamal\', \'$2y$10$CX6s/ZdA9Ii1ck2kQsHoyuZxjEvkU9KyX9ShOiWkfczyOdAFD1dhq\', \'2023-06-28\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmial.com\', \'kamal\', \'$2y$10$CX6s/ZdA9Ii1ck2kQsHoyuZxjEvkU9KyX9ShOiWkfczyOdAFD1dhq\', \'2023-06-28\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(23): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(165): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:42:47 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 161.
+ 1 APPPATH\Views\components\navbar.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 161)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(30): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:43:00 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:43:02 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:43:06 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:43:30 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(165): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-30 13:43:30 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmai.com\', \'kamal\', \'$2y$10$G1tzZB4FcEj3EDt0zQnKl.BBD.xi2otICDG.3bvMMYS.T75tfN8lu\', \'2023-06-05\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmai.com\', \'kamal\', \'$2y$10$G1tzZB4FcEj3EDt0zQnKl.BBD.xi2otICDG.3bvMMYS.T75tfN8lu\', \'2023-06-05\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmai.com\', \'kamal\', \'$2y$10$G1tzZB4FcEj3EDt0zQnKl.BBD.xi2otICDG.3bvMMYS.T75tfN8lu\', \'2023-06-05\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(23): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(165): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:44:01 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(165): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-30 13:44:01 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmai.com\', \'kamal\', \'$2y$10$.eOf7wHILy/Bj4GEwTmDxuFQy4fKMLUnAzw/jUdDLt1JOsiM7QlzW\', \'2023-06-05\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmai.com\', \'kamal\', \'$2y$10$.eOf7wHILy/Bj4GEwTmDxuFQy4fKMLUnAzw/jUdDLt1JOsiM7QlzW\', \'2023-06-05\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmai.com\', \'kamal\', \'$2y$10$.eOf7wHILy/Bj4GEwTmDxuFQy4fKMLUnAzw/jUdDLt1JOsiM7QlzW\', \'2023-06-05\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(23): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(165): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 13:44:04 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(165): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-30 13:44:04 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmai.com\', \'kamal\', \'$2y$10$lqe6TB3MVBDgpeZ5/jmnLuRJCNwZz9WrdnZvpDVmmqXcKChogoKS6\', \'2023-06-05\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmai.com\', \'kamal\', \'$2y$10$lqe6TB3MVBDgpeZ5/jmnLuRJCNwZz9WrdnZvpDVmmqXcKChogoKS6\', \'2023-06-05\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'kamal@gmai.com\', \'kamal\', \'$2y$10$lqe6TB3MVBDgpeZ5/jmnLuRJCNwZz9WrdnZvpDVmmqXcKChogoKS6\', \'2023-06-05\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(23): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(165): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:44:53 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:48:31 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 282.
+ 1 APPPATH\Controllers\UserController.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 282)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:49:11 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 282.
+ 1 APPPATH\Controllers\UserController.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 282)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:49:36 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 282.
+ 1 APPPATH\Controllers\UserController.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 282)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->savedPaymentCard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:52:58 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:58:53 --> Undefined variable $data
+in APPPATH\Views\components\navbar.php on line 97.
+ 1 APPPATH\Views\components\navbar.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(62): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:59:16 --> syntax error, unexpected token "endif"
+in APPPATH\Views\components\navbar.php on line 124.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 3 APPPATH\Controllers\UserController.php(62): view('components/navbar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:59:26 --> Undefined variable $data
+in APPPATH\Views\components\navbar.php on line 97.
+ 1 APPPATH\Views\components\navbar.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(62): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:59:48 --> Undefined variable $data
+in APPPATH\Views\components\navbar.php on line 97.
+ 1 APPPATH\Views\components\navbar.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(62): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:59:57 --> Undefined variable $data
+in APPPATH\Views\components\navbar.php on line 97.
+ 1 APPPATH\Views\components\navbar.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(62): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 14:00:06 --> Undefined variable $data
+in APPPATH\Views\components\navbar.php on line 97.
+ 1 APPPATH\Views\components\navbar.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(62): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 14:08:11 --> Undefined constant "sub_id"
+in APPPATH\Views\pages\user\profile.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 4 APPPATH\Controllers\UserController.php(64): view('pages/user/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -51,7 +51,50 @@
 
           <div class="your-plan-container">
             <div class="sub-header-text large-regular-text">Your plan</div>
-            <div class="plan-container">
+           
+              <?php if ($sub_id == "") {?>
+              <div class="free-plan-container-layer">
+              <div class="free-plan-container">
+                <div class="large-extrabold-text">
+                 Free Plan
+                 
+                </div>
+              </div>
+              <div class="bottom-plan-container">
+                <div class="list-features">
+                  <div class="karla-half-medium-small-text">
+                   <?php
+
+                  $featuresModel = new \App\Models\FeaturesModel();
+                  
+
+                  $featureNames = $featuresModel->getFeatureNamesBySubId($sub_id);
+
+                  if (!empty($featureNames)) {
+                      $lastIndex = count($featureNames) - 1;
+                      foreach ($featureNames as $index => $featureName) {
+                          echo $featureName['feature_name'];
+                          if ($index !== $lastIndex) {
+                              echo ", ";
+                          } else {
+                              echo ".";
+                          }
+                      }
+                  } 
+
+
+                   ?>
+                  </div>
+                </div>
+                <div onclick="scrollToPlan('<?php base_url()?>','#plan-layer')" class="cancel-free-button button-bold-text">Join Premium</div>
+                <!-- <div class="member-container karla-half-medium-small-text">
+                  You're a member of a Custom plan.
+                </div> -->
+              </div>
+              </div>
+              <?php } ?>
+              <?php if ($sub_id == "1") {?>
+              <div class="individual-plan-container-layer">
               <div class="premium-plan-container">
                 <div class="large-extrabold-text">
                  <?php echo $sub_name ?>
@@ -66,7 +109,7 @@
                   $featuresModel = new \App\Models\FeaturesModel();
                   
 
-                  $featureNames = $featuresModel->getFeatureNamesBySubId($plan_id);
+                  $featureNames = $featuresModel->getFeatureNamesBySubId($sub_id);
 
                   if (!empty($featureNames)) {
                       $lastIndex = count($featureNames) - 1;
@@ -78,22 +121,64 @@
                               echo ".";
                           }
                       }
-                  } else {
-                      echo "No feature names found for the given sub_id.";
-                  }
+                  } 
 
 
                    ?>
                   </div>
                 </div>
+                <div class="cancel-premium-button button-bold-text">Cancel Premium</div>
                 <!-- <div class="member-container karla-half-medium-small-text">
                   You're a member of a Custom plan.
                 </div> -->
               </div>
-            </div>
+              </div>
+              <?php } ?>
+              <?php if ($sub_id == "2") {?>
+              <div class="custom-plan-container-layer">
+              <div class="custom-plan-container">
+                <div class="large-extrabold-text">
+                 <?php echo $sub_name ?>
+                 
+                </div>
+              </div>
+              <div class="bottom-plan-container">
+                <div class="list-features">
+                  <div class="karla-half-medium-small-text">
+                   <?php
+
+                  $featuresModel = new \App\Models\FeaturesModel();
+                  
+
+                  $featureNames = $featuresModel->getFeatureNamesBySubId($sub_id);
+
+                  if (!empty($featureNames)) {
+                      $lastIndex = count($featureNames) - 1;
+                      foreach ($featureNames as $index => $featureName) {
+                          echo $featureName['feature_name'];
+                          if ($index !== $lastIndex) {
+                              echo ", ";
+                          } else {
+                              echo ".";
+                          }
+                      }
+                  } 
+
+
+                   ?>
+                  </div>
+                </div>
+                <div class="cancel-premium-button button-bold-text">Cancel Premium</div>
+                <!-- <div class="member-container karla-half-medium-small-text">
+                  You're a member of a Custom plan.
+                </div> -->
+              </div>
+              </div>
+              <?php } ?>
+            
           </div>
 
-          <div class="edit-profile-button button-bold-text">Change plan</div>
+          
         </div>
 
 </div>

@@ -90,6 +90,13 @@
   width: 30%;
 }
 
+.add-info-top-layer {
+  margin: 0 auto;
+  width: 65%;
+  border: 1px solid grey;
+  border-radius: 0.3rem;
+}
+
 .top-payment-details {
   display: flex;
   justify-content: space-between;
@@ -97,6 +104,14 @@
   margin-top: 3rem;
   align-items: center;
 }
+
+.add-top-payment-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  align-items: center;
+}
+
 .list-card {
   padding: 0rem 5rem;
   margin-top: 3rem;
@@ -115,8 +130,33 @@
   padding: 1rem;
 }
 
+.buy-now-button:hover {
+  transform: scale(1.1);
+}
+
+.cancel-button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  color: grey;
+  width: 10rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
 .bottom-footer-layer {
   padding: 5rem;
+}
+
+.out-bottom-footer-layer {
+  padding: 5rem;
+}
+
+.in-bottom-footer-layer {
+  padding: 2rem;
 }
 
 .tooltip .tooltiptext {

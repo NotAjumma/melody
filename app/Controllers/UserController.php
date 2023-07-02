@@ -28,7 +28,7 @@ class UserController extends Controller
              
 
             return  view('components/navbar',$data) .
-                    view('pages/admin/dashboard') .
+                    view('pages/admin/profile') .
                     view('components/footer.php');
         } else if (session()->has('username') && session('role_id') == 2) {
             $data['title'] = 'Profile'; 
@@ -40,15 +40,23 @@ class UserController extends Controller
 
             
             $dataUserSub = $userSubscriptionModel->getUserSubUsingUsername($username);
-            $sub_id = $dataUserSub[0]['sub_id'];
-            $data['sub_id'] = $dataUserSub[0]['sub_id'];
+            
+            if (!empty($dataUserSub)) {
+                $sub_id = $dataUserSub[0]['sub_id'];
+                $data['sub_id'] = $dataUserSub[0]['sub_id'];
 
-            $dataSub = $subscriptionModel->getSubUsingSubId($sub_id);
-            $data['sub_name'] = $dataSub[0]['sub_name'];
+                $dataSub = $subscriptionModel->getSubUsingSubId($sub_id);
 
-            $data['plan_name'] = $session->get('plan_name'); 
-            $data['plan_id'] = $session->get('plan'); 
-            $data['list_plan'] = $session->get('list_feature');
+                if (!empty($dataSub)) {
+                    $data['sub_name'] = $dataSub[0]['sub_name'];
+                } else {
+                    $data['sub_name'] = ''; // Set a default value if sub_name is not found
+                }
+            } else {
+                $data['sub_id'] = ''; // Set a default value if sub_id is not found
+                $data['sub_name'] = ''; // Set a default value if sub_name is not found
+            }
+
             $data['formattedDate'] = date('F j, Y', strtotime($dob));   
 
             return  view('components/navbar',$data) .
@@ -248,60 +256,10 @@ class UserController extends Controller
         // Return a success message or redirect to a success page
     }
 
+
      public function savedPaymentCard()
     {
         $session = session();
-        $username = $session->get('username'); 
-        // Create an instance of the UsersModel
-        $usersModel = new UsersModel();
-        $cardModel = new CardModel();
-
-        // Retrieve the user data by username
-
-        // Check if the user is logged in
-        if (session()->has('username') && session('role_id') == 1) {
-            $data['title'] = 'Admin Dashboard'; 
-             
-
-            return  view('components/navbar',$data) .
-                    view('pages/admin/dashboard') .
-                    view('components/footer.php');
-        } else if (session()->has('username') && session('role_id') == 2) {
-            $data['title'] = 'Profile'; 
-            $dataUser = $usersModel->getUserByUsername($username);
-            $data['username'] = $dataUser['username'];
-            $data['nickname'] = $dataUser['nickname'];
-            $data['email'] = $dataUser['email'];
-            // $dob = $dataUser['date_of_birth'];
-
-            
-            $dataCard = $cardModel->getCardByUsername($username);
-            if (!empty($dataCard)) {
-                foreach ($dataCard as $card) {
-                    // Process each card record
-                    $lastFourDigits = substr($card['card_number'], -4);
-                    $card_type = $card['card_type'];
-                    $expiration = $card['exppiration'];
-                    // ...
-                }
-            } else {
-                // No card records found
-            }
-
-
-
-            return  view('components/navbar',$data) .
-                    // view('components/promotionHeader.php') .
-                    view('pages/user/black') .
-                    view('components/footer.php');
-        }
-        
-    }
-
-     public function savedPaymentCard2()
-    {
-        $session = session();
-        $username = $session->get('username'); 
         // Create an instance of the UsersModel
         $usersModel = new UsersModel();
         $cardModel = new CardModel();
@@ -319,39 +277,27 @@ class UserController extends Controller
                     view('components/footer.php');
         } else if (session()->has('username') && session('role_id') == 2) {
             $data['title'] = 'Saved Payment Card'; 
+            $username = $session->get('username'); 
             $dataUser = $usersModel->getUserByUsername($username);
             $data['username'] = $dataUser['username'];
             $data['nickname'] = $dataUser['nickname'];
             // print_r($data['username']);
 
 
-           $dataCard = $cardModel->getCardByUsername("naim");
-           foreach ($dataCard as $card) {
-                // Process each card record
-                $card['lastFourDigit'] = $card['card_number'];
-                $data['cards'][] = $card;
+           $dataCard = $cardModel->getCardByUsername($username);
+           if (!empty($dataCard)) {
+                foreach ($dataCard as $card) {
+                    // Process each card record
+                    $card['lastFourDigit'] = $card['card_number'];
+                    $data['cards'][] = $card;
+                }
+                $data['name'] = $dataCard[0]['card_number'];
+            } else {
+                $data['cards'] = []; // Set an empty array if no cards found
             }
-            $data['name'] = $dataCard[0]['card_number'];
+
         //   print_r("NEW ARRAY CARD: " . print_r($data['cards'], true));
 
-
-
-//  $data['nickname'] = $dataUser['nickname'];
-//            print_r($dataCard);
-//             print_r($data['nickname']);
-
-            
-            // $data['username'] = $dataCard['username'];
-
-        //    if (!empty($dataCard)) {
-        //         foreach ($dataCard as $card) {
-                    // // Process each card record
-                    // $data['lastFourDigit'] = $dataCard['card_number'];
-                    // $data['cards'][] = $card;
-                //     }
-                // } else {
-                //     // No card records found
-                // }
 
             return  view('components/navbar',$data) .
                     // view('components/promotionHeader.php') .
@@ -366,7 +312,7 @@ class UserController extends Controller
         $cardModel = new CardModel();
         $session = session();
         $username = $session->get('username'); 
-        
+
         $dataCard = $cardModel->deleteCardByUsernameAndId($username,$id);
 
         $cardId = $this->request->getPost('cardId');
@@ -380,7 +326,30 @@ class UserController extends Controller
         return $this->response->setJSON($response);
     }
 
+    public function addCard(){
 
+        $session = session();
+        $username = $session->get('username'); 
+        $name = $this->request->getPost('name');
+        $card_number = $this->request->getPost('card_number');
+        $expiration = $this->request->getPost('expiration');
+        $security_code = $this->request->getPost('security_code');
+        $card_type = $this->request->getPost('card_type');
+
+        $cardModel = new CardModel();
+
+        $data = [
+            'username' => $username,
+            'name' => $name,
+            'card_number' => $card_number,
+            'expiration' => $expiration,
+            'security_code' => $security_code,
+            'card_type' => $card_type
+        ];
+
+        $cardId = $cardModel->addCard($data);
+        return  redirect()->to('saved-payment-cards');
+    }
 
     
 }

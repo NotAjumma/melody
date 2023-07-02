@@ -23,7 +23,7 @@
 
   <title><?php echo $title; ?></title>
 </head>
-<script src="js/navbar.js"></script>
+<script src="<?= base_url('js/navbar.js') ?>"></script>
 
 <div class="nav-container">
   <nav class="navbar navbar-expand-lg ">
@@ -89,65 +89,71 @@
 
 <?php if (current_url() === site_url('submit-login') || current_url() === site_url('profile') 
 || current_url() === site_url('edit-profile') || current_url() === site_url('change-password') 
-|| current_url() === site_url('saved-payment-cards')) : ?>
+|| current_url() === site_url('saved-payment-cards') || current_url() === site_url('admin/dashboard') 
+|| current_url() === site_url('admin/profile') || current_url() === site_url('admin/edit-profile') 
+|| current_url() === site_url('admin/user-list') || current_url() === site_url('admin/verify-membership')) : ?>
   <?php if (session()->has('role_id')) { ?>
     <div class="body-back">
     <?php if  (session('role_id') == 2 && current_url() === site_url('profile')){ ?>
       <!-- promotion Banner -->
-    <!-- <div class="header-layer">
-      <div class="header-index-banner banner-promotion">
-          <div class="header-index-text">
-          <div class="header-text extralarge-bold-text">
-              Get 2 months of Premium only at RM15.90 for first time user.
-          </div>
-          <div class="regular-medium-text">
-              Just RM15.90/month after. Cancel anytime
-          </div>
-          <div class="button-container button-text">
-              <div class="started-button top-button">
-              <div>Get Started</div>
-              </div>
-              <div onclick="scrollToPlan('<?php base_url()?>','#plan-layer')" class="view-button top-button">
-              <div>View Plans</div>
-              </div>
-          </div>
-          <div class="term-container small-text">
-              Offer not available for users who have already tried Premium.
-          </div>
-          </div>
-          <div class="header-img-container">
-          <img class="header-img" src="assets/banner.jpg" />
-          </div>
+      <?php if ($sub_id == ""){ ?>   
+      <div class="header-layer">
+        <div class="header-index-banner banner-promotion">
+            <div class="header-index-text">
+            <div class="header-text extralarge-bold-text">
+                Get 2 months of Premium only at RM15.90 for first time user.
+            </div>
+            <div class="regular-medium-text">
+                Just RM15.90/month after. Cancel anytime
+            </div>
+            <div class="button-container button-text">
+                <a href="<?= base_url('check-login-status/checkout') ?>" style="color: #ffffff; text-decoration: none;" >
+                <div class="started-button top-button">
+                  <div >Get Started</div>
+                </div></a>
+                <div onclick="scrollToPlan('<?php base_url()?>','#plan-layer')" class="view-button top-button">
+                <div>View Plans</div>
+                </div>
+            </div>
+            <div class="term-container small-text">
+                Offer not available for users who have already tried Premium.
+            </div>
+            </div>
+            <div class="header-img-container">
+            <img class="header-img" src="assets/banner.jpg" />
+            </div>
+        </div>
       </div>
-    </div> -->
+      <?php } else if ($sub_id == "1"){?>
+      <!-- Premium Individual Banner -->
+      <div class="header-layer">
+        <div class="header-index-banner banner-individual">
+            <div class="header-index-text-banner">
+            <div class="header-text-banner banner-bold-text">
+                Premium Individual<br>Only for you
+            </div>
+            <div class="regular-medium-text">
+                Your Personal Sound Haven
+            </div>
+      
+        </div>
+      </div>
+      <?php } else if ($sub_id == "2"){?>
 
-    <!-- Premium Individual Banner -->
-    <div class="header-layer">
-      <div class="header-index-banner banner-individual">
-          <div class="header-index-text-banner">
-          <div class="header-text-banner banner-bold-text">
-              Premium Individual<br>Only for you
-          </div>
-          <div class="regular-medium-text">
-              Your Personal Sound Haven
-          </div>
-     
+      <!-- Premium Custom Banner -->
+      <div class="header-layer">
+        <div class="header-index-banner banner-custom">
+            <div class="header-index-text-banner">
+            <div class="header-text-banner banner-bold-text">
+                Premium Custom<br>Melody Pro
+            </div>
+            <div class="regular-medium-text">
+                Craft Your Personalized Melodic Symphony
+            </div>
+      
+        </div>
       </div>
-    </div>
-
-    <!-- Premium Custom Banner -->
-    <!-- <div class="header-layer">
-      <div class="header-index-banner banner-custom">
-          <div class="header-index-text-banner">
-          <div class="header-text-banner banner-bold-text">
-              Premium Custom<br>Melody Pro
-          </div>
-          <div class="regular-medium-text">
-              Craft Your Personalized Melodic Symphony
-          </div>
-     
-      </div>
-    </div> -->
+      <?php }?>
     
     <?php } ?>
     <div class="middle-content" >
@@ -161,12 +167,18 @@
         <div class="user-name karla-medium-text"><?php echo $nickname ?></div>
 
         <!-- Admin sidebar -->
-        <?php if (session()->get('role_id') == 1) : ?>
+        <?php if (session()->get('role_id') == 1 ) : ?>
         <div class="sidebar-buttons small-medium-text">
           <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','dashboard')">
             <div><i class="fa-solid fa-house" style="color: #ffffff;"></i></div>
             <div class="sidebar-button-name">
               Dashboard
+            </div>
+          </div>
+          <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','profile')">
+            <div><i class="fa-solid fa-house" style="color: #ffffff;"></i></div>
+            <div class="sidebar-button-name">
+              Profile
             </div>
           </div>
           <div class="sidebar-button" onclick="sidebarButton('<?php base_url()?>','user-list')">

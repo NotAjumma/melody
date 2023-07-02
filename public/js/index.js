@@ -13,3 +13,27 @@ function planButton(baseurl, path) {
     scrollToSection(sectionId);
   }, 1000); // Adjust the delay as needed
 }
+
+function addCardContainer() {
+  var container = document.getElementById("add-card-container");
+  var inputcontainer = document.getElementById("card-container");
+  if (container.style.display === "none") {
+    container.style.display = "block";
+    inputcontainer.style.display = "none";
+  } else {
+    container.style.display = "none";
+    inputcontainer.style.display = "block";
+  }
+}
+
+function hideAddCardContainer() {
+  var container = document.getElementById("add-card-container");
+  var inputcontainer = document.getElementById("card-container");
+  if (container.style.display === "none") {
+    container.style.display = "block";
+    inputcontainer.style.display = "none";
+  } else {
+    container.style.display = "none";
+    inputcontainer.style.display = "block";
+  }
+}

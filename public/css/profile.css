@@ -35,7 +35,29 @@
   margin-top: 1rem;
 }
 
-.edit-profile-button:hover {
+.cancel-premium-button {
+  border: 1px solid #ffc862;
+  background-color: #ffc862;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.cancel-free-button {
+  border: 1px solid #b7aaaa;
+  background-color: #b7aaaa;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.edit-profile-button:hover,
+.cancel-premium-button:hover,
+.cancel-free-button:hover {
   transform: scale(1.05);
 }
 
@@ -43,13 +65,37 @@
   margin-top: 5rem;
 }
 
-.plan-container {
+.free-plan-container-layer {
+  border: 3px solid #b7aaaa;
+  border-radius: 0.5rem;
+  /* padding: 2.5rem; */
+}
+
+.individual-plan-container-layer {
   border: 3px solid #ffc862;
   border-radius: 0.5rem;
   /* padding: 2.5rem; */
 }
 
+.custom-plan-container-layer {
+  border: 3px solid #ffc862;
+  border-radius: 0.5rem;
+  /* padding: 2.5rem; */
+}
+
+.free-plan-container {
+  padding: 5rem 0 5rem 2rem;
+  background-color: #b7aaaa;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
 .premium-plan-container {
+  padding: 5rem 0 5rem 2rem;
+  background-color: #ffc862;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.custom-plan-container {
   padding: 5rem 0 5rem 2rem;
   background-color: #ffc862;
   border-radius: 0.5rem 0.5rem 0 0;

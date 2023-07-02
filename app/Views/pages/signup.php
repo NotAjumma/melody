@@ -33,9 +33,18 @@
           <div class="label-input small-extrabold-text">Create a username</div>
           <input
             type="text"
-            name="text"
+            name="username"
             id="text"
             placeholder="Create a username"
+          />
+        </div>
+        <div class="input-container">
+          <div class="label-input small-extrabold-text">What's we call you?</div>
+          <input
+            type="text"
+            name="nickname"
+            id="text"
+            placeholder="Create a nickname"
           />
         </div>
         <div class="input-container">

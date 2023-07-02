@@ -93,6 +93,9 @@ class LoginController extends Controller
 
             if ($user['role_id'] == 1) {
                 // $data['title'] = 'Admin Dashboard'; 
+                if ($messageRedirect == "profile"){
+                    $messageRedirect = "admin/dashboard";
+                }
                 return redirect()->to(base_url($messageRedirect));
 
                 // return  view('components/navbar',$data) .
@@ -134,7 +137,8 @@ class LoginController extends Controller
 
         // Retrieve the input values from the form
         $email = $this->request->getPost('email');
-        $username = $this->request->getPost('text');
+        $username = $this->request->getPost('username');
+        $nickname = $this->request->getPost('nickname');
         $password = $this->request->getPost('password');
         $dob = $this->request->getPost('date_of_birth');
         $gender = $this->request->getPost('gender');
@@ -152,16 +156,21 @@ class LoginController extends Controller
         $data = [
             'email' => $email,
             'username' => $username,
+            'nickname' => $nickname,
             'password' => $hashedPassword,
             'date_of_birth' => $dob,
-            'gender' => $gender
+            'gender' => $gender,
+            "role_id" => 2,
+            'profile_pic' => "none"
         ];
 
+        // print_r($data);
+        
         // Insert the user data into the database
-        $usersModel->insert($data);
+        $usersModel->addUser($data);
 
         // Set success flashdata and redirect to login page
-        session()->setFlashdata('success', 'Signup successful. Please login.');
+        // session()->setFlashdata('success', 'Signup successful. Please login.');
         return redirect()->to('login');
     }
 

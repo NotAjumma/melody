@@ -14,6 +14,12 @@ class CardModel extends Model
                     ->findAll();
     }
     
+    public function addCard($data)
+    {
+        $this->insert($data);
+        return $this->getInsertID();
+    }
+
     public function deleteCardByUsernameAndId($username, $cardId)
     {
         return $this->where('username', $username)
