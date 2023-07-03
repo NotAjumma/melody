@@ -153,4 +153,16 @@ class AdminController extends Controller
         // Handle successful profile update
         // Return a success message or redirect to a success page
     }
+
+    public function deleteUser($username)
+    {
+
+        $usersModel = new UsersModel();
+        $session = session(); 
+        $dataUser = $usersModel->deleteUserByUsername($username);
+        $data['title'] = 'Delete'; 
+
+
+        return redirect()->to('admin/user-list');
+    }
 }

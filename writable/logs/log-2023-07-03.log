@@ -1117,3 +1117,39 @@ in APPPATH\Views\pages\admin\edit_profile.php on line 76.
  7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:27:27 --> Undefined variable $username
+in APPPATH\Views\pages\admin\edit-user.php on line 23.
+ 1 APPPATH\Views\pages\admin\edit-user.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\edit-user.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\edit-user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/edit-user', [], true)
+ 5 APPPATH\Controllers\AdminController.php(166): view('pages/admin/edit-user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->deleteUser('paksamad')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:28:43 --> Undefined variable $data
+in APPPATH\Controllers\AdminController.php on line 165.
+ 1 APPPATH\Controllers\AdminController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->deleteUser('paksamad')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:28:48 --> Undefined variable $data
+in APPPATH\Controllers\AdminController.php on line 165.
+ 1 APPPATH\Controllers\AdminController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->deleteUser('kaka')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:29:08 --> Undefined variable $users
+in APPPATH\Views\pages\admin\user-list.php on line 41.
+ 1 APPPATH\Views\pages\admin\user-list.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\user-list.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\user-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/user-list', [], true)
+ 5 APPPATH\Controllers\AdminController.php(167): view('pages/admin/user-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->deleteUser('kaka')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()

@@ -46,6 +46,7 @@ $routes->get('admin/verify-membership', 'AdminController::memberships');
 $routes->get('admin/edit-profile', 'AdminController::editProfile');
 $routes->get('admin/edit-view/(:segment)', 'AdminController::singleUser/$1');
 $routes->post('admin/submit-edit-profile', 'AdminController::updateSingleUser');
+$routes->get('admin/delete/(:segment)', 'AdminController::deleteUser/$1');
 
 
 

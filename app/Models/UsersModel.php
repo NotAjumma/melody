@@ -67,4 +67,10 @@ class UsersModel extends Model
         $this->update($username, $userData);
         return true;
     }
+
+    public function deleteUserByUsername($username)
+    {
+        return $this->where('username', $username)
+                    ->delete();
+    }
 }
