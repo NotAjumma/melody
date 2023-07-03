@@ -17,6 +17,10 @@
   display: flex;
 }
 
+.top-layer-container {
+  height: 8rem;
+}
+
 .top-button {
   padding: 0.7rem;
   border-radius: 3rem;

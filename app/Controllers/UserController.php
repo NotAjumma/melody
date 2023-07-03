@@ -6,6 +6,7 @@ use App\Models\UsersModel;
 use App\Models\UserSubscriptionModel;
 use App\Models\SubscriptionModel;
 use App\Models\CardModel;
+use App\Models\AlbumsListModel;
 use CodeIgniter\Controller;
 
 class UserController extends Controller
@@ -351,5 +352,73 @@ class UserController extends Controller
         return  redirect()->to('saved-payment-cards');
     }
 
+    public function albumsList()
+    {
+        $session = session();
+        $username = $session->get('username'); 
+        // Create an instance of the UsersModel
+        $usersModel = new UsersModel();
+        $albumsListModel = new AlbumsListModel();
+
+        // Check if the user is logged in
+        // if (session()->has('username') && session('role_id') == 1) {
+            // $data['title'] = 'Admin Dashboard'; 
+            // return  view('components/navbar',$data) .
+            //         view('pages/admin/dashboard') .
+            //         view('components/footer.php');
+        // } else if (session()->has('username') && session('role_id') == 2) {
+            $data['title'] = 'Albums List'; 
+            // $dataUser = $usersModel->getUserByUsername($username);
+            // $data['username'] = $dataUser['username'];
+            // $data['nickname'] = $dataUser['nickname'];
+            // $data['email'] = $dataUser['email'];
+            // $data['dob'] = $dataUser['date_of_birth'];
+            // $data['gender'] = $dataUser['gender'];
+
+
+              // Get the list of albums sorted by genre
+            $albums = $albumsListModel->getAlbumsSortedByGenre();
+            // print_r($albums);
+            
+            $hipHopAlbums = [];
+            $rockAlbums = [];
+            $popAlbums = [];
+
+            foreach ($albums as $album) {
+                $genre = strtolower($album['genre']);
+
+                if (strpos($genre, 'hip') !== false) {
+                    $hipHopAlbums[] = $album;
+                } elseif (strpos($genre, 'rock') !== false) {
+                    $rockAlbums[] = $album;
+                } elseif (strpos($genre, 'pop') !== false) {
+                    $popAlbums[] = $album;
+                }
+            }
+
+            // Sort the arrays by genre
+            usort($hipHopAlbums, function ($a, $b) {
+                return strcasecmp($a['genre'], $b['genre']);
+            });
+
+            usort($rockAlbums, function ($a, $b) {
+                return strcasecmp($a['genre'], $b['genre']);
+            });
+
+            usort($popAlbums, function ($a, $b) {
+                return strcasecmp($a['genre'], $b['genre']);
+            });
+
+            $data['hipHopAlbums'] = array_slice($hipHopAlbums, 0, 8);
+            $data['rockAlbums'] = array_slice($rockAlbums, 0, 8);
+            $data['popAlbums'] = array_slice($popAlbums, 0, 8);
+
+
+            return  view('components/navbar',$data) .
+                    // view('components/promotionHeader.php') .
+                    view('pages/albums-list',$data) .
+                    view('components/footer.php');
+        
+    }
     
 }

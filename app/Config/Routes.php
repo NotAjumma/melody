@@ -44,6 +44,9 @@ $routes->get('admin/profile', 'AdminController::profile');
 $routes->get('admin/user-list', 'AdminController::userList');
 $routes->get('admin/verify-membership', 'AdminController::memberships');
 $routes->get('admin/edit-profile', 'AdminController::editProfile');
+$routes->get('admin/edit-view/(:segment)', 'AdminController::singleUser/$1');
+$routes->post('admin/submit-edit-profile', 'AdminController::updateSingleUser');
+
 
 
 //User
@@ -55,6 +58,7 @@ $routes->get('change-password', 'UserController::changePassword');
 $routes->post('submit-change-password', 'UserController::changePasswordProcess');
 $routes->post('submit-add-card', 'UserController::addCard');
 $routes->get('saved-payment-cards', 'UserController::savedPaymentCard');
+$routes->get('albums-list', 'UserController::albumsList');
 $routes->post('/cards/delete/(:num)', 'UserController::deleteCard/$1');
 
 
@@ -68,6 +72,9 @@ $routes->post('submit-login', 'LoginController::loginProcess');
 $routes->post('submit-signup', 'LoginController::signupProcess');
 $routes->get('logout', 'LoginController::logout');
 $routes->get('check-login-status/(:any)', 'LoginController::checkLoginStatus/$1');
+$routes->get('/checkout-albums-list', 'LoginController::albumCheckout');
+$routes->post('/checkout-albums-list', 'LoginController::albumCheckout');
+
 // $routes->get('check-login-status', 'LoginController::checkLoginStatus');
 
 

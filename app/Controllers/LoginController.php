@@ -199,22 +199,63 @@ class LoginController extends Controller
                return redirect()->to(site_url('plan/checkout/promote'));
             } elseif ($page == 'promotion') {
                 return redirect()->to('promotion');
-            } else {
+            } elseif ($page == 'checkoutAlbums') {
+                return redirect()->to('checkout-albums-list');
+            }else {
                 // Invalid page parameter, redirect to default page
-                return redirect()->to('default');
+                // return redirect()->to('default');
             }
         } else {
              if ($page == 'checkout') {
                return redirect()->to('login?message=plan/checkout/promote');
             } elseif ($page == 'promotion') {
                 return redirect()->to('promotion');
-            } else {
+            }elseif ($page == 'checkoutAlbums') {
+                return redirect()->to('login?message=checkout-albums-list');
+            }else {
                 // Invalid page parameter, redirect to default page
                 return redirect()->to('default');
             }
             // User is not logged in, redirect to login page
             
         }
+    }
+
+
+
+    public function albumCheckout()
+    {
+        // $cartItems = json_decode($this->input->getPost('cartItems'), true);
+        // $cartItems = json_decode($this->request->getPost('cartItems'));
+        
+        $session = session();
+        $username = $session->get('username'); 
+        $usersModel = new UsersModel();
+        $userSubscriptionModel = new UserSubscriptionModel();
+        $subscriptionModel = new SubscriptionModel();
+        $dataUser = $usersModel->getUserByUsername($username);
+        $dataUserSub = $userSubscriptionModel->getUserSubUsingUsername($username);
+            
+            if (!empty($dataUserSub)) {
+                $sub_id = $dataUserSub[0]['sub_id'];
+                $data['sub_id'] = $dataUserSub[0]['sub_id'];
+
+                $dataSub = $subscriptionModel->getSubUsingSubId($sub_id);
+
+                if (!empty($dataSub)) {
+                    $data['sub_name'] = $dataSub[0]['sub_name'];
+                } else {
+                    $data['sub_name'] = ''; // Set a default value if sub_name is not found
+                }
+            } else {
+                $data['sub_id'] = ''; // Set a default value if sub_id is not found
+                $data['sub_name'] = ''; // Set a default value if sub_name is not found
+            }
+
+
+        $data['title'] = 'Checkout Albums'; 
+        return  view('components/navbar',$data) .
+                view('pages/checkout-albums') ;
     }
 
 

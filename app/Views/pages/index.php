@@ -87,19 +87,22 @@
           <div class="plan-container-layer">
             <div class="plan-container-outside">
               <div class="plan-container-inside">
-                <div class="plan-badge small-bold-text">
-                  <div class="badge-text">
-                    2 months for RM15.90 for first time user
+                <div class="top-layer-container">
+                  <div class="plan-badge small-bold-text">
+                    <div class="badge-text">
+                      One-time payment
+                    </div>
+                  </div>
+                  <div class="top-container">
+                    <div class="top-name large-medium-text">Mini</div>
+                    <div class="top-desc regular-medium-text">
+                      From RM0.75/day
+                      <br />
+                      Discount 3% for buy albums
+                    </div>
                   </div>
                 </div>
-                <div class="top-container">
-                  <div class="top-name large-medium-text">Mini</div>
-                  <div class="top-desc regular-medium-text">
-                    From RM0.75/day
-                    <br />
-                    1 account on mobile only.
-                  </div>
-                </div>
+                
                 <div class="grey-line"></div>
                 <div class="bottom-container">
                   <div class="total-feature-list">
@@ -125,17 +128,7 @@
                       Group Session
                     </div>
                   </div>
-                  <div class="features-list">
-                    <div class="feature-icon">
-                      <i
-                        class="fa-solid fa-check fa-lg"
-                        style="color: #000000"
-                      ></i>
-                    </div>
-                    <div class="feature-desc regular-small-text">
-                      Download 30 songs on 1 mobile device
-                    </div>
-                  </div>
+                  
                   </div>
                   
                   <div onclick="planButton('<?php base_url()?>','individual')" class="get-started-button top-button button-text">
@@ -149,17 +142,19 @@
 
               <!-- Individual Plan -->
               <div class="plan-container-inside">
-                <div class="plan-badge small-bold-text">
-                  <div class="badge-text">
-                    2 months for RM14.90 for first time user
+                <div class="top-layer-container">
+                  <div class="plan-badge small-bold-text">
+                    <div class="badge-text">
+                      2 months for RM14.90 for first time user
+                    </div>
                   </div>
-                </div>
-                <div class="top-container">
-                  <div class="top-name large-medium-text">Individual</div>
-                  <div class="top-desc regular-medium-text">
-                    RM14.90/month after offer period
-                    <br />
-                    1 account only.
+                  <div class="top-container">
+                    <div class="top-name large-medium-text">Monthly</div>
+                    <div class="top-desc regular-medium-text">
+                      RM14.90/month after offer period
+                      <br />
+                      Discount 10% for buy albums
+                    </div>
                   </div>
                 </div>
                 <div class="grey-line"></div>
@@ -198,17 +193,7 @@
                         On-demand playback
                       </div>
                     </div>
-                    <div class="features-list">
-                      <div class="feature-icon">
-                        <i
-                          class="fa-solid fa-check fa-lg"
-                          style="color: #000000"
-                        ></i>
-                      </div>
-                      <div class="feature-desc regular-small-text">
-                        One-time or subscriotion plans
-                      </div>
-                    </div>
+                    
                   </div>
                   
                   <div onclick="planButton('<?php base_url()?>','individual')" class="get-started-button top-button button-text">
@@ -219,22 +204,26 @@
                   </div>
                 </div>
               </div>
-              <div class="plan-container-inside">
-                <div class="plan-badge small-bold-text">
-                  <div class="badge-text">
-                    Able to custom plan base on your favourite features.
-                  </div>
-                </div>
 
-                <!-- Custome Plan -->
-                <div class="top-container">
-                  <div class="top-name large-medium-text">Melody Pro</div>
-                  <div class="top-desc regular-medium-text">
-                    Starting from RM3/month
-                    <br />
-                    Up to 6 accounts.
+                <!-- yearly Plan -->
+
+              <div class="plan-container-inside">
+                <div class="top-layer-container">
+                  <div class="plan-badge small-bold-text">
+                    <div class="badge-text">
+                      One-time payment for yearly
+                    </div>
                   </div>
-                </div>
+
+                  <div class="top-container">
+                    <div class="top-name large-medium-text">Yearly</div>
+                    <div class="top-desc regular-medium-text">
+                      RM130.90/yearly after offer period
+                      <br />
+                      Discount 20% for buy albums
+                    </div>
+                  </div>
+              </div>
                 <div class="grey-line"></div>
                 <div class="bottom-container">
                   <div class="total-feature-list">
@@ -307,8 +296,8 @@
 
                   </div>
                   
-                  <div class="custom-button top-button button-text">
-                    Let's Custom
+                  <div class="get-started-button top-button button-text">
+                    Get started
                   </div>
                   <div class="term-container-bottom small-text">
                     Offer not available for users who have already tried Premium

@@ -1,0 +1,99 @@
+.checkout-content {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
+
+.left-content {
+  width: 50%;
+  padding: 2rem 2rem;
+}
+
+.right-content {
+  width: 50%;
+  padding: 2rem 5rem;
+}
+
+.items-checkout-container {
+  margin: 1.5rem 0;
+  display: flex;
+  gap: 1rem;
+  /* align-items: center; */
+}
+
+.img-album {
+  height: 8rem;
+  width: 8rem;
+}
+
+.album-price {
+  width: 5rem;
+}
+
+.items-text {
+  width: 30rem;
+}
+
+.your-plan-container {
+  border: 1px solid #ffc862;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #ffc862;
+  box-shadow: 0px 2px 6px #ffc862;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-payment {
+  height: 5rem;
+}
+
+.summary-header {
+  height: 2.5rem;
+}
+
+.email-input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid rgb(207, 206, 206);
+  border-radius: 0.5rem;
+}
+
+.card-container {
+  margin: 1.5rem 0;
+}
+
+.checkout-details {
+  margin-top: 3rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-text {
+  line-height: 28px !important;
+}
+
+.pay-button {
+  width: 100%;
+  background-color: #000000;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #000000;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.pay-button:hover {
+  transform: scale(1.05);
+}
+
+.outer-checkout {
+  padding: 3rem;
+}

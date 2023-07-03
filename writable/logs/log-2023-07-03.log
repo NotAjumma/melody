@@ -1,0 +1,1036 @@
+CRITICAL - 2023-07-03 02:49:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserController.php on line 372.
+ 1 APPPATH\Controllers\UserController.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 02:50:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserController.php on line 372.
+ 1 APPPATH\Controllers\UserController.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 02:50:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserController.php on line 372.
+ 1 APPPATH\Controllers\UserController.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 02:50:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserController.php on line 372.
+ 1 APPPATH\Controllers\UserController.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 02:50:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserController.php on line 372.
+ 1 APPPATH\Controllers\UserController.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 02:51:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserController.php on line 372.
+ 1 APPPATH\Controllers\UserController.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 03:14:10 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(24): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(170): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-03 03:14:10 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$L6D1GwKYcBCSbtaZGFbkzeCA.ob8ttD1adcgw4yq35PZrzwOpQfh6\', \'2023-06-26\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$L6D1GwKYcBCSbtaZGFbkzeCA.ob8ttD1adcgw4yq35PZrzwOpQfh6\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$L6D1GwKYcBCSbtaZGFbkzeCA.ob8ttD1adcgw4yq35PZrzwOpQfh6\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(24): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(170): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 03:14:45 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(170): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-03 03:14:45 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$W34rh/IswFrZ6I116rXHg.vkXqntNgRTC.PUP5co0DdUWLMXqdDhC\', \'2023-06-26\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$W34rh/IswFrZ6I116rXHg.vkXqntNgRTC.PUP5co0DdUWLMXqdDhC\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$W34rh/IswFrZ6I116rXHg.vkXqntNgRTC.PUP5co0DdUWLMXqdDhC\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(25): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(170): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 03:14:52 --> Array to string conversion
+in APPPATH\Models\UsersModel.php on line 23.
+ 1 APPPATH\Models\UsersModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UsersModel.php', 23)
+ 2 APPPATH\Controllers\LoginController.php(170): App\Models\UsersModel->addUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 03:15:05 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(170): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-03 03:15:05 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$QqzckCE.6BDRASbID/PVRu5FLSlkzHGXcinsFDZV.6HvhXCtzCnqa\', \'2023-06-26\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$QqzckCE.6BDRASbID/PVRu5FLSlkzHGXcinsFDZV.6HvhXCtzCnqa\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$QqzckCE.6BDRASbID/PVRu5FLSlkzHGXcinsFDZV.6HvhXCtzCnqa\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(25): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(170): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 03:16:20 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(170): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-03 03:16:20 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$OTLf9qoRZh/.TJQOyH5UqeHbdDqOEOz6gq8N.3/0JGZILqLWdxsLe\', \'2023-06-26\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$OTLf9qoRZh/.TJQOyH5UqeHbdDqOEOz6gq8N.3/0JGZILqLWdxsLe\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$OTLf9qoRZh/.TJQOyH5UqeHbdDqOEOz6gq8N.3/0JGZILqLWdxsLe\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(26): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(170): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 03:16:47 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(170): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-03 03:16:47 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$fcr6vdDHYuwEpPgQsz77ceuNqwD9p97a2q/vKXAQPZkHdkZUZmj8W\', \'2023-06-26\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$fcr6vdDHYuwEpPgQsz77ceuNqwD9p97a2q/vKXAQPZkHdkZUZmj8W\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$fcr6vdDHYuwEpPgQsz77ceuNqwD9p97a2q/vKXAQPZkHdkZUZmj8W\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(25): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(170): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 03:16:53 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(170): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-03 03:16:53 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$ELhniaIdUgnuLVBg8nJYQepgX6/mBAjT.00mu.JyjmwzYi5KmJ9/C\', \'2023-06-26\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$ELhniaIdUgnuLVBg8nJYQepgX6/mBAjT.00mu.JyjmwzYi5KmJ9/C\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$ELhniaIdUgnuLVBg8nJYQepgX6/mBAjT.00mu.JyjmwzYi5KmJ9/C\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(25): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(170): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 03:16:57 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(170): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-03 03:16:57 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$J9VCvVA9Zo9PpiKfaCl6j.rzHfJYZgOxl1ynRBBc36/ASpDaCw.6a\', \'2023-06-26\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$J9VCvVA9Zo9PpiKfaCl6j.rzHfJYZgOxl1ynRBBc36/ASpDaCw.6a\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$J9VCvVA9Zo9PpiKfaCl6j.rzHfJYZgOxl1ynRBBc36/ASpDaCw.6a\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(27): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(170): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 03:17:06 --> Undefined array key "id"
+in APPPATH\Models\UsersModel.php on line 25.
+ 1 APPPATH\Models\UsersModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UsersModel.php', 25)
+ 2 APPPATH\Controllers\LoginController.php(170): App\Models\UsersModel->addUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 03:17:21 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(170): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-03 03:17:21 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$VspX4024x18DO0Ky0l2UE.ucwAF6opN25Z4k5iXRJQirtfyuaQcYy\', \'2023-06-26\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$VspX4024x18DO0Ky0l2UE.ucwAF6opN25Z4k5iXRJQirtfyuaQcYy\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$VspX4024x18DO0Ky0l2UE.ucwAF6opN25Z4k5iXRJQirtfyuaQcYy\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(27): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(170): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 03:19:00 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(170): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-03 03:19:00 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$3qOxJSG54LJjrmOp9t6ro.hLxOLQ6poWB1Ei4qK3sGupjOk0Dx82W\', \'2023-06-26\', \'Male\', 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$3qOxJSG54LJjrmOp9t6ro.hLxOLQ6poWB1Ei4qK3sGupjOk0Dx82W\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'adha44@gmail.com\', \'adha\', \'$2y$10$3qOxJSG54LJjrmOp9t6ro.hLxOLQ6poWB1Ei4qK3sGupjOk0Dx82W\', \'2023-06-26\', \'Male\', 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(27): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(170): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:23:49 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:27:10 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 230.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:27:37 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 230.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:27:44 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\LoginController.php on line 230.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:41:23 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:41:40 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:41:41 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:41:41 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:41:52 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:42:08 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:43:18 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:43:19 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:43:39 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:44:09 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:44:14 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:47:29 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:47:43 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:47:49 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 224.
+ 1 APPPATH\Controllers\LoginController.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 224)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:48:14 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:49:15 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 223.
+ 1 APPPATH\Controllers\LoginController.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:49:37 --> Undefined variable $dashboardModel
+in APPPATH\Controllers\LoginController.php on line 230.
+ 1 APPPATH\Controllers\LoginController.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 230)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:51:32 --> Undefined constant "App\Controllers\localStorage"
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:52:29 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:53:44 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:54:10 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:54:50 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:55:15 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:55:15 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:55:16 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:55:16 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:55:21 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:55:49 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:58:33 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 05:59:22 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:00:25 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 228.
+ 1 APPPATH\Controllers\LoginController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:39:30 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\LoginController.php on line 235.
+ 1 APPPATH\Controllers\LoginController.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:39:41 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\LoginController.php on line 235.
+ 1 APPPATH\Controllers\LoginController.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:40:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\LoginController.php on line 235.
+ 1 APPPATH\Controllers\LoginController.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:42:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\LoginController.php on line 235.
+ 1 APPPATH\Controllers\LoginController.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:48:14 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 232.
+ 1 APPPATH\Controllers\LoginController.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:48:32 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 232.
+ 1 APPPATH\Controllers\LoginController.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:48:37 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 232.
+ 1 APPPATH\Controllers\LoginController.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:48:39 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 232.
+ 1 APPPATH\Controllers\LoginController.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:48:39 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 232.
+ 1 APPPATH\Controllers\LoginController.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:48:40 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 232.
+ 1 APPPATH\Controllers\LoginController.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:48:56 --> Undefined property: App\Controllers\LoginController::$input
+in APPPATH\Controllers\LoginController.php on line 232.
+ 1 APPPATH\Controllers\LoginController.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$input', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:54:13 --> require_once(AlbumModel.php): Failed to open stream: No such file or directory
+in APPPATH\Views\pages\checkout-albums.php on line 5.
+ 1 APPPATH\Views\pages\checkout-albums.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(AlbumModel.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 5)
+ 2 APPPATH\Views\pages\checkout-albums.php(5): require_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 6 APPPATH\Controllers\LoginController.php(243): view('pages/checkout-albums')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:54:36 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 233.
+ 1 APPPATH\Controllers\LoginController.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:54:43 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 233.
+ 1 APPPATH\Controllers\LoginController.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:54:44 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 233.
+ 1 APPPATH\Controllers\LoginController.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:55:06 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 234.
+ 1 APPPATH\Controllers\LoginController.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:55:26 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 234.
+ 1 APPPATH\Controllers\LoginController.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:55:27 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 234.
+ 1 APPPATH\Controllers\LoginController.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:55:28 --> Undefined array key "cartItems"
+in APPPATH\Controllers\LoginController.php on line 234.
+ 1 APPPATH\Controllers\LoginController.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:55:37 --> require_once(AlbumModel.php): Failed to open stream: No such file or directory
+in APPPATH\Views\pages\checkout-albums.php on line 5.
+ 1 APPPATH\Views\pages\checkout-albums.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(AlbumModel.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 5)
+ 2 APPPATH\Views\pages\checkout-albums.php(5): require_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 6 APPPATH\Controllers\LoginController.php(238): view('pages/checkout-albums')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:56:06 --> require_once(app/Models/AlbumModel.php): Failed to open stream: No such file or directory
+in APPPATH\Views\pages\checkout-albums.php on line 5.
+ 1 APPPATH\Views\pages\checkout-albums.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(app/Models/AlbumModel.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 5)
+ 2 APPPATH\Views\pages\checkout-albums.php(5): require_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 6 APPPATH\Controllers\LoginController.php(238): view('pages/checkout-albums')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:57:05 --> require_once(app/Models/AlbumListModel.php): Failed to open stream: No such file or directory
+in APPPATH\Views\pages\checkout-albums.php on line 5.
+ 1 APPPATH\Views\pages\checkout-albums.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(app/Models/AlbumListModel.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 5)
+ 2 APPPATH\Views\pages\checkout-albums.php(5): require_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 6 APPPATH\Controllers\LoginController.php(238): view('pages/checkout-albums')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:57:06 --> require_once(app/Models/AlbumListModel.php): Failed to open stream: No such file or directory
+in APPPATH\Views\pages\checkout-albums.php on line 5.
+ 1 APPPATH\Views\pages\checkout-albums.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(app/Models/AlbumListModel.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 5)
+ 2 APPPATH\Views\pages\checkout-albums.php(5): require_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 6 APPPATH\Controllers\LoginController.php(238): view('pages/checkout-albums')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:57:06 --> require_once(app/Models/AlbumListModel.php): Failed to open stream: No such file or directory
+in APPPATH\Views\pages\checkout-albums.php on line 5.
+ 1 APPPATH\Views\pages\checkout-albums.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(app/Models/AlbumListModel.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 5)
+ 2 APPPATH\Views\pages\checkout-albums.php(5): require_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 6 APPPATH\Controllers\LoginController.php(238): view('pages/checkout-albums')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:57:13 --> require_once(app/Models/AlbumListModel.php): Failed to open stream: No such file or directory
+in APPPATH\Views\pages\checkout-albums.php on line 5.
+ 1 APPPATH\Views\pages\checkout-albums.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(app/Models/AlbumListModel.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 5)
+ 2 APPPATH\Views\pages\checkout-albums.php(5): require_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 6 APPPATH\Controllers\LoginController.php(238): view('pages/checkout-albums')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:57:17 --> require_once(app/Models/AlbumListModel.php): Failed to open stream: No such file or directory
+in APPPATH\Views\pages\checkout-albums.php on line 5.
+ 1 APPPATH\Views\pages\checkout-albums.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(app/Models/AlbumListModel.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 5)
+ 2 APPPATH\Views\pages\checkout-albums.php(5): require_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 6 APPPATH\Controllers\LoginController.php(238): view('pages/checkout-albums')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:58:30 --> Undefined array key "cartItems"
+in APPPATH\Views\pages\checkout-albums.php on line 8.
+ 1 APPPATH\Views\pages\checkout-albums.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 5 APPPATH\Controllers\LoginController.php(238): view('pages/checkout-albums')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 06:58:34 --> Undefined array key "cartItems"
+in APPPATH\Views\pages\checkout-albums.php on line 8.
+ 1 APPPATH\Views\pages\checkout-albums.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cartItems"', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 5 APPPATH\Controllers\LoginController.php(238): view('pages/checkout-albums')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:03:40 --> Undefined variable $rockAlbum
+in APPPATH\Views\pages\albums-list.php on line 42.
+ 1 APPPATH\Views\pages\albums-list.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rockAlbum', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/albums-list', [], true)
+ 5 APPPATH\Controllers\UserController.php(419): view('pages/albums-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:03:49 --> Undefined array key "title"
+in APPPATH\Views\pages\albums-list.php on line 66.
+ 1 APPPATH\Views\pages\albums-list.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/albums-list', [], true)
+ 5 APPPATH\Controllers\UserController.php(419): view('pages/albums-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:04:08 --> Undefined variable $rockAlbum
+in APPPATH\Views\pages\albums-list.php on line 42.
+ 1 APPPATH\Views\pages\albums-list.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rockAlbum', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/albums-list', [], true)
+ 5 APPPATH\Controllers\UserController.php(419): view('pages/albums-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:04:17 --> Undefined array key "title"
+in APPPATH\Views\pages\albums-list.php on line 66.
+ 1 APPPATH\Views\pages\albums-list.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/albums-list', [], true)
+ 5 APPPATH\Controllers\UserController.php(419): view('pages/albums-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:04:42 --> Undefined array key "title"
+in APPPATH\Views\pages\albums-list.php on line 64.
+ 1 APPPATH\Views\pages\albums-list.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/albums-list', [], true)
+ 5 APPPATH\Controllers\UserController.php(419): view('pages/albums-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:54:14 --> syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\pages\checkout-albums.php on line 76.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:54:34 --> syntax error, unexpected token "elseif", expecting end of file
+in APPPATH\Views\pages\checkout-albums.php on line 76.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:56:58 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 155.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:57:03 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 155.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:57:18 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 155.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:58:10 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 155.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:58:19 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 155.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:58:25 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 155.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:58:35 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 155.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:58:47 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 149.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:59:10 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 150.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 07:59:43 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 149.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:00:27 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 144.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:01:17 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 143.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:01:33 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()

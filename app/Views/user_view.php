@@ -24,11 +24,6 @@
 
 </head>
 <body>
-   <?php include(APPPATH . 'views/components/navbar.php'); ?>
-
-  <!-- <div id="app">
-    <breadcrumb-component></breadcrumb-component>
-  </div> -->
 <div class="container mt-4">
     <div class="d-flex justify-content-end">
       <a href="user-form" class="btn btn-success mb-2">Add User</a>
@@ -52,12 +47,12 @@
           <?php if($users): ?>
           <?php foreach($users as $user): ?>
           <tr>
-            <td><?php echo $user['id']; ?></td>
+            <td><?php echo $user['username']; ?></td>
             <td><?php echo $user['username']; ?></td>
             <td><?php echo $user['password']; ?></td>
             <td>
-              <a href="<?php echo ('edit-view/'.$user['id']);?>" class="btn btn-primary btn-sm">Edit</a>
-              <a href="<?php echo ('delete/'.$user['id']);?>" class="btn btn-danger btn-sm">Delete</a>
+              <a href="<?php echo ('edit-view/'.$user['username']);?>" class="btn btn-primary btn-sm">Edit</a>
+              <a href="<?php echo ('delete/'.$user['username']);?>" class="btn btn-danger btn-sm">Delete</a>
             </td>
           </tr>
           <?php endforeach; ?>

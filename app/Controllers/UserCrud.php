@@ -10,8 +10,8 @@ class UserCrud extends Controller
     public function index(){
         
         $userModel = new UsersModel();
-        $data['users'] = $userModel->orderBy('id', 'DESC')->findAll();
-        return view('pages/admin/dashboard', $data);
+        $data['users'] = $userModel->findAll();
+        return view('user_view', $data);
     }
     // show users list (Dummy)
     public function profile(){

@@ -8,7 +8,7 @@ class UsersModel extends Model
     protected $table = 'users';
     protected $primaryKey = 'username';
 
-    protected $allowedFields = ['password', 'email', 'nickname', 'date_of_birth', 'gender', 'profile_pic', 'role_id'];
+    protected $allowedFields = ['username','password', 'email', 'nickname', 'date_of_birth', 'gender', 'profile_pic', 'role_id'];
 
     // protected $beforeInsert = ['assignDefaultRole'];
 
@@ -20,11 +20,16 @@ class UsersModel extends Model
 
     public function addUser($data)
     {
-        // print_r($data['username']);
+        $data = $this->assignDefaultRole($data); // Assign default role if needed
+        unset($data['id']); // Exclude the 'id' field from the $data array
+
         $this->insert($data);
-        
-        return $data['username']; // Assuming username is a unique identifier for the user
+
+        $insertedId = $this->insertID(); // Get the inserted record's primary key value
+
+        return $insertedId;
     }
+
 
     public function updatePassword($username, $currentPassword, $newPassword)
     {
