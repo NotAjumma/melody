@@ -251,7 +251,12 @@ class UserController extends Controller
         // Update the user profile
         $usersModel->update($username, $updatedUserData);
 
-        return redirect()->to('profile');
+        if($username=="admin"){
+            return redirect()->to('admin/profile');
+        }else{
+            return redirect()->to('profile');
+        }
+        
 
         // Handle successful profile update
         // Return a success message or redirect to a success page

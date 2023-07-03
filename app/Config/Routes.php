@@ -53,6 +53,7 @@ $routes->post('admin/submit-edit-profile', 'AdminController::updateSingleUser');
 // $routes->get('user/profile', 'UserCrud::profile');
 $routes->get('edit-profile', 'UserController::editProfile');
 $routes->post('submit-edit-profile', 'UserController::editProfileProcess');
+$routes->post('admin/submit-edit-profile-admin', 'UserController::editProfileProcess');
 $routes->get('profile', 'UserController::profile');
 $routes->get('change-password', 'UserController::changePassword');
 $routes->post('submit-change-password', 'UserController::changePasswordProcess');

@@ -1034,3 +1034,86 @@ in APPPATH\Views\pages\checkout-albums.php on line 69.
  6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
  7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:02:43 --> Class "App\Models\AlbumsModel" not found
+in APPPATH\Models\DashboardModel.php on line 17.
+ 1 APPPATH\Controllers\AdminController.php(23): App\Models\DashboardModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:02:56 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 189.
+ 1 APPPATH\Views\components\navbar.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 189)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(31): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:03:00 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 189.
+ 1 APPPATH\Views\components\navbar.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 189)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(31): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:03:16 --> Class "App\Models\AlbumsModel" not found
+in APPPATH\Models\DashboardModel.php on line 17.
+ 1 APPPATH\Controllers\AdminController.php(23): App\Models\DashboardModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:03:20 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 189.
+ 1 APPPATH\Views\components\navbar.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 189)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(31): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:03:21 --> Class "App\Models\AlbumsModel" not found
+in APPPATH\Models\DashboardModel.php on line 17.
+ 1 APPPATH\Controllers\AdminController.php(23): App\Models\DashboardModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:03:26 --> Class "App\Models\AlbumsModel" not found
+in APPPATH\Models\DashboardModel.php on line 17.
+ 1 APPPATH\Controllers\AdminController.php(23): App\Models\DashboardModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:08:14 --> Undefined variable $gender
+in APPPATH\Views\pages\admin\edit_profile.php on line 60.
+ 1 APPPATH\Views\pages\admin\edit_profile.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gender', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\edit_profile.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\edit_profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/edit_profile', [], true)
+ 5 APPPATH\Controllers\AdminController.php(86): view('pages/admin/edit_profile')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 08:08:44 --> Undefined variable $dob
+in APPPATH\Views\pages\admin\edit_profile.php on line 76.
+ 1 APPPATH\Views\pages\admin\edit_profile.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dob', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\edit_profile.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\edit_profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/edit_profile', [], true)
+ 5 APPPATH\Controllers\AdminController.php(87): view('pages/admin/edit_profile')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()

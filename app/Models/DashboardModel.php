@@ -8,13 +8,13 @@ class DashboardModel extends Model
 {
     protected $usersModel;
     protected $userSubscriptionModel;
-    protected $albumsModel;
+    protected $albumsListModel;
 
     public function __construct()
     {
         parent::__construct();
         $this->usersModel = new UsersModel();
-        $this->albumsModel = new AlbumsModel();
+        $this->albumsListModel = new AlbumsListModel();
         $this->userSubscriptionModel = new UserSubscriptionModel();
     }
 
@@ -36,6 +36,6 @@ class DashboardModel extends Model
 
     public function getTotalAlbums()
     {
-        return $this->albumsModel->countAll();
+        return $this->albumsListModel->countAll();
     }
 }

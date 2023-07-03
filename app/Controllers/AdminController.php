@@ -80,7 +80,9 @@ class AdminController extends Controller
             $data['username'] = $dataUser['username'];
             $data['nickname'] = $dataUser['nickname'];
             $data['email'] = $dataUser['email'];
+            $data['gender'] = $dataUser['gender'];
             $dob = $dataUser['date_of_birth'];
+            $data['dob'] = $dataUser['date_of_birth'];
             $data['formattedDate'] = date('F j, Y', strtotime($dob));   
         return  view('components/navbar',$data) .
                 view('pages/admin/edit_profile') .
