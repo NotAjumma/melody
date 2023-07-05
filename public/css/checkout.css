@@ -97,6 +97,12 @@
   border-radius: 0.3rem;
 }
 
+.add-info-top-layer-checkout {
+  margin-top: 0.5rem;
+  border: 1px solid grey;
+  border-radius: 0.3rem;
+}
+
 .top-payment-details {
   display: flex;
   justify-content: space-between;

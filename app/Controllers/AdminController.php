@@ -28,6 +28,8 @@ class AdminController extends Controller
         $data['totalSub'] = $dashboardModel->getTotalSubscriptions();
         $data['totalSale'] = $dashboardModel->getTotalAmount();
         $data['totalAlbums'] = $dashboardModel->getTotalAlbums();
+        // $data['topAlbums'] = $dashboardModel->getTopPurchasedAlbums();
+        print_r($data['totalAlbums']);
             $data['username'] = $dataUser['username'];
             $data['nickname'] = $dataUser['nickname'];
             $data['email'] = $dataUser['email'];
@@ -60,13 +62,26 @@ class AdminController extends Controller
         $username = $session->get('username'); 
         // Create an instance of the UsersModel
         $usersModel = new UsersModel();
+        $userSubscriptionModel = new UserSubscriptionModel();
         $data['title'] = 'User List'; 
         $dataUser = $usersModel->getUserByUsername($username);
+        $data['users'] = $userSubscriptionModel->getSubscriptions();
+        // $data['users'] = $userSubscriptionModel->getUsersWithoutSubscription();
+        print_r($data['users']);
+
+        foreach ($data['users'] as &$user) {
+            if (!isset($user['sub_name'])) {
+                $user['sub_name'] = "Free Plan";
+            }
+            if (!isset($user['ended_date'])) {
+                $user['ended_date'] = "-";
+            }
+        }
         $data['username'] = $dataUser['username'];
         $data['nickname'] = $dataUser['nickname'];
-        $data['users'] = $usersModel->where('role_id !=', 1)->findAll();
+        // $data['users'] = $usersModel->where('role_id !=', 1)->findAll();
         return  view('components/navbar',$data) .
-                view('pages/admin/user-list') .
+                view('pages/admin/user-list',$data) .
                 view('components/footer.php');
     }
     public function editProfile()

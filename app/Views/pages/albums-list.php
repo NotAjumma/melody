@@ -1,8 +1,9 @@
+ <html>
  <link rel="stylesheet" href="<?= base_url('css/albums.css') ?>" />
  <link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
 <script src="<?= base_url('js/navbar.js') ?>"></script>
 
-
+<body>
     <div class="background-albums-list">
       <div class="top-header-albums">
         <div>
@@ -13,7 +14,7 @@
                 <div>(<span id="total-cart-items"></span>)
                 </div>
             </div>
-            <a href="<?= base_url('check-login-status/checkoutAlbums') ?>" style="color: #ffffff; text-decoration: none;">
+            <a id="checkout-a" href="<?= base_url('check-login-status/checkoutAlbums') ?>" style="color: #ffffff; text-decoration: none;">
             <div class="checkout-button button-text" id="checkout-button">Checkout</div>
             </a>
         </div>
@@ -38,7 +39,7 @@
             <div class="description small-text">
                 <?php echo $hipHopAlbum['descriptions'] ?>
             </div>
-            <button class="cart-button" data-id="<?php echo $hipHopAlbum['id']; ?>"
+            <button id="addCartButton" class="cart-button" data-id="<?php echo $hipHopAlbum['id']; ?>"
                 data-title="<?php echo $hipHopAlbum['album_title']; ?>"
                 data-artist="<?php echo $hipHopAlbum['artist']; ?>"
                 data-genre="<?php echo $hipHopAlbum['genre']; ?>"
@@ -46,8 +47,7 @@
                 data-description="<?php echo $hipHopAlbum['descriptions']; ?>"
                 data-cover="<?php echo $hipHopAlbum['album_cover']; ?>"
 
-            >
-                Add to Cart
+            >Add to Cart
             </button>
         </div>
         <?php } ?>
@@ -71,7 +71,7 @@
             <div class="description small-text">
                 <?php echo $rockAlbum['descriptions'] ?>
             </div>
-            <button class="cart-button" data-id="<?php echo $rockAlbum['id']; ?>"
+            <button type="button" id="addCartButton" class="cart-button" data-id="<?php echo $rockAlbum['id']; ?>"
                 data-title="<?php echo $rockAlbum['album_title']; ?>"
                 data-artist="<?php echo $rockAlbum['artist']; ?>"
                 data-genre="<?php echo $rockAlbum['genre']; ?>"
@@ -94,8 +94,23 @@
 
 
     </div>
-
+    </body>
+</html>
 <script>
+// console.log('JavaScript code is executing');
+
+// const addCartButtonElement = document.getElementById('addCartButton');
+// // let isAddedToCart = false;
+// addCartButtonElement.addEventListener('click', () => {
+//     console.log('clicked');
+//     // isAddedToCart = !isAddedToCart; // toggle the value of isAddedToCart
+//     // console.log('isAddedToCart:', isAddedToCart);
+// });
+
+
+
+
+
     function checkoutButton(baseurl, path) {
     // Change the URL path based on the provided parameter
     var url = baseurl + path;
@@ -163,6 +178,40 @@ cartButtons.forEach(button => {
     });
 });
 
+var cartLength = cartItems.length;
+var checkoutButtonCs = document.getElementById('checkout-a');
+
+// Function to update the checkout button based on cart length
+function updateCheckoutButton() {
+    if (cartLength === 0) {
+        checkoutButtonCs.style.pointerEvents = 'none';
+        checkoutButtonCs.style.opacity = '0.5';
+        checkoutButtonCs.style.cursor = 'not-allowed';
+    } else {
+        checkoutButtonCs.style.pointerEvents = 'auto';
+        checkoutButtonCs.style.opacity = '1';
+        checkoutButtonCs.style.cursor = 'pointer';
+    }
+}
+
+// Initial update of checkout button
+updateCheckoutButton();
+
+// Function to check for changes in cart length
+function checkCartLength() {
+    var newCartLength = cartItems.length;
+    // console.log(cartItems.length);
+    // console.log("check");
+    if (newCartLength !== cartLength) {
+        cartLength = newCartLength;
+        updateCheckoutButton();
+    }
+}
+
+// Check for changes every second (1000 milliseconds)
+setInterval(checkCartLength, 1);
+
+    
     
 
 

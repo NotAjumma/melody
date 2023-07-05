@@ -1153,3 +1153,1840 @@ in APPPATH\Views\pages\admin\user-list.php on line 41.
  7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:29:10 --> Call to undefined function getDiscountPercentage()
+in APPPATH\Views\pages\checkout-albums.php on line 146.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 4 APPPATH\Controllers\LoginController.php(258): view('pages/checkout-albums')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:42:41 --> Undefined variable $cardModel
+in APPPATH\Controllers\LoginController.php on line 257.
+ 1 APPPATH\Controllers\LoginController.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 257)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:45:42 --> Undefined array key "name"
+in APPPATH\Controllers\LoginController.php on line 271.
+ 1 APPPATH\Controllers\LoginController.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 271)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:46:49 --> Undefined array key "username"
+in APPPATH\Controllers\LoginController.php on line 271.
+ 1 APPPATH\Controllers\LoginController.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 271)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:47:20 --> Undefined array key "nameCard"
+in APPPATH\Controllers\LoginController.php on line 272.
+ 1 APPPATH\Controllers\LoginController.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nameCard"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 272)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:47:33 --> Undefined array key "name"
+in APPPATH\Controllers\LoginController.php on line 272.
+ 1 APPPATH\Controllers\LoginController.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 272)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:49:30 --> Undefined variable $data
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 APPPATH\Views\pages\checkout-albums.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 107)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 5 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:49:59 --> Array to string conversion
+in APPPATH\Views\pages\checkout-albums.php on line 106.
+ 1 APPPATH\Views\pages\checkout-albums.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 106)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 5 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:51:32 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:51:46 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:51:47 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:51:48 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:51:58 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:52:36 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:52:41 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:52:50 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:53:25 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:53:34 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:53:35 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:54:03 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:54:09 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:54:17 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:54:19 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\pages\checkout-albums.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 09:54:52 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\pages\checkout-albums.php on line 109.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 3 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 11:37:24 --> Cannot redeclare App\Controllers\UserController::savedPaymentCard()
+in APPPATH\Controllers\UserController.php on line 429.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-03 11:37:30 --> Cannot redeclare App\Controllers\UserController::savedPaymentCard()
+in APPPATH\Controllers\UserController.php on line 429.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-03 11:37:43 --> Cannot redeclare App\Controllers\UserController::savedPaymentCard()
+in APPPATH\Controllers\UserController.php on line 429.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-03 12:39:22 --> Undefined variable $card
+in APPPATH\Views\pages\checkout-albums.php on line 68.
+ 1 APPPATH\Views\pages\checkout-albums.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $card', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\checkout-albums.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/checkout-albums', [], true)
+ 5 APPPATH\Controllers\LoginController.php(276): view('pages/checkout-albums')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->albumCheckout()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 12:44:15 --> Undefined variable $cartItems
+in APPPATH\Views\pages\albums-list.php on line 16.
+ 1 APPPATH\Views\pages\albums-list.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cartItems', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\albums-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/albums-list', [], true)
+ 5 APPPATH\Controllers\UserController.php(449): view('pages/albums-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumsList()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:05:55 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 192.
+ 1 APPPATH\Views\components\navbar.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(31): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:14:39 --> mysqli_sql_exception: Unknown column 'subscriptions.sub_id' in 'on clause' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subscri...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subscri...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subscri...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subscri...', Array, false)
+#4 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#6 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#7 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-03 17:14:39 --> Unknown column 'subscriptions.sub_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`', [], false)
+ 5 APPPATH\Models\UserSubscriptionModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:14:46 --> mysqli_sql_exception: Unknown column 'subscriptions.sub_id' in 'on clause' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subscri...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subscri...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subscri...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subscri...', Array, false)
+#4 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#6 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#7 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-03 17:14:46 --> Unknown column 'subscriptions.sub_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`', [], false)
+ 5 APPPATH\Models\UserSubscriptionModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:15:25 --> mysqli_sql_exception: Unknown column 'subscriptions.sub_id' in 'on clause' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subscri...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subscri...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subscri...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subscri...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(24): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#7 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 17:15:25 --> Unknown column 'subscriptions.sub_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`', [], false)
+ 5 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\UserSubscriptionModel.php(24): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:15:33 --> mysqli_sql_exception: Unknown column 'subscriptions.sub_id' in 'on clause' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subscri...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subscri...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subscri...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subscri...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(24): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#7 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 17:15:33 --> Unknown column 'subscriptions.sub_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subscriptions`.`sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`', [], false)
+ 5 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\UserSubscriptionModel.php(24): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:16:31 --> Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 67.
+ 1 APPPATH\Controllers\AdminController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:19:19 --> mysqli_sql_exception: Unknown table 'melodydb.usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersub...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersub...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersub...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersub...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:19:19 --> Unknown table 'melodydb.usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersubscription`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE `role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersubscription`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE `role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersubscription`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE `role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersubscription`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE `role_id` != :role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:21:39 --> mysqli_sql_exception: Not unique table/alias: 'users' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersub...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersub...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersub...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersub...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:21:39 --> Not unique table/alias: 'users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersubscription`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersubscription`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersubscription`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersubscription`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(26): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:21:49 --> Call to a member function getResult() on array
+in APPPATH\Models\UserSubscriptionModel.php on line 30.
+ 1 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:22:00 --> Call to a member function getResult() on array
+in APPPATH\Models\UserSubscriptionModel.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:23:25 --> Call to a member function getResult() on array
+in APPPATH\Models\UserSubscriptionModel.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:23:57 --> mysqli_sql_exception: Not unique table/alias: 'users' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersub...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersub...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersub...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersub...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(27): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:23:57 --> Not unique table/alias: 'users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersubscription`.*, `users`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersubscription`.*, `users`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersubscription`.*, `users`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersubscription`.*, `users`.*, `subscriptions`.`sub_name`
+FROM `users`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(27): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:25:07 --> Undefined variable $users
+in APPPATH\Views\pages\admin\user-list.php on line 42.
+ 1 APPPATH\Views\pages\admin\user-list.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\user-list.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\user-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/user-list', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('pages/admin/user-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:25:20 --> Undefined array key "userSubs"
+in APPPATH\Controllers\AdminController.php on line 67.
+ 1 APPPATH\Controllers\AdminController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userSubs"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:25:31 --> Undefined array key "userSubs"
+in APPPATH\Controllers\AdminController.php on line 67.
+ 1 APPPATH\Controllers\AdminController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userSubs"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:25:32 --> Undefined array key "userSubs"
+in APPPATH\Controllers\AdminController.php on line 67.
+ 1 APPPATH\Controllers\AdminController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userSubs"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:25:40 --> Undefined variable $users
+in APPPATH\Views\pages\admin\user-list.php on line 42.
+ 1 APPPATH\Views\pages\admin\user-list.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\user-list.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\user-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/user-list', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('pages/admin/user-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:28:25 --> mysqli_sql_exception: Unknown column 'CASE WHEN subscriptions.sub_name IS NULL THEN "Free Plan" ELSE subscriptions.sub_name END' in 'field list' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersub...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersub...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersub...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersub...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:28:25 --> Unknown column 'CASE WHEN subscriptions.sub_name IS NULL THEN "Free Plan" ELSE subscriptions.sub_name END' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN subscriptions`.`sub_name IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN subscriptions`.`sub_name IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN subscriptions`.`sub_name IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN subscriptions`.`sub_name IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:28:34 --> mysqli_sql_exception: Unknown column 'CASE WHEN subscriptions.sub_name IS NULL THEN "Free Plan" ELSE subscriptions.sub_name END' in 'field list' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersub...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersub...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersub...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersub...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:28:34 --> Unknown column 'CASE WHEN subscriptions.sub_name IS NULL THEN "Free Plan" ELSE subscriptions.sub_name END' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN subscriptions`.`sub_name IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN subscriptions`.`sub_name IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN subscriptions`.`sub_name IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN subscriptions`.`sub_name IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:30:24 --> mysqli_sql_exception: Unknown column 'CASE WHEN usersubscription.username IS NULL THEN "Free Plan" ELSE subscriptions.sub_name END' in 'field list' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersub...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersub...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersub...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersub...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:30:24 --> Unknown column 'CASE WHEN usersubscription.username IS NULL THEN "Free Plan" ELSE subscriptions.sub_name END' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN usersubscription`.`username IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN usersubscription`.`username IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN usersubscription`.`username IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersubscription`.*, `users`.`username`, `CASE WHEN usersubscription`.`username IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:30:29 --> mysqli_sql_exception: Unknown column 'CASE WHEN usersubscription.username IS NULL THEN "Free Plan" ELSE subscriptions.sub_name END' in 'field list' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersub...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersub...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersub...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersub...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:30:29 --> Unknown column 'CASE WHEN usersubscription.username IS NULL THEN "Free Plan" ELSE subscriptions.sub_name END' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usersubscription`.*, `users`.*, `CASE WHEN usersubscription`.`username IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usersubscription`.*, `users`.*, `CASE WHEN usersubscription`.`username IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usersubscription`.*, `users`.*, `CASE WHEN usersubscription`.`username IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usersubscription`.*, `users`.*, `CASE WHEN usersubscription`.`username IS NULL THEN "Free Plan" ELSE subscriptions`.`sub_name END` AS `sub_name`
+FROM `usersubscription`
+JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+WHERE `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:33:45 --> Call to undefined method App\Models\UserSubscriptionModel::leftJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\UserSubscriptionModel.php(23): CodeIgniter\Model->__call('leftJoin', [...])
+ 2 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:37:27 --> Undefined array key "nickname"
+in APPPATH\Views\pages\admin\user-list.php on line 46.
+ 1 APPPATH\Views\pages\admin\user-list.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nickname"', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\user-list.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\user-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/user-list', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('pages/admin/user-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:38:24 --> mysqli_sql_exception: Unknown column 'subscriptions.sub_name' in 'field list' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT usersubs...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usersubs...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usersubs...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT usersubs...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:38:24 --> Unknown column 'subscriptions.sub_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`
+WHERE `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`
+WHERE `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`
+WHERE `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON `subscriptions`.`sub_id` = `usersubscription`.`sub_id`
+WHERE `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:38:52 --> mysqli_sql_exception: Unknown column 'subscriptions.sub_name' in 'field list' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT usersubs...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usersubs...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usersubs...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT usersubs...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:38:52 --> Unknown column 'subscriptions.sub_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:39:30 --> mysqli_sql_exception: Unknown column 'subscriptions.sub_name' in 'field list' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT usersubs...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usersubs...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usersubs...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT usersubs...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:39:30 --> Unknown column 'subscriptions.sub_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT usersubscription.*, users.*, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usersubscription.*, users.*, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usersubscription.*, users.*, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT usersubscription.*, users.*, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:40:21 --> mysqli_sql_exception: Unknown column 'subscriptions.sub_name' in 'field list' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT usersubs...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usersubs...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usersubs...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT usersubs...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:40:21 --> Unknown column 'subscriptions.sub_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT usersubscription.*, users.username, 
+        IF(usersubscription.sub_id IS NULL, "Free Plan", subscriptions.sub_name) AS sub_name
+FROM `usersubscription`
+LEFT JOIN `users` ON `users`.`username` = `usersubscription`.`username`
+LEFT JOIN (SELECT DISTINCT sub_id FROM usersubscription) AS subscriptions ON subscriptions.sub_id = usersubscription.sub_id
+WHERE `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:41:06 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:41:06 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:42:56 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:42:56 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:43:02 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:43:03 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:43:19 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:43:19 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:43:41 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:43:41 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`id` IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`id` IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`id` IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`id` IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:44:21 --> mysqli_sql_exception: Unknown table 'melodydb.users' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:44:21 --> Unknown table 'melodydb.users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+WHERE `usersubscription`.`id` IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+WHERE `usersubscription`.`id` IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+WHERE `usersubscription`.`id` IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+WHERE `usersubscription`.`id` IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:45:13 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:45:13 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:45:18 --> mysqli_sql_exception: Unknown table 'melodydb.users' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:45:18 --> Unknown table 'melodydb.users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:45:59 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:45:59 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE usersubscription.id IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(31): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:46:25 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:46:25 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE usersubscription.username IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE usersubscription.username IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE usersubscription.username IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+LEFT JOIN `subscriptions` ON `subscriptions`.`id` = `usersubscription`.`sub_id`
+WHERE usersubscription.username IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(31): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:47:36 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:47:36 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE usersubscription.username IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE usersubscription.username IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE usersubscription.username IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, "Free Plan" AS `sub_name`
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE usersubscription.username IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:48:59 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:48:59 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:49:12 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:49:12 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `usersubscription`.`username` = `users`.`username`
+WHERE `usersubscription`.`username` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:52:44 --> mysqli_sql_exception: Not unique table/alias: 'usersubscription' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:52:44 --> Not unique table/alias: 'usersubscription'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `users`.`username` = `usersubscription`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `users`.`username` = `usersubscription`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `users`.`username` = `usersubscription`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*
+FROM `usersubscription`
+LEFT JOIN `usersubscription` ON `users`.`username` = `usersubscription`.`username`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:53:15 --> mysqli_sql_exception: Unknown table 'melodydb.users' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:53:15 --> Unknown table 'melodydb.users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*
+FROM `usersubscription`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*
+FROM `usersubscription`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*
+FROM `usersubscription`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*
+FROM `usersubscription`
+WHERE `usersubscription`.`username` IS NULL
+AND `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:53:25 --> mysqli_sql_exception: Unknown table 'melodydb.users' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:53:25 --> Unknown table 'melodydb.users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`.*
+FROM `usersubscription`
+WHERE `users`.`role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*
+FROM `usersubscription`
+WHERE `users`.`role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*
+FROM `usersubscription`
+WHERE `users`.`role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*
+FROM `usersubscription`
+WHERE `users`.`role_id` != :users.role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:55:27 --> You cannot use "getCompiledSelect()" in "App\Models\UserSubscriptionModel". This is a method of the Query Builder Class.
+in SYSTEMPATH\Model.php on line 858.
+ 1 SYSTEMPATH\Model.php(858): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable('App\\Models\\UserSubscriptionModel', 'getCompiledSelect()')
+ 2 SYSTEMPATH\Model.php(838): CodeIgniter\Model->checkBuilderMethod('getCompiledSelect')
+ 3 APPPATH\Models\UserSubscriptionModel.php(28): CodeIgniter\Model->__call('getCompiledSelect', [])
+ 4 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:55:41 --> You cannot use "getCompiledSelect()" in "App\Models\UserSubscriptionModel". This is a method of the Query Builder Class.
+in SYSTEMPATH\Model.php on line 858.
+ 1 SYSTEMPATH\Model.php(858): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable('App\\Models\\UserSubscriptionModel', 'getCompiledSelect()')
+ 2 SYSTEMPATH\Model.php(838): CodeIgniter\Model->checkBuilderMethod('getCompiledSelect')
+ 3 APPPATH\Models\UserSubscriptionModel.php(28): CodeIgniter\Model->__call('getCompiledSelect', [])
+ 4 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:56:29 --> You cannot use "getCompiledSelect()" in "App\Models\UserSubscriptionModel". This is a method of the Query Builder Class.
+in SYSTEMPATH\Model.php on line 858.
+ 1 SYSTEMPATH\Model.php(858): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable('App\\Models\\UserSubscriptionModel', 'getCompiledSelect()')
+ 2 SYSTEMPATH\Model.php(838): CodeIgniter\Model->checkBuilderMethod('getCompiledSelect')
+ 3 APPPATH\Models\UserSubscriptionModel.php(28): CodeIgniter\Model->__call('getCompiledSelect', [])
+ 4 APPPATH\Controllers\AdminController.php(66): App\Models\UserSubscriptionModel->getSubscriptions()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:57:18 --> You cannot use "getCompiledSelect()" in "App\Models\UserSubscriptionModel". This is a method of the Query Builder Class.
+in SYSTEMPATH\Model.php on line 858.
+ 1 SYSTEMPATH\Model.php(858): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable('App\\Models\\UserSubscriptionModel', 'getCompiledSelect()')
+ 2 SYSTEMPATH\Model.php(838): CodeIgniter\Model->checkBuilderMethod('getCompiledSelect')
+ 3 APPPATH\Models\UserSubscriptionModel.php(38): CodeIgniter\Model->__call('getCompiledSelect', [])
+ 4 APPPATH\Controllers\AdminController.php(67): App\Models\UserSubscriptionModel->getUsersWithoutSubscription()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:58:11 --> mysqli_sql_exception: Unknown column 'role_id' in 'where clause' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(40): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(67): App\Models\UserSubscriptionModel->getUsersWithoutSubscription()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:58:11 --> Unknown column 'role_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `usersubscription`
+WHERE `role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usersubscription`
+WHERE `role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usersubscription`
+WHERE `role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usersubscription`
+WHERE `role_id` != :role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(40): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(67): App\Models\UserSubscriptionModel->getUsersWithoutSubscription()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:58:30 --> mysqli_sql_exception: Unknown column 'users' in 'field list' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`\n...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`\n...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`\n...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`\n...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(40): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(67): App\Models\UserSubscriptionModel->getUsersWithoutSubscription()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:58:30 --> Unknown column 'users' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `users`
+FROM `usersubscription`
+WHERE `role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`
+FROM `usersubscription`
+WHERE `role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`
+FROM `usersubscription`
+WHERE `role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `users`
+FROM `usersubscription`
+WHERE `role_id` != :role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(40): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(67): App\Models\UserSubscriptionModel->getUsersWithoutSubscription()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 17:59:11 --> mysqli_sql_exception: Unknown column 'role_id' in 'where clause' in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\melody\app\Models\UserSubscriptionModel.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(67): App\Models\UserSubscriptionModel->getUsersWithoutSubscription()
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 17:59:11 --> Unknown column 'role_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `usersubscription`
+WHERE `role_id` != 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usersubscription`
+WHERE `role_id` != 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usersubscription`
+WHERE `role_id` != 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usersubscription`
+WHERE `role_id` != :role_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserSubscriptionModel.php(39): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminController.php(67): App\Models\UserSubscriptionModel->getUsersWithoutSubscription()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()

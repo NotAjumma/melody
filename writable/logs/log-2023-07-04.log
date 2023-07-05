@@ -1,0 +1,508 @@
+CRITICAL - 2023-07-04 17:52:33 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AdminController.php on line 127.
+ 1 APPPATH\Controllers\AdminController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->singleUser('profile')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 17:54:27 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AdminController.php on line 127.
+ 1 APPPATH\Controllers\AdminController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->singleUser('profile')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:04:02 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:04:21 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:04:28 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:05:16 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:05:35 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:05:42 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:05:46 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:06:11 --> Undefined variable $userAlbumsModel
+in APPPATH\Controllers\UserController.php on line 478.
+ 1 APPPATH\Controllers\UserController.php(478): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 478)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:06:16 --> Undefined variable $userAlbumsModel
+in APPPATH\Controllers\UserController.php on line 478.
+ 1 APPPATH\Controllers\UserController.php(478): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 478)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:06:26 --> syntax error, unexpected token "\"
+in APPPATH\Controllers\UserController.php on line 477.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:06:32 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 475.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:06:44 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:06:49 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:07:19 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:07:24 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:07:28 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:07:33 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:07:46 --> Class "App\Models\UserAlbumsModel" not found
+in APPPATH\Controllers\UserController.php on line 476.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:08:57 --> Undefined variable $userAlbumsModel
+in APPPATH\Controllers\UserController.php on line 478.
+ 1 APPPATH\Controllers\UserController.php(478): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 478)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:09:06 --> Too few arguments to function App\Models\UserAlbumsListModel::storeAlbums(), 0 passed in C:\xampp\htdocs\melody\app\Controllers\UserController.php on line 478 and exactly 3 expected
+in APPPATH\Models\UserAlbumsListModel.php on line 16.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:09:08 --> Too few arguments to function App\Models\UserAlbumsListModel::storeAlbums(), 0 passed in C:\xampp\htdocs\melody\app\Controllers\UserController.php on line 478 and exactly 3 expected
+in APPPATH\Models\UserAlbumsListModel.php on line 16.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:09:16 --> Too few arguments to function App\Models\UserAlbumsListModel::storeAlbums(), 0 passed in C:\xampp\htdocs\melody\app\Controllers\UserController.php on line 478 and exactly 3 expected
+in APPPATH\Models\UserAlbumsListModel.php on line 16.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:11:06 --> Class "App\Models\AlbumDetailsModel" not found
+in APPPATH\Models\UserAlbumsListModel.php on line 30.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:12:02 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\melody\\system\\Database\\MySQLi\\Connection.php', 577)
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Models\UserAlbumsListModel.php(27): CodeIgniter\Model->__call('insertID', [])
+ 4 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:12:12 --> Class "App\Models\AlbumDetailsModel" not found
+in APPPATH\Models\UserAlbumsListModel.php on line 31.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:12:46 --> Class "App\Models\UserAlbumsDetailsModel" not found
+in APPPATH\Models\UserAlbumsListModel.php on line 31.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:13:35 --> Class "App\Models\UserAlbumsDetailsModel" not found
+in APPPATH\Models\UserAlbumsListModel.php on line 31.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:13:56 --> Class "App\Models\UserAlbumsDetailsModel" not found
+in APPPATH\Models\UserAlbumsListModel.php on line 33.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:14:00 --> Class "App\Models\UserAlbumsDetailsModel" not found
+in APPPATH\Models\UserAlbumsListModel.php on line 32.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:14:55 --> Class "App\Models\UserAlbumsDetailsModel" not found
+in APPPATH\Models\UserAlbumsListModel.php on line 34.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:15:06 --> Array to string conversion
+in APPPATH\Models\UserAlbumsListModel.php on line 41.
+ 1 APPPATH\Models\UserAlbumsListModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 41)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:15:35 --> Array to string conversion
+in APPPATH\Models\UserAlbumsListModel.php on line 41.
+ 1 APPPATH\Models\UserAlbumsListModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 41)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:15:49 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 42.
+ 1 APPPATH\Models\UserAlbumsListModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 42)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:15:58 --> Array to string conversion
+in APPPATH\Models\UserAlbumsListModel.php on line 41.
+ 1 APPPATH\Models\UserAlbumsListModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 41)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:16:18 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 42.
+ 1 APPPATH\Models\UserAlbumsListModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 42)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:16:27 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 42.
+ 1 APPPATH\Models\UserAlbumsListModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 42)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:16:38 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 42.
+ 1 APPPATH\Models\UserAlbumsListModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 42)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:16:58 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 42.
+ 1 APPPATH\Models\UserAlbumsListModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 42)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:17:09 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 42.
+ 1 APPPATH\Models\UserAlbumsListModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 42)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:17:28 --> Array to string conversion
+in APPPATH\Models\UserAlbumsListModel.php on line 21.
+ 1 APPPATH\Models\UserAlbumsListModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 21)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:17:33 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 43.
+ 1 APPPATH\Models\UserAlbumsListModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 43)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:17:46 --> Array to string conversion
+in APPPATH\Models\UserAlbumsListModel.php on line 36.
+ 1 APPPATH\Models\UserAlbumsListModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 36)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:17:58 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 44.
+ 1 APPPATH\Models\UserAlbumsListModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 44)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:18:07 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 44.
+ 1 APPPATH\Models\UserAlbumsListModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 44)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:18:16 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 44.
+ 1 APPPATH\Models\UserAlbumsListModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 44)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:18:20 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 44.
+ 1 APPPATH\Models\UserAlbumsListModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 44)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:19:17 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 46.
+ 1 APPPATH\Models\UserAlbumsListModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 46)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:20:14 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 47.
+ 1 APPPATH\Models\UserAlbumsListModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 47)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:20:28 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 47.
+ 1 APPPATH\Models\UserAlbumsListModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 47)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:21:43 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 47.
+ 1 APPPATH\Models\UserAlbumsListModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 47)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:22:06 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 48.
+ 1 APPPATH\Models\UserAlbumsListModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 48)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:22:23 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 47.
+ 1 APPPATH\Models\UserAlbumsListModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 47)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:23:21 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 47.
+ 1 APPPATH\Models\UserAlbumsListModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 47)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:23:56 --> Undefined variable $userAlbumsDetailsModel
+in APPPATH\Models\UserAlbumsListModel.php on line 47.
+ 1 APPPATH\Models\UserAlbumsListModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 47)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:24:16 --> Object of class App\Models\UserAlbumsDetailsListModel could not be converted to string
+in APPPATH\Models\UserAlbumsListModel.php on line 40.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:24:20 --> Object of class App\Models\UserAlbumsDetailsListModel could not be converted to string
+in APPPATH\Models\UserAlbumsListModel.php on line 38.
+ 1 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('ali', [...], '262.80')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:26:39 --> Invalid file: "pages/receipt.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/receipt.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(487): view('pages/receipt')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:27:04 --> Invalid file: "receipt.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('receipt.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(487): view('receipt')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:27:43 --> Undefined variable $data
+in APPPATH\Controllers\UserController.php on line 487.
+ 1 APPPATH\Controllers\UserController.php(487): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 487)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:28:12 --> Invalid file: "pages/receipt.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/receipt.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(489): view('pages/receipt', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:28:17 --> Invalid file: "pages/receipt.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/receipt.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(489): view('pages/receipt', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:28:33 --> Invalid file: "pages/receipt.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/receipt.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(489): view('pages/receipt')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:28:36 --> Invalid file: "pages/receipt.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/receipt.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(489): view('pages/receipt')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:28:43 --> Invalid file: "pages/receipt.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/receipt.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(489): view('pages/receipt')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:28:47 --> Invalid file: "pages/receipt.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/receipt.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(489): view('pages/receipt')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:29:11 --> Invalid file: "pages/receipt.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/receipt.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(487): view('pages/receipt')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()

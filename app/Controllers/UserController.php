@@ -7,6 +7,7 @@ use App\Models\UserSubscriptionModel;
 use App\Models\SubscriptionModel;
 use App\Models\CardModel;
 use App\Models\AlbumsListModel;
+use App\Models\UserAlbumsListModel;
 use CodeIgniter\Controller;
 
 class UserController extends Controller
@@ -357,6 +358,31 @@ class UserController extends Controller
         return  redirect()->to('saved-payment-cards');
     }
 
+    public function addCardCheckout(){
+
+        $session = session();
+        $username = $session->get('username'); 
+        $name = $this->request->getPost('name');
+        $card_number = $this->request->getPost('card_number');
+        $expiration = $this->request->getPost('expiration');
+        $security_code = $this->request->getPost('security_code');
+        $card_type = $this->request->getPost('card_type');
+
+        $cardModel = new CardModel();
+
+        $data = [
+            'username' => $username,
+            'name' => $name,
+            'card_number' => $card_number,
+            'expiration' => $expiration,
+            'security_code' => $security_code,
+            'card_type' => $card_type
+        ];
+
+        $cardId = $cardModel->addCard($data);
+        return  redirect()->to('checkout-albums-list');
+    }
+
     public function albumsList()
     {
         $session = session();
@@ -424,6 +450,44 @@ class UserController extends Controller
                     view('pages/albums-list',$data) .
                     view('components/footer.php');
         
+    }
+
+     public function addCardModal()
+    {
+        return view('pages/add-card') ;
+    }
+
+    public function albumCheckoutProcess(){
+        // Get the form inputs
+        $cartItems = $this->request->getPost('cartItems');
+
+        // Decode the cartItems JSON data
+        $cartItemsData = json_decode($cartItems, true);
+
+        // Display the received data
+        // var_dump($cartItemsData);
+
+        // $currentPassword = $this->request->getPost('cartItems');
+        $totalPay = $this->request->getPost('totalInput');
+        $cardId = $this->request->getPost('cardCheckoutInput');
+        $username = $this->request->getPost('username');
+        // echo "username ". $username;
+        // echo "cardId ". $cardId;
+        $userAlbumsListModel = new UserAlbumsListModel();
+        
+        $albumsID = $userAlbumsListModel->storeAlbums($username,$cartItemsData,$totalPay,$cardId);
+
+        // $usersModel = new UsersModel();
+        // echo "username ". $albumsID;
+
+
+        // $data['title'] = 'Receipt'; 
+        // Update the password in the database
+        // $user = $usersModel->where('username', $username)->first();
+                return  redirect()->to('receipt');
+
+
+       
     }
     
 }

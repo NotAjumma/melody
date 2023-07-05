@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Models\UsersModel;
 use App\Models\UserSubscriptionModel;
 use App\Models\SubscriptionModel;
+use App\Models\CardModel;
 use CodeIgniter\Controller;
 
 class LoginController extends Controller
@@ -231,9 +232,13 @@ class LoginController extends Controller
         $session = session();
         $username = $session->get('username'); 
         $usersModel = new UsersModel();
+        $cardModel = new CardModel();
         $userSubscriptionModel = new UserSubscriptionModel();
         $subscriptionModel = new SubscriptionModel();
         $dataUser = $usersModel->getUserByUsername($username);
+        $data['email'] = $dataUser['email'];
+        
+
         $dataUserSub = $userSubscriptionModel->getUserSubUsingUsername($username);
             
             if (!empty($dataUserSub)) {
@@ -251,7 +256,20 @@ class LoginController extends Controller
                 $data['sub_id'] = ''; // Set a default value if sub_id is not found
                 $data['sub_name'] = ''; // Set a default value if sub_name is not found
             }
+        $dataCard = $cardModel->getCardByUsername($username);
+        if (!empty($dataCard)) {
+            foreach ($dataCard as $card) {
+                // Process each card record
+                $card['lastFourDigit'] = $card['card_number'];
+                $card['name'] = $card['name'];
+                $data['cards'][] = $card;
+            }
+            $data['name'] = $dataCard[0]['card_number'];
+        } else {
+            $data['cards'] = []; // Set an empty array if no cards found
+        }
 
+        // print_r($data['cards']);
 
         $data['title'] = 'Checkout Albums'; 
         return  view('components/navbar',$data) .

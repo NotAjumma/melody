@@ -49,6 +49,11 @@ $routes->post('admin/submit-edit-profile', 'AdminController::updateSingleUser');
 $routes->get('admin/delete/(:segment)', 'AdminController::deleteUser/$1');
 
 
+$routes->post('submit-add-card-checkout', 'UserController::addCardCheckout');
+$routes->get('add-card', 'UserController::addCardModal');
+$routes->post('submit-checkout-albums-list', 'UserController::albumCheckoutProcess');
+
+
 
 //User
 // $routes->get('user/profile', 'UserCrud::profile');

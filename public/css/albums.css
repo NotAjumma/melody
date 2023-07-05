@@ -84,6 +84,16 @@
   padding: 0.5rem;
 }
 
+.cart-button.added {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.cart-button.added:hover {
+  background-color: #cc0000;
+  border-color: #cc0000;
+}
+
 .cart-button:hover {
   transform: scale(1.1);
 }
@@ -107,7 +117,6 @@
   padding: 0.5rem;
   border: 1px solid #fd951f;
   background-color: #fd951f;
-  cursor: pointer;
   border-radius: 3px;
   text-align: center;
   color: #ffffff;

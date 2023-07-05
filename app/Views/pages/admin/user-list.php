@@ -27,13 +27,14 @@
 <!-- edit here for profile page -->
 <div>
     <div class="table-container-user-list">
-      <table class="table-dashboard " id="users-list">
+      <!-- <table class="table-dashboard " id="users-list"> -->
+      <table class="table-dashboard ">
         <thead class="table-header-dashboard">
           <tr class="karla-regular-blod-small-text">
             <th class="header-data">Username</th>
             <th class="header-data">Nickname</th>
-            <th class="header-data">Email</th>
-            <th class="header-data">Gender</th>
+            <th class="header-data">Plan</th>
+            <th class="header-data">Ended Date</th>
             <th class="header-data">Action</th>
           </tr>
         </thead>
@@ -43,8 +44,9 @@
           <tr class="table-row-data karla-regular-small-text">
             <td class="table-data"><?php echo $user['username']; ?></td>
             <td class="table-data"><?php echo $user['nickname']; ?></td>
-            <td class="table-data"><?php echo $user['email']; ?></td>
-            <td class="table-data"><?php echo $user['gender']; ?></td>
+            <td class="table-data"><?php echo $user['sub_name']; ?></td>
+            <td class="table-data"><?php echo ($user['ended_date'] !== "-") ? date('M d, Y', strtotime($user['ended_date'])) : '-'; ?></td>
+
             <td class="table-data">
               <a href="<?php echo ('edit-view/'.$user['username']);?>" class="btn btn-primary btn-sm">Edit</a>
               <a href="<?php echo ('delete/'.$user['username']);?>" class="btn btn-danger btn-sm">Delete</a>

@@ -1,0 +1,197 @@
+CRITICAL - 2023-07-05 05:25:34 --> syntax error, unexpected single-quoted string "total_amount", expecting "]"
+in APPPATH\Models\UserAlbumsListModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAlbumsListModel')
+ 3 APPPATH\Controllers\UserController.php(476): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAlbumsListModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:26:42 --> foreach() argument must be of type array|object, null given
+in APPPATH\Models\UserAlbumsListModel.php on line 43.
+ 1 APPPATH\Models\UserAlbumsListModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 43)
+ 2 APPPATH\Controllers\UserController.php(478): App\Models\UserAlbumsListModel->storeAlbums('naim', null, '', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:39:11 --> Undefined variable $userAlbumsDetailsListModel
+in APPPATH\Models\DashboardModel.php on line 46.
+ 1 APPPATH\Models\DashboardModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsListModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\DashboardModel.php', 46)
+ 2 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:39:30 --> Undefined variable $userAlbumsDetailsListModel
+in APPPATH\Models\DashboardModel.php on line 47.
+ 1 APPPATH\Models\DashboardModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userAlbumsDetailsListModel', 'C:\\xampp\\htdocs\\melody\\app\\Models\\DashboardModel.php', 47)
+ 2 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:41:53 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 24.
+ 1 APPPATH\Controllers\AdminController.php(23): App\Models\DashboardModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:42:43 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 24.
+ 1 APPPATH\Controllers\AdminController.php(23): App\Models\DashboardModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:43:47 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 21.
+ 1 APPPATH\Controllers\AdminController.php(23): App\Models\DashboardModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:44:18 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 21.
+ 1 APPPATH\Controllers\AdminController.php(23): App\Models\DashboardModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:45:27 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 48.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:45:28 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 48.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:45:28 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 48.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:45:28 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 48.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:45:29 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 201.
+ 1 APPPATH\Views\components\navbar.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 201)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(32): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:45:30 --> Undefined variable $nickname
+in APPPATH\Views\components\navbar.php on line 201.
+ 1 APPPATH\Views\components\navbar.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nickname', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 201)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(32): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:45:32 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 48.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:45:32 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 48.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:45:45 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 48.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:46:05 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 49.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:46:29 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 49.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:46:29 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 49.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:46:29 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 49.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:46:30 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 49.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:46:33 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 49.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:46:55 --> syntax error, unexpected variable "$userAlbumsDetailsListModel"
+in APPPATH\Models\DashboardModel.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Models\\DashboardModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DashboardModel')
+ 3 APPPATH\Controllers\AdminController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DashboardModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 05:47:00 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 49.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 06:56:14 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 49.
+ 1 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()

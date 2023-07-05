@@ -30,6 +30,7 @@
   <div class="navbar collapse navbar-collapse" id="navbarSupportedContent">
     <?php $session = session();
     $username = $session->get('username'); 
+    $role_id = $session->get('role_id'); 
      
     ?>
     <div>
@@ -40,12 +41,15 @@
     </div>
     <div class="right-nav">
       <ul class="navbar-nav mr-auto">
+        <?php if($role_id != 1) {?>
         <li class="nav-item active">
           <a class="nav-link dropdown-toggle" href="<?= base_url('albums-list') ?>">Albums <span class="sr-only">(current)</span></a>
         </li>
+        
         <li class="nav-item active">
           <a class="nav-link dropdown-toggle" href="<?= base_url() ?>">Premium <span class="sr-only">(current)</span></a>
         </li>
+        <?php }?>
         <li class="nav-item ">
           <a class="nav-link dropdown-toggle" href="<?= base_url('about-us') ?>">About us</a>
         </li>
@@ -66,11 +70,19 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Profile
           </a>
+          <?php if ($role_id!==2){?>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="<?= base_url('admin/profile') ?>">Account</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="<?= base_url('logout') ?>">Log out</a>
+          </div>
+          <?php } else {?>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="<?= base_url('profile') ?>">Account</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="<?= base_url('logout') ?>">Log out</a>
           </div>
+          <?php } ?>
         </li>
         <?php } else {?>
         <li class="nav-item ">
