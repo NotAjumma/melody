@@ -22,10 +22,10 @@
         <div class="top-inside-header">
           <div class="first-top">
             <div>
-              <div class="small-double-extrabold-text">Monthly Premium</div>
+              <div class="small-double-extrabold-text">Yearly Premium</div>
             </div>
             <div class="right-top-details">
-              <div class="free-text">1 months</div>
+              <div class="free-text">1 year</div>
             </div>
           </div>
           <div class="sec-top">
@@ -33,26 +33,27 @@
               <div class="small-text">1 Premium Account</div>
             </div>
             <div class="right-top-details">
-              <div class="small-text">For RM14.90</div>
+              <div class="small-text">For RM130.90</div>
             </div>
           </div>
         </div>
         <div class="bottom-inside-header">
           <?php $currentDate = date('Y-m-d'); 
-          $startDate = $currentDate;
-          $duration = 1; // Replace with the actual duration in months
+        $startDate = $currentDate;
+        $duration = 1; // Replace with the actual duration in years
 
-          // Create a DateTime object for the start date
-          $startDateTime = new DateTime($startDate);
+        // Create a DateTime object for the start date
+        $startDateTime = new DateTime($startDate);
 
-          // Add the duration to the start date
-          $endDateTime = clone $startDateTime;
-          $endDateTime->modify('+' . $duration . ' months');
+        // Add the duration to the start date
+        $endDateTime = clone $startDateTime;
+        $endDateTime->modify('+' . $duration . ' years');
 
-          // Get the end date in the desired format (e.g., 'Y-m-d')
-          $endDate = $endDateTime->format('Y-m-d');
+        // Get the end date in the desired format (e.g., 'Y-m-d')
+        $endDate = $endDateTime->format('Y-m-d');
 
-          $endDateWord = $endDateTime->format('d M Y');
+        $endDateWord = $endDateTime->format('d M Y');
+
 
           // Output the end date
           // echo $endDate; 
@@ -63,14 +64,14 @@
               <!-- <div>Start <span><?php echo $endDateWord ?></span></div> -->
             </div>
             <div class="right-top-details">
-              <div>RM14.90 for 1 months</div>
+              <div>RM130.90 for 1 year</div>
               <!-- <div>RM14.90 / month</div> -->
             </div>
           </div>
           <div class="bullet-details">
             <ul class="ul-bullet-details extrasmall-bold-text">
               <li class="billing-detail">
-                Normal price is RM14.90 / month
+                Normal price is RM130.90 / month
               </li>
               <li class="billing-detail">
                 You will next be billed on <span><?php echo $endDateWord ?></span>
@@ -94,10 +95,10 @@
   <div class="" style="width:30%; margin: 0 auto;">
     <?php  if (!empty($cards)){ ?>
       <form method="post" id="checkout" name="checkout" action="submit-checkout" style="min-height:100vh;">
-      <input type="hidden" name="sub_id" value="1" />
+      <input type="hidden" name="sub_id" value="2" />
       <input type="hidden" name="username" value="<?php echo $username ?>" />
-      <input type="hidden" name="total_amount" value="14.90" />
-      <input type="hidden" name="total_duration" value="1" />
+      <input type="hidden" name="total_amount" value="130.90" />
+      <input type="hidden" name="total_duration" value="12" />
       <input type="hidden" name="started_date" value="<?php echo $startDate ?>" />
       <input type="hidden" name="ended_date" value="<?php echo $endDate ?>" />
             <div class="card-container-input">
@@ -149,7 +150,7 @@
                   </div>
                 </div>
               </div>
-           <form method="post" id="add-card" name="add-card" action="submit-add-card-checkout1m">
+           <form method="post" id="add-card" name="add-card" action="submit-add-card-checkout1y">
         <div class="add-info-top-layer-checkout" id="add-card-container" style="display:none;"> 
   
   

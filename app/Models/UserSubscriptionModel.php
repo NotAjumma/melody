@@ -93,7 +93,12 @@ public function getSubscriptionsByUsername($username)
     return $uniqueData;
 }
 
-
+public function deleteSubscriptionByUsernameAndId($username, $usersubscriptionId)
+{
+    return $this->where('username', $username)
+                ->where('id', $usersubscriptionId)
+                ->delete();
+}
 
 
 

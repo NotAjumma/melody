@@ -87,7 +87,12 @@
                    ?>
                   </div>
                 </div>
-                <div class="cancel-premium-button button-bold-text">Cancel Premium</div>
+                  <div class="cancelbuttonid" data-usersubscription-id="<?= $userSubId ?>"> 
+                <a href="<?php echo ('userSubscription-delete/'.$userSubId) ?>" class="cancel-premium-button button-bold-text" data-usersubscription-id="<?= $userSubId ?>" >Cancel Premium</a>
+                <!-- <div class="member-container karla-half-medium-small-text">
+                  You're a member of a Custom plan.
+                </div> -->
+                </div>
                 <!-- <div class="member-container karla-half-medium-small-text">
                   You're a member of a Custom plan.
                 </div> -->
@@ -127,10 +132,13 @@
                    ?>
                   </div>
                 </div>
-                <div class="cancel-premium-button button-bold-text">Cancel Premium</div>
-                <!-- <div class="member-container karla-half-medium-small-text">
-                  You're a member of a Custom plan.
-                </div> -->
+                
+                  <div class="cancelbuttonid" data-usersubscription-id="<?= $userSubId ?>"> 
+                  <a href="<?php echo ('userSubscription-delete/'.$userSubId) ?>" class="cancel-yearly-button button-bold-text" data-usersubscription-id="<?= $userSubId ?>" >Cancel Premium</a>
+                  <!-- <div class="member-container karla-half-medium-small-text">
+                    You're a member of a Custom plan.
+                  </div> -->
+                  </div>
               </div>
               </div>
               <?php }  else  {?>
@@ -161,6 +169,34 @@
         </div>
 
 </div>
+
+<script>
+    var baseUrl = "<?php echo base_url(); ?>"; // Add this line to set the base URL
+    
+    function deleteplan(element) {
+        var usersubscriptionId = element.getAttribute('data-usersubscription-id');
+        var usersubscriptionContainer = element.closest('.cancelbuttonid');
+        var url = baseUrl + '/userSubscription-delete/' + usersubscriptionId; // Use the base URL here
+        console.log(url);
+        // Make an AJAX request to delete the usersubcription
+        $.ajax({
+            type: 'POST',
+            url: url, // Use the base URL here
+            data: { usersubscriptionId: usersubscriptionId },
+            success: function(response) {
+                // Remove the card container from the DOM
+                $(usersubscriptionContainer).remove();
+                console.log(url);
+                console.log(usersubscriptionId);
+            },
+            error: function(xhr, textStatus, errorThrown) {
+                console.log(xhr.responseText);
+                // Handle the error if needed
+            }
+        });
+    }
+
+</script>
 
 <!-- Dont delete this below div -->
 </div>

@@ -47,6 +47,8 @@ class UserController extends Controller
             if (!empty($dataUserSub)) {
                 $sub_id = $dataUserSub[0]['sub_id'];
                 $userSubId = $dataUserSub[0]['id'];
+                $data['userSubId'] = $dataUserSub[0]['id'];
+
                 $data['sub_id'] = $dataUserSub[0]['sub_id'];
                 // $data['status'] = $dataUserSub[0]['status'];
 
@@ -317,6 +319,28 @@ class UserController extends Controller
                     view('components/footer.php');
         }
         
+    }
+
+    public function deleteUserSubscription($id)
+    {
+        $userSubscriptionModel = new UserSubscriptionModel();
+        $session = session();
+        $username = $session->get('username'); 
+        $data['title'] = 'Profile'; 
+
+        $dataUserSubscription = $userSubscriptionModel->deleteSubscriptionByUsernameAndId($username,$id);
+
+        $usersubscriptionId = $this->request->getPost('usersubscriptionId');
+        // Perform card deletion logic here using the $usersubscriptionId
+
+        // Return a JSON response indicating success or failure
+        $response = [
+            'success' => true, // or false if deletion failed
+            'message' => 'Subscription deleted successfully', // Optional message
+        ];
+
+        return redirect()->to('profile');
+
     }
 
     public function deleteCard($id)

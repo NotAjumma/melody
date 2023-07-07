@@ -15,6 +15,13 @@ class PlanController extends Controller
                 view('pages/plan/individual') .
                 view('components/footer.php');
     }
+    public function yearly()
+    {
+        $data['title'] = 'Plan Yearly'; 
+        return  view('components/navbar',$data) .
+                view('pages/plan/yearly') .
+                view('components/footer.php');
+    }
     public function checkoutForm($month)
     {
         $session = session();
@@ -93,7 +100,7 @@ class PlanController extends Controller
         return  redirect()->to('plan/checkout/promote');
     }
 
-    public function addCardCheckoutPlan(){
+    public function addCardCheckout1m(){
 
         $session = session();
         $username = $session->get('username'); 
@@ -116,5 +123,80 @@ class PlanController extends Controller
 
         $cardId = $cardModel->addCard($data);
         return  redirect()->to('plan/checkout/1m');
+    }
+
+    public function addCardCheckout1y(){
+
+        $session = session();
+        $username = $session->get('username'); 
+        $name = $this->request->getPost('name');
+        $card_number = $this->request->getPost('card_number');
+        $expiration = $this->request->getPost('expiration');
+        $security_code = $this->request->getPost('security_code');
+        $card_type = $this->request->getPost('card_type');
+
+        $cardModel = new CardModel();
+
+        $data = [
+            'username' => $username,
+            'name' => $name,
+            'card_number' => $card_number,
+            'expiration' => $expiration,
+            'security_code' => $security_code,
+            'card_type' => $card_type
+        ];
+
+        $cardId = $cardModel->addCard($data);
+        return  redirect()->to('plan/checkout/1y');
+    }
+
+    public function addCardCheckout3m(){
+
+        $session = session();
+        $username = $session->get('username'); 
+        $name = $this->request->getPost('name');
+        $card_number = $this->request->getPost('card_number');
+        $expiration = $this->request->getPost('expiration');
+        $security_code = $this->request->getPost('security_code');
+        $card_type = $this->request->getPost('card_type');
+
+        $cardModel = new CardModel();
+
+        $data = [
+            'username' => $username,
+            'name' => $name,
+            'card_number' => $card_number,
+            'expiration' => $expiration,
+            'security_code' => $security_code,
+            'card_type' => $card_type
+        ];
+
+        $cardId = $cardModel->addCard($data);
+        return  redirect()->to('plan/checkout/3m');
+    }
+
+    public function addCardCheckout6m(){
+
+        $session = session();
+        $username = $session->get('username'); 
+        $name = $this->request->getPost('name');
+        $card_number = $this->request->getPost('card_number');
+        $expiration = $this->request->getPost('expiration');
+        $security_code = $this->request->getPost('security_code');
+        $card_type = $this->request->getPost('card_type');
+
+        $cardModel = new CardModel();
+
+        $data = [
+            'username' => $username,
+            'name' => $name,
+            'card_number' => $card_number,
+            'expiration' => $expiration,
+            'security_code' => $security_code,
+            'card_type' => $card_type
+        ];
+
+        $cardId = $cardModel->addCard($data);
+        return  redirect()->to('plan/checkout/6m');
     }
 }
