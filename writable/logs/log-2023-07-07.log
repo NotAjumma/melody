@@ -1,0 +1,80 @@
+CRITICAL - 2023-07-07 14:13:18 --> Invalid file: "pages/plan/checkoutpromote.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/plan/checkoutpromote.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/plan/checkoutpromote', [], true)
+ 3 APPPATH\Controllers\PlanController.php(46): view('pages/plan/checkoutpromote')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('promote')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:16:14 --> Invalid file: "pages/plan/checkoutpromote.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/plan/checkoutpromote.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/plan/checkoutpromote', [], true)
+ 3 APPPATH\Controllers\PlanController.php(46): view('pages/plan/checkoutpromote')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('promote')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:27:57 --> Invalid file: "pages/plan/checkoutpromote.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/plan/checkoutpromote.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/plan/checkoutpromote', [], true)
+ 3 APPPATH\Controllers\PlanController.php(46): view('pages/plan/checkoutpromote')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('promote')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:31:06 --> Invalid file: "pages/plan/checkoutpromote.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/plan/checkoutpromote.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/plan/checkoutpromote', [], true)
+ 3 APPPATH\Controllers\PlanController.php(46): view('pages/plan/checkoutpromote')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('promote')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:22:36 --> Call to undefined method CodeIgniter\HTTP\Response::view()
+in APPPATH\Controllers\UserController.php on line 340.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteUserSubscription('24')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:23:53 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\UserController.php on line 341.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8.0\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:24:02 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\UserController.php on line 341.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8.0\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:24:06 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\UserController.php on line 341.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8.0\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:25:13 --> Undefined variable $username
+in APPPATH\Views\pages\user\profile.php on line 20.
+ 1 APPPATH\Views\pages\user\profile.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp8.0\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp8.0\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(343): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->deleteUserSubscription('25')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()

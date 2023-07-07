@@ -43,6 +43,19 @@
   text-align: center;
   cursor: pointer;
   margin-top: 1rem;
+  color:#ffffff;
+}
+
+.cancel-yearly-button {
+  border: 1px solid #009ffd;
+  background-color: #009ffd;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 1rem;
+  color:#ffffff;
+
 }
 
 .cancel-free-button {
@@ -57,8 +70,10 @@
 
 .edit-profile-button:hover,
 .cancel-premium-button:hover,
-.cancel-free-button:hover {
+.cancel-free-button:hover,.cancel-yearly-button:hover,.cancelbuttonid:hover{
+  text-decoration: none;
   transform: scale(1.05);
+  color:#ffffff;
 }
 
 .your-plan-container {
@@ -78,7 +93,7 @@
 }
 
 .custom-plan-container-layer {
-  border: 3px solid #ffc862;
+  border: 3px solid #009ffd;
   border-radius: 0.5rem;
   /* padding: 2.5rem; */
 }
@@ -97,7 +112,7 @@
 
 .custom-plan-container {
   padding: 5rem 0 5rem 2rem;
-  background-color: #ffc862;
+  background-color: #009ffd;
   border-radius: 0.5rem 0.5rem 0 0;
 }
 

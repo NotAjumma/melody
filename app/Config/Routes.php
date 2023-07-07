@@ -74,6 +74,7 @@ $routes->post('submit-add-card', 'UserController::addCard');
 $routes->get('saved-payment-cards', 'UserController::savedPaymentCard');
 $routes->get('albums-list', 'UserController::albumsList');
 $routes->post('/cards/delete/(:num)', 'UserController::deleteCard/$1');
+$routes->get('userSubscription-delete/(:num)', 'UserController::deleteUserSubscription/$1');
 
 
 
@@ -94,11 +95,18 @@ $routes->post('/checkout-albums-list', 'LoginController::albumCheckout');
 
 //Plans
 $routes->get('plan/individual', 'PlanController::individual');
+$routes->get('plan/yearly', 'PlanController::yearly');
 //Checkout
 $routes->get('plan/checkout/1month', 'PlanController::checkoutForm');
 $routes->get('plan/checkout/(:segment)', 'PlanController::checkoutForm/$1');
 $routes->post('plan/checkout/submit-checkout', 'PlanController::checkoutStore');
 $routes->post('plan/checkout/submit-add-card-checkout', 'PlanController::addCardCheckout');
+$routes->post('plan/checkout/submit-add-card-checkout1m', 'PlanController::addCardCheckout1m');
+$routes->post('plan/checkout/submit-add-card-checkout1y', 'PlanController::addCardCheckout1y');
+$routes->post('plan/checkout/submit-add-card-checkout3m', 'PlanController::addCardCheckout3m');
+$routes->post('plan/checkout/submit-add-card-checkout6m', 'PlanController::addCardCheckout6m');
+
+
 
 
 

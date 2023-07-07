@@ -202,6 +202,8 @@ class LoginController extends Controller
                return redirect()->to(site_url('plan/checkout/3m'));
             } elseif ($page == 'checkout6m') {
                return redirect()->to(site_url('plan/checkout/6m'));
+            } elseif ($page == 'checkout1y') {
+                return redirect()->to(site_url('plan/checkout/1y'));
             } elseif ($page == 'promotion') {
                 return redirect()->to('promotion');
             } elseif ($page == 'checkoutAlbums') {
@@ -217,6 +219,8 @@ class LoginController extends Controller
                return redirect()->to('login?message=plan/checkout/3m');
             }else if ($page == 'checkout6m') {
                return redirect()->to('login?message=plan/checkout/6m');
+            }else if ($page == 'checkout1y') {
+                return redirect()->to('login?message=plan/checkout/1y');
             } elseif ($page == 'promotion') {
                 return redirect()->to('promotion');
             }elseif ($page == 'checkoutAlbums') {

@@ -296,7 +296,8 @@
 
                   </div>
                   
-                  <div class="get-started-button top-button button-text">
+                
+                  <div onclick="planButton('<?php base_url()?>','yearly')" class="get-started-button top-button button-text">
                     Get started
                   </div>
                   <div class="term-container-bottom small-text">

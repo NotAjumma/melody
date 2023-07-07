@@ -166,7 +166,7 @@ if (current_url() === site_url('submit-login') || current_url() === site_url('pr
         <div class="header-index-banner banner-individual">
             <div class="header-index-text-banner">
             <div class="header-text-banner banner-bold-text">
-                Premium Individual<br>Only for you
+                Monthly Premium<br>Melody Pro
             </div>
             <div class="regular-medium-text">
                 Your Personal Sound Haven
@@ -181,7 +181,7 @@ if (current_url() === site_url('submit-login') || current_url() === site_url('pr
         <div class="header-index-banner banner-custom">
             <div class="header-index-text-banner">
             <div class="header-text-banner banner-bold-text">
-                Premium Custom<br>Melody Pro
+                Yearly Premium<br>Melody Pro
             </div>
             <div class="regular-medium-text">
                 Craft Your Personalized Melodic Symphony
