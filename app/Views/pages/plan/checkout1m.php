@@ -149,7 +149,7 @@
                   </div>
                 </div>
               </div>
-           <form method="post" id="add-card" name="add-card" action="submit-add-card-checkout">
+           <form method="post" id="add-card" name="add-card" action="submit-add-card-checkout-plan">
         <div class="add-info-top-layer-checkout" id="add-card-container" style="display:none;"> 
   
   

@@ -43,9 +43,10 @@ class UserController extends Controller
 
             
             $dataUserSub = $userSubscriptionModel->getUserSubUsingUsername($username);
-            
+            // print_r($dataUserSub);
             if (!empty($dataUserSub)) {
                 $sub_id = $dataUserSub[0]['sub_id'];
+                $userSubId = $dataUserSub[0]['id'];
                 $data['sub_id'] = $dataUserSub[0]['sub_id'];
                 // $data['status'] = $dataUserSub[0]['status'];
 
@@ -61,6 +62,7 @@ class UserController extends Controller
                 $data['sub_name'] = ''; // Set a default value if sub_name is not found
             }
             // echo $data['sub_name'];
+            $data['userSubId'] = $userSubId;
             $data['formattedDate'] = date('F j, Y', strtotime($dob));   
 
             return  view('components/navbar',$data) .

@@ -86,6 +86,7 @@ $routes->post('submit-login', 'LoginController::loginProcess');
 $routes->post('submit-signup', 'LoginController::signupProcess');
 $routes->get('logout', 'LoginController::logout');
 $routes->get('check-login-status/(:any)', 'LoginController::checkLoginStatus/$1');
+$routes->get('check-sub/(:any)', 'LoginController::checkSub/$1');
 $routes->get('/checkout-albums-list', 'LoginController::albumCheckout');
 $routes->post('/checkout-albums-list', 'LoginController::albumCheckout');
 
@@ -93,12 +94,13 @@ $routes->post('/checkout-albums-list', 'LoginController::albumCheckout');
 
 
 //Plans
-$routes->get('plan/individual', 'PlanController::individual');
+$routes->get('individual', 'PlanController::individual');
 //Checkout
 $routes->get('plan/checkout/1month', 'PlanController::checkoutForm');
 $routes->get('plan/checkout/(:segment)', 'PlanController::checkoutForm/$1');
 $routes->post('plan/checkout/submit-checkout', 'PlanController::checkoutStore');
 $routes->post('plan/checkout/submit-add-card-checkout', 'PlanController::addCardCheckout');
+$routes->post('plan/checkout/submit-add-card-checkout-plan', 'PlanController::addCardCheckoutPlan');
 
 
 

@@ -1,0 +1,174 @@
+CRITICAL - 2023-07-07 14:19:06 --> Invalid file: "pages/plan/checkoutpromote.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/plan/checkoutpromote.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/plan/checkoutpromote', [], true)
+ 3 APPPATH\Controllers\PlanController.php(39): view('pages/plan/checkoutpromote')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('promote')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:33:51 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 199.
+ 1 APPPATH\Controllers\LoginController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:34:03 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 199.
+ 1 APPPATH\Controllers\LoginController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:34:07 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 199.
+ 1 APPPATH\Controllers\LoginController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:34:18 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 199.
+ 1 APPPATH\Controllers\LoginController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:34:26 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 199.
+ 1 APPPATH\Controllers\LoginController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:34:28 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 199.
+ 1 APPPATH\Controllers\LoginController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:34:52 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 199.
+ 1 APPPATH\Controllers\LoginController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:35:18 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 199.
+ 1 APPPATH\Controllers\LoginController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:35:46 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 199.
+ 1 APPPATH\Controllers\LoginController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:36:04 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 199.
+ 1 APPPATH\Controllers\LoginController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout6m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:36:06 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 199.
+ 1 APPPATH\Controllers\LoginController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:37:56 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 202.
+ 1 APPPATH\Controllers\LoginController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:38:11 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 202.
+ 1 APPPATH\Controllers\LoginController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:38:12 --> Undefined variable $username
+in APPPATH\Controllers\LoginController.php on line 202.
+ 1 APPPATH\Controllers\LoginController.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:45:29 --> Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 201.
+ 1 APPPATH\Controllers\LoginController.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 201)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:45:41 --> Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 201.
+ 1 APPPATH\Controllers\LoginController.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 201)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:45:44 --> Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 201.
+ 1 APPPATH\Controllers\LoginController.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 201)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:45:54 --> Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 201.
+ 1 APPPATH\Controllers\LoginController.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 201)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:46:11 --> Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 201.
+ 1 APPPATH\Controllers\LoginController.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 201)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:46:14 --> Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 201.
+ 1 APPPATH\Controllers\LoginController.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 201)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:46:17 --> Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 201.
+ 1 APPPATH\Controllers\LoginController.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 201)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkLoginStatus('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:51:58 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\LoginController.php on line 234.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:52:01 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\LoginController.php on line 234.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()

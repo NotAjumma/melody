@@ -200,6 +200,8 @@ class LoginController extends Controller
                return redirect()->to(site_url('plan/checkout/1m'));
             } elseif ($page == 'checkout3m') {
                return redirect()->to(site_url('plan/checkout/3m'));
+            } elseif ($page == 'individual') {
+               return redirect()->to(site_url('individual'));
             } elseif ($page == 'checkout6m') {
                return redirect()->to(site_url('plan/checkout/6m'));
             } elseif ($page == 'promotion') {
@@ -215,6 +217,8 @@ class LoginController extends Controller
                return redirect()->to('login?message=plan/checkout/1m');
             } else if ($page == 'checkout3m') {
                return redirect()->to('login?message=plan/checkout/3m');
+            }else if ($page == 'individual') {
+               return redirect()->to('login?message=individual');
             }else if ($page == 'checkout6m') {
                return redirect()->to('login?message=plan/checkout/6m');
             } elseif ($page == 'promotion') {
@@ -228,8 +232,28 @@ class LoginController extends Controller
             // User is not logged in, redirect to login page
             
         }
+
+            
     }
 
+    public function checkSub($page)
+    {
+     $session = session();
+        $username = $session->get('username'); 
+        echo $username;
+        // Check if the user is already subscribed
+           
+            $userSubscriptionModel= new UserSubscriptionModel;
+            $subscription = $userSubscriptionModel->where('username', $username)->first();
+            // echo $subscription;
+            if ($subscription) {
+                echo "inside";
+                // User is already subscribed, display the pop-up message
+                echo "<script>alert('Already subscribed!');</script>";
+                // Add the necessary logic or redirect to the desired page if needed
+                return redirect()->to('/');
+            } 
+        }
 
 
     public function albumCheckout()

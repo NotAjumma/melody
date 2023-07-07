@@ -92,4 +92,29 @@ class PlanController extends Controller
         $cardId = $cardModel->addCard($data);
         return  redirect()->to('plan/checkout/promote');
     }
+
+    public function addCardCheckoutPlan(){
+
+        $session = session();
+        $username = $session->get('username'); 
+        $name = $this->request->getPost('name');
+        $card_number = $this->request->getPost('card_number');
+        $expiration = $this->request->getPost('expiration');
+        $security_code = $this->request->getPost('security_code');
+        $card_type = $this->request->getPost('card_type');
+
+        $cardModel = new CardModel();
+
+        $data = [
+            'username' => $username,
+            'name' => $name,
+            'card_number' => $card_number,
+            'expiration' => $expiration,
+            'security_code' => $security_code,
+            'card_type' => $card_type
+        ];
+
+        $cardId = $cardModel->addCard($data);
+        return  redirect()->to('plan/checkout/1m');
+    }
 }
