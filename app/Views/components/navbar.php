@@ -70,7 +70,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Profile
           </a>
-          <?php if ($role_id!==2){?>
+          <?php if ($role_id==1){?>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="<?= base_url('admin/profile') ?>">Account</a>
             <div class="dropdown-divider"></div>
@@ -126,7 +126,8 @@ if (current_url() === site_url('submit-login') || current_url() === site_url('pr
 || current_url() === site_url('edit-profile') || current_url() === site_url('change-password') 
 || current_url() === site_url('saved-payment-cards') || current_url() === site_url('admin/dashboard') 
 || current_url() === site_url('admin/profile') || current_url() === site_url('admin/edit-profile') || current_url() === site_url($urlEditView) 
-|| current_url() === site_url('admin/user-list') || current_url() === site_url('admin/verify-membership')) : ?>
+|| current_url() === site_url('admin/user-list') || current_url() === site_url('admin/verify-membership') 
+|| current_url() === site_url('admin/albums-list') || current_url() === site_url('admin/change-password')) : ?>
   <?php if (session()->has('role_id')) { ?>
     <div class="body-back">
     <?php if  (session('role_id') == 2 && current_url() === site_url('profile')){ ?>
@@ -159,7 +160,7 @@ if (current_url() === site_url('submit-login') || current_url() === site_url('pr
             </div>
         </div>
       </div>
-      <?php } else if ($sub_id == "1"){?>
+      <?php } else if ($sub_id == "1" ){?>
       <!-- Premium Individual Banner -->
       <div class="header-layer">
         <div class="header-index-banner banner-individual">
@@ -218,17 +219,23 @@ if (current_url() === site_url('submit-login') || current_url() === site_url('pr
                 Users
               </div>
             </div>
-            <div class="sidebar-button" onclick="sidebarButtonAdmin('<?php base_url()?>','verify-membership')">
+            <div class="sidebar-button" onclick="sidebarButtonAdmin('<?php base_url()?>','albums-list')">
               <div><i class="fa-solid fa-money-check" style="color: #ffffff;"></i></div>
               <div class="sidebar-button-name">
-                Membership Payment
+                Albums List
               </div>
-              <div class="membership-notify">3</div>
+              <!-- <div class="membership-notify">3</div> -->
             </div>
             <div class="sidebar-button" onclick="sidebarButtonAdmin('<?php base_url()?>','edit-profile')">
               <div><i class="fa-solid fa-user-pen" style="color: #ffffff;"></i></div>
               <div class="sidebar-button-name">
                 Edit Profile
+              </div>
+            </div>
+            <div class="sidebar-button" onclick="sidebarButtonAdmin('<?php base_url()?>','change-password')">
+              <div><i class="fa-solid fa-lock"></i></div>
+              <div class="sidebar-button-name">
+                Change Password
               </div>
             </div>
           </div>

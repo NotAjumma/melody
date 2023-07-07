@@ -21,5 +21,10 @@ class UserAlbumsDetailsListModel extends Model
 
         return $insertedId;
     }
+
+     public function getAlbumsDetailsByUserAlbumId($user_album_id)
+    {
+        return $this->where('user_album_id', $user_album_id)->findAll();
+    }
   
 }

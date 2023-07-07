@@ -48,6 +48,11 @@ public function getAlbumsByIDs(array $albumIDs)
         return $query;
     }
 
+    public function getSingleAlbumsByIDs($albumIDs)
+    {
+         return $this->where('id', $albumIDs)->findAll();
+    }
+
 
 
 

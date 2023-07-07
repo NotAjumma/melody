@@ -45,13 +45,20 @@ $routes->get('admin/user-list', 'AdminController::userList');
 $routes->get('admin/verify-membership', 'AdminController::memberships');
 $routes->get('admin/edit-profile', 'AdminController::editProfile');
 $routes->get('admin/edit-view/(:segment)', 'AdminController::singleUser/$1');
-$routes->post('admin/submit-edit-profile', 'AdminController::updateSingleUser');
+$routes->post('admin/submit-edit-user', 'AdminController::updateSingleUser');
 $routes->get('admin/delete/(:segment)', 'AdminController::deleteUser/$1');
+$routes->get('admin/albums-list', 'AdminController::albumsList');
+$routes->get('admin/change-password', 'AdminController::changePassword');
+$routes->post('admin/submit-change-password', 'AdminController::changePasswordProcess');
+
+
 
 
 $routes->post('submit-add-card-checkout', 'UserController::addCardCheckout');
 $routes->get('add-card', 'UserController::addCardModal');
 $routes->post('submit-checkout-albums-list', 'UserController::albumCheckoutProcess');
+$routes->get('receipt', 'UserController::receipt');
+
 
 
 
@@ -88,8 +95,11 @@ $routes->post('/checkout-albums-list', 'LoginController::albumCheckout');
 //Plans
 $routes->get('plan/individual', 'PlanController::individual');
 //Checkout
-$routes->get('plan/checkout/promote', 'PlanController::checkoutForm');
+$routes->get('plan/checkout/1month', 'PlanController::checkoutForm');
+$routes->get('plan/checkout/(:segment)', 'PlanController::checkoutForm/$1');
 $routes->post('plan/checkout/submit-checkout', 'PlanController::checkoutStore');
+$routes->post('plan/checkout/submit-add-card-checkout', 'PlanController::addCardCheckout');
+
 
 
 

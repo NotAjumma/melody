@@ -195,3 +195,1361 @@ in APPPATH\Models\DashboardModel.php on line 49.
  3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
  4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 10:55:43 --> Invalid file: "pages/user/receipt.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/user/receipt.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(514): view('pages/user/receipt', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 11:00:53 --> Undefined variable $data
+in APPPATH\Models\UserSubscriptionModel.php on line 36.
+ 1 APPPATH\Models\UserSubscriptionModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserSubscriptionModel.php', 36)
+ 2 APPPATH\Controllers\AdminController.php(68): App\Models\UserSubscriptionModel->getSubscriptions()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 11:01:41 --> Undefined variable $data
+in APPPATH\Models\UserSubscriptionModel.php on line 37.
+ 1 APPPATH\Models\UserSubscriptionModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserSubscriptionModel.php', 37)
+ 2 APPPATH\Controllers\AdminController.php(68): App\Models\UserSubscriptionModel->getSubscriptions()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 11:01:57 --> Undefined variable $data
+in APPPATH\Models\UserSubscriptionModel.php on line 38.
+ 1 APPPATH\Models\UserSubscriptionModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserSubscriptionModel.php', 38)
+ 2 APPPATH\Controllers\AdminController.php(68): App\Models\UserSubscriptionModel->getSubscriptions()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->userList()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:51:33 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 509.
+ 1 APPPATH\Controllers\UserController.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 509)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:51:44 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 509.
+ 1 APPPATH\Controllers\UserController.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 509)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:52:06 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 509.
+ 1 APPPATH\Controllers\UserController.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 509)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:52:10 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 509.
+ 1 APPPATH\Controllers\UserController.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 509)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:52:14 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 509.
+ 1 APPPATH\Controllers\UserController.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 509)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:52:34 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 509.
+ 1 APPPATH\Controllers\UserController.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 509)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:52:45 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 511.
+ 1 APPPATH\Controllers\UserController.php(511): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 511)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:53:21 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 509.
+ 1 APPPATH\Controllers\UserController.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 509)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:53:25 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 511.
+ 1 APPPATH\Controllers\UserController.php(511): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 511)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:53:46 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 509.
+ 1 APPPATH\Controllers\UserController.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 509)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:54:06 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 510.
+ 1 APPPATH\Controllers\UserController.php(510): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 510)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:54:38 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 512.
+ 1 APPPATH\Controllers\UserController.php(512): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 512)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:55:06 --> Unclosed '{' on line 503 does not match ')'
+in APPPATH\Controllers\UserController.php on line 511.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:55:11 --> Unclosed '{' on line 503 does not match ')'
+in APPPATH\Controllers\UserController.php on line 511.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:55:24 --> Unclosed '{' on line 503 does not match ')'
+in APPPATH\Controllers\UserController.php on line 511.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:55:29 --> Undefined array key "sub_id"
+in APPPATH\Controllers\UserController.php on line 513.
+ 1 APPPATH\Controllers\UserController.php(513): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 513)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:57:05 --> Undefined variable $subscriptionModel
+in APPPATH\Controllers\UserController.php on line 515.
+ 1 APPPATH\Controllers\UserController.php(515): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 515)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:57:06 --> Undefined variable $subscriptionModel
+in APPPATH\Controllers\UserController.php on line 515.
+ 1 APPPATH\Controllers\UserController.php(515): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 515)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:57:07 --> Undefined variable $subscriptionModel
+in APPPATH\Controllers\UserController.php on line 515.
+ 1 APPPATH\Controllers\UserController.php(515): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 515)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:57:07 --> Undefined variable $subscriptionModel
+in APPPATH\Controllers\UserController.php on line 515.
+ 1 APPPATH\Controllers\UserController.php(515): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 515)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:57:07 --> Undefined variable $subscriptionModel
+in APPPATH\Controllers\UserController.php on line 515.
+ 1 APPPATH\Controllers\UserController.php(515): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 515)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:57:53 --> Undefined variable $subscriptionModel
+in APPPATH\Controllers\UserController.php on line 515.
+ 1 APPPATH\Controllers\UserController.php(515): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 515)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:58:08 --> Undefined variable $subscriptionModel
+in APPPATH\Controllers\UserController.php on line 515.
+ 1 APPPATH\Controllers\UserController.php(515): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 515)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:58:10 --> Undefined variable $subscriptionModel
+in APPPATH\Controllers\UserController.php on line 515.
+ 1 APPPATH\Controllers\UserController.php(515): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 515)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:58:19 --> Undefined variable $subscriptionModel
+in APPPATH\Controllers\UserController.php on line 515.
+ 1 APPPATH\Controllers\UserController.php(515): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subscriptionModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 515)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:04:17 --> Undefined variable $dataUserAlbums
+in APPPATH\Controllers\UserController.php on line 517.
+ 1 APPPATH\Controllers\UserController.php(517): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataUserAlbums', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 517)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:04:20 --> Undefined variable $title
+in APPPATH\Views\components\navbar.php on line 24.
+ 1 APPPATH\Views\components\navbar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(523): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:04:27 --> Undefined variable $title
+in APPPATH\Views\components\navbar.php on line 24.
+ 1 APPPATH\Views\components\navbar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(523): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:04:34 --> Undefined variable $title
+in APPPATH\Views\components\navbar.php on line 24.
+ 1 APPPATH\Views\components\navbar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(523): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:04:38 --> Undefined variable $title
+in APPPATH\Views\components\navbar.php on line 24.
+ 1 APPPATH\Views\components\navbar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(523): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:07:37 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 518.
+ 1 APPPATH\Controllers\UserController.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 518)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:07:50 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 518.
+ 1 APPPATH\Controllers\UserController.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 518)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:08:16 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 518.
+ 1 APPPATH\Controllers\UserController.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 518)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:08:21 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 518.
+ 1 APPPATH\Controllers\UserController.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 518)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:08:26 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 518.
+ 1 APPPATH\Controllers\UserController.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 518)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:08:35 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 518.
+ 1 APPPATH\Controllers\UserController.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 518)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:08:47 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 518.
+ 1 APPPATH\Controllers\UserController.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 518)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:08:51 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 518.
+ 1 APPPATH\Controllers\UserController.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 518)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:08:56 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 518.
+ 1 APPPATH\Controllers\UserController.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 518)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:09:07 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 518.
+ 1 APPPATH\Controllers\UserController.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 518)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:15:08 --> Too few arguments to function App\Controllers\UserController::receipt(), 0 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 494.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:15:19 --> Too few arguments to function App\Controllers\UserController::receipt(), 0 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 494.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:15:23 --> Too few arguments to function App\Controllers\UserController::receipt(), 0 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 494.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:15:43 --> Too few arguments to function App\Controllers\UserController::receipt(), 0 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 494.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:15:48 --> Undefined variable $albumsID
+in APPPATH\Controllers\UserController.php on line 516.
+ 1 APPPATH\Controllers\UserController.php(516): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $albumsID', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 516)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:15:58 --> Undefined variable $albumsID
+in APPPATH\Controllers\UserController.php on line 516.
+ 1 APPPATH\Controllers\UserController.php(516): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $albumsID', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 516)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:16:15 --> Too few arguments to function App\Controllers\UserController::receipt(), 0 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 494.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:16:17 --> Too few arguments to function App\Controllers\UserController::receipt(), 0 passed in C:\xampp\htdocs\melody\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 494.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:17:04 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 520.
+ 1 APPPATH\Controllers\UserController.php(520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 520)
+ 2 APPPATH\Controllers\UserController.php(488): App\Controllers\UserController->receipt(8)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:17:29 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 520.
+ 1 APPPATH\Controllers\UserController.php(520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 520)
+ 2 APPPATH\Controllers\UserController.php(488): App\Controllers\UserController->receipt(9)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:17:33 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 520.
+ 1 APPPATH\Controllers\UserController.php(520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 520)
+ 2 APPPATH\Controllers\UserController.php(488): App\Controllers\UserController->receipt(10)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:18:04 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 520.
+ 1 APPPATH\Controllers\UserController.php(520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 520)
+ 2 APPPATH\Controllers\UserController.php(488): App\Controllers\UserController->receipt(11)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:18:08 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 520.
+ 1 APPPATH\Controllers\UserController.php(520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 520)
+ 2 APPPATH\Controllers\UserController.php(488): App\Controllers\UserController->receipt(12)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:19:19 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 520.
+ 1 APPPATH\Controllers\UserController.php(520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 520)
+ 2 APPPATH\Controllers\UserController.php(488): App\Controllers\UserController->receipt(13)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:19:29 --> Undefined array key "date_purchased"
+in APPPATH\Controllers\UserController.php on line 520.
+ 1 APPPATH\Controllers\UserController.php(520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date_purchased"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 520)
+ 2 APPPATH\Controllers\UserController.php(488): App\Controllers\UserController->receipt(14)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:19:46 --> Undefined array key "card_type"
+in APPPATH\Controllers\UserController.php on line 525.
+ 1 APPPATH\Controllers\UserController.php(525): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "card_type"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 525)
+ 2 APPPATH\Controllers\UserController.php(488): App\Controllers\UserController->receipt(15)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:20:02 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 525.
+ 1 APPPATH\Controllers\UserController.php(525): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 525)
+ 2 APPPATH\Controllers\UserController.php(488): App\Controllers\UserController->receipt(16)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:20:19 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 527.
+ 1 APPPATH\Controllers\UserController.php(527): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 527)
+ 2 APPPATH\Controllers\UserController.php(488): App\Controllers\UserController->receipt(17)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:29:09 --> Undefined variable $albumsID
+in APPPATH\Controllers\UserController.php on line 525.
+ 1 APPPATH\Controllers\UserController.php(525): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $albumsID', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 525)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:29:15 --> Undefined variable $albumsID
+in APPPATH\Controllers\UserController.php on line 525.
+ 1 APPPATH\Controllers\UserController.php(525): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $albumsID', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 525)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:29:24 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 527.
+ 1 APPPATH\Controllers\UserController.php(527): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 527)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:30:26 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 528.
+ 1 APPPATH\Controllers\UserController.php(528): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 528)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:30:36 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 528.
+ 1 APPPATH\Controllers\UserController.php(528): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 528)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:30:49 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 529.
+ 1 APPPATH\Controllers\UserController.php(529): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 529)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:30:57 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:31:13 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:31:39 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:32:09 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:32:17 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:33:58 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:34:36 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:42:53 --> App\Models\AlbumsListModel::getAlbumsByIDs(): Argument #1 ($albumIDs) must be of type array, string given, called in C:\xampp\htdocs\melody\app\Controllers\UserController.php on line 542
+in APPPATH\Models\AlbumsListModel.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(542): App\Models\AlbumsListModel->getAlbumsByIDs('31')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:43:39 --> App\Models\AlbumsListModel::getAlbumsByIDs(): Argument #1 ($albumIDs) must be of type array, string given, called in C:\xampp\htdocs\melody\app\Controllers\UserController.php on line 543
+in APPPATH\Models\AlbumsListModel.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(543): App\Models\AlbumsListModel->getAlbumsByIDs('32')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:49:03 --> App\Models\AlbumsListModel::getAlbumsByIDs(): Argument #1 ($albumIDs) must be of type array, string given, called in C:\xampp\htdocs\melody\app\Controllers\UserController.php on line 546
+in APPPATH\Models\AlbumsListModel.php on line 43.
+ 1 APPPATH\Controllers\UserController.php(546): App\Models\AlbumsListModel->getAlbumsByIDs('25')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:54:56 --> syntax error, unexpected variable "$albumListBuyed", expecting ")"
+in APPPATH\Controllers\UserController.php on line 552.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:54:58 --> syntax error, unexpected variable "$albumListBuyed", expecting ")"
+in APPPATH\Controllers\UserController.php on line 552.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:55:02 --> syntax error, unexpected variable "$albumListBuyed", expecting ")"
+in APPPATH\Controllers\UserController.php on line 552.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:55:05 --> syntax error, unexpected variable "$albumListBuyed", expecting ")"
+in APPPATH\Controllers\UserController.php on line 552.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:55:06 --> syntax error, unexpected variable "$albumListBuyed", expecting ")"
+in APPPATH\Controllers\UserController.php on line 552.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:55:09 --> syntax error, unexpected variable "$albumListBuyed", expecting ")"
+in APPPATH\Controllers\UserController.php on line 552.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:55:10 --> syntax error, unexpected variable "$albumListBuyed", expecting ")"
+in APPPATH\Controllers\UserController.php on line 552.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:55:15 --> syntax error, unexpected variable "$albumListBuyed", expecting ")"
+in APPPATH\Controllers\UserController.php on line 552.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:55:17 --> syntax error, unexpected variable "$albumListBuyed", expecting ")"
+in APPPATH\Controllers\UserController.php on line 552.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:55:35 --> Array to string conversion
+in APPPATH\Controllers\UserController.php on line 552.
+ 1 APPPATH\Controllers\UserController.php(552): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 552)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:57:12 --> syntax error, unexpected token "foreach", expecting "," or ";"
+in APPPATH\Views\pages\receipt.php on line 30.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(565): view('pages/receipt', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:57:38 --> syntax error, unexpected token "foreach", expecting "," or ";"
+in APPPATH\Views\pages\receipt.php on line 30.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 3 APPPATH\Controllers\UserController.php(565): view('pages/receipt', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:15:36 --> Undefined array key "album_cover"
+in APPPATH\Views\pages\receipt.php on line 35.
+ 1 APPPATH\Views\pages\receipt.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "album_cover"', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 5 APPPATH\Controllers\UserController.php(565): view('pages/receipt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:16:20 --> Undefined variable $sub_id
+in APPPATH\Views\pages\receipt.php on line 50.
+ 1 APPPATH\Views\pages\receipt.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 5 APPPATH\Controllers\UserController.php(565): view('pages/receipt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:17:23 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:17:32 --> Undefined variable $sub_id
+in APPPATH\Views\pages\receipt.php on line 50.
+ 1 APPPATH\Views\pages\receipt.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 5 APPPATH\Controllers\UserController.php(566): view('pages/receipt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:18:10 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:18:16 --> Undefined variable $sub_id
+in APPPATH\Views\pages\receipt.php on line 50.
+ 1 APPPATH\Views\pages\receipt.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 5 APPPATH\Controllers\UserController.php(566): view('pages/receipt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:18:50 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:18:57 --> Undefined variable $sub_id
+in APPPATH\Views\pages\receipt.php on line 49.
+ 1 APPPATH\Views\pages\receipt.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 5 APPPATH\Controllers\UserController.php(566): view('pages/receipt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:19:25 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:19:31 --> Undefined variable $sub_id
+in APPPATH\Views\pages\receipt.php on line 49.
+ 1 APPPATH\Views\pages\receipt.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 5 APPPATH\Controllers\UserController.php(566): view('pages/receipt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:20:06 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 530.
+ 1 APPPATH\Controllers\UserController.php(530): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 530)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:20:10 --> foreach() argument must be of type array|object, null given
+in APPPATH\Models\UserAlbumsListModel.php on line 43.
+ 1 APPPATH\Models\UserAlbumsListModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\melody\\app\\Models\\UserAlbumsListModel.php', 43)
+ 2 APPPATH\Controllers\UserController.php(479): App\Models\UserAlbumsListModel->storeAlbums('paksamad', null, '', '24')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->albumCheckoutProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:20:37 --> Undefined variable $sub_id
+in APPPATH\Views\pages\receipt.php on line 48.
+ 1 APPPATH\Views\pages\receipt.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_id', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 5 APPPATH\Controllers\UserController.php(566): view('pages/receipt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:20:56 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 531.
+ 1 APPPATH\Controllers\UserController.php(531): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 531)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:37:47 --> Undefined array key "album_cover"
+in APPPATH\Views\pages\receipt.php on line 35.
+ 1 APPPATH\Views\pages\receipt.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "album_cover"', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 5 APPPATH\Controllers\UserController.php(567): view('pages/receipt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:38:21 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 531.
+ 1 APPPATH\Controllers\UserController.php(531): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 531)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:38:27 --> Undefined array key "album_cover"
+in APPPATH\Views\pages\receipt.php on line 36.
+ 1 APPPATH\Views\pages\receipt.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "album_cover"', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\receipt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/receipt', [], true)
+ 5 APPPATH\Controllers\UserController.php(567): view('pages/receipt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:42:41 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 531.
+ 1 APPPATH\Controllers\UserController.php(531): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 531)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:42:59 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 531.
+ 1 APPPATH\Controllers\UserController.php(531): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 531)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:43:18 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 531.
+ 1 APPPATH\Controllers\UserController.php(531): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 531)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:44:42 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 531.
+ 1 APPPATH\Controllers\UserController.php(531): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 531)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:45:06 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 531.
+ 1 APPPATH\Controllers\UserController.php(531): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 531)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:53:54 --> syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\pages\user\profile.php on line 97.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 3 APPPATH\Controllers\UserController.php(68): view('pages/user/profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:54:11 --> syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\pages\user\profile.php on line 97.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 3 APPPATH\Controllers\UserController.php(68): view('pages/user/profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:54:12 --> syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\pages\user\profile.php on line 97.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 3 APPPATH\Controllers\UserController.php(68): view('pages/user/profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:55:56 --> Undefined array key 1
+in APPPATH\Controllers\UserController.php on line 55.
+ 1 APPPATH\Controllers\UserController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:58:08 --> Undefined variable $status
+in APPPATH\Views\components\navbar.php on line 162.
+ 1 APPPATH\Views\components\navbar.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 162)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\UserController.php(66): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:58:32 --> Undefined variable $status
+in APPPATH\Views\pages\user\profile.php on line 56.
+ 1 APPPATH\Views\pages\user\profile.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:59:24 --> Undefined variable $status
+in APPPATH\Views\pages\user\profile.php on line 56.
+ 1 APPPATH\Views\pages\user\profile.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:00:29 --> Undefined variable $status
+in APPPATH\Views\pages\user\profile.php on line 56.
+ 1 APPPATH\Views\pages\user\profile.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('pages/user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:15:28 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 54.
+ 1 APPPATH\Controllers\PlanController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:21:00 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 54.
+ 1 APPPATH\Controllers\PlanController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:23:00 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 54.
+ 1 APPPATH\Controllers\PlanController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:30:03 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 54.
+ 1 APPPATH\Controllers\PlanController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:31:23 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 47.
+ 1 APPPATH\Controllers\PlanController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:31:27 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 47.
+ 1 APPPATH\Controllers\PlanController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:32:03 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 47.
+ 1 APPPATH\Controllers\PlanController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:32:36 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 47.
+ 1 APPPATH\Controllers\PlanController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:32:40 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 47.
+ 1 APPPATH\Controllers\PlanController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:32:54 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 48.
+ 1 APPPATH\Controllers\PlanController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:33:12 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 48.
+ 1 APPPATH\Controllers\PlanController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:33:23 --> Undefined variable $cardModel
+in APPPATH\Controllers\PlanController.php on line 47.
+ 1 APPPATH\Controllers\PlanController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cardModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:34:03 --> Undefined variable $userSubModel
+in APPPATH\Controllers\PlanController.php on line 61.
+ 1 APPPATH\Controllers\PlanController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:34:26 --> Array to string conversion
+in APPPATH\Controllers\PlanController.php on line 61.
+ 1 APPPATH\Controllers\PlanController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:34:40 --> Undefined variable $userSubModel
+in APPPATH\Controllers\PlanController.php on line 62.
+ 1 APPPATH\Controllers\PlanController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:35:06 --> Undefined variable $userSubModel
+in APPPATH\Controllers\PlanController.php on line 62.
+ 1 APPPATH\Controllers\PlanController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:35:30 --> Undefined variable $userSubModel
+in APPPATH\Controllers\PlanController.php on line 62.
+ 1 APPPATH\Controllers\PlanController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:36:15 --> Undefined variable $userSubModel
+in APPPATH\Controllers\PlanController.php on line 62.
+ 1 APPPATH\Controllers\PlanController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:36:47 --> Undefined variable $userSubModel
+in APPPATH\Controllers\PlanController.php on line 62.
+ 1 APPPATH\Controllers\PlanController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:36:51 --> Undefined variable $userSubModel
+in APPPATH\Controllers\PlanController.php on line 62.
+ 1 APPPATH\Controllers\PlanController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:37:10 --> Undefined variable $userSubModel
+in APPPATH\Controllers\PlanController.php on line 62.
+ 1 APPPATH\Controllers\PlanController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:37:21 --> Undefined variable $userSubModel
+in APPPATH\Controllers\PlanController.php on line 62.
+ 1 APPPATH\Controllers\PlanController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubModel', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:38:34 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\PlanController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:40:05 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\PlanController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:40:17 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\PlanController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 20:45:37 --> mysqli_sql_exception: Table 'melodydb.tableuser_albums_details' doesn't exist in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\melody\app\Models\DashboardModel.php(66): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(31): App\Models\DashboardModel->countTotalAlbumOccurrences()
+#6 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+#7 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-05 20:45:37 --> Table 'melodydb.tableuser_albums_details' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tableuser_albums_details`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tableuser_albums_details`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tableuser_albums_details`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tableuser_albums_details`', [], false)
+ 5 APPPATH\Models\DashboardModel.php(66): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->countTotalAlbumOccurrences()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:45:53 --> Undefined variable $topAlbums
+in APPPATH\Controllers\AdminController.php on line 32.
+ 1 APPPATH\Controllers\AdminController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topAlbums', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:46:16 --> Cannot access protected property App\Models\UserAlbumsDetailsListModel::$table
+in APPPATH\Models\DashboardModel.php on line 49.
+ 1 APPPATH\Controllers\AdminController.php(33): App\Models\DashboardModel->getTopPurchasedAlbums()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 20:47:58 --> mysqli_sql_exception: Table 'melodydb.tableuser_albums_details' doesn't exist in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `album_i...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `album_i...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `album_i...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `album_i...', Array, false)
+#4 C:\xampp\htdocs\melody\app\Models\DashboardModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\melody\app\Controllers\AdminController.php(30): App\Models\DashboardModel->findTopAlbums()
+#6 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+#7 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-05 20:47:58 --> Table 'melodydb.tableuser_albums_details' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `album_id`, COUNT(album_id) AS occurrence
+FROM `tableuser_albums_details`
+GROUP BY `album_id`
+ORDER BY `occurrence` DESC
+ LIMIT 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `album_id`, COUNT(album_id) AS occurrence
+FROM `tableuser_albums_details`
+GROUP BY `album_id`
+ORDER BY `occurrence` DESC
+ LIMIT 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `album_id`, COUNT(album_id) AS occurrence
+FROM `tableuser_albums_details`
+GROUP BY `album_id`
+ORDER BY `occurrence` DESC
+ LIMIT 5')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `album_id`, COUNT(album_id) AS occurrence
+FROM `tableuser_albums_details`
+GROUP BY `album_id`
+ORDER BY `occurrence` DESC
+ LIMIT 5', [], false)
+ 5 APPPATH\Models\DashboardModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(30): App\Models\DashboardModel->findTopAlbums()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:48:11 --> Array to string conversion
+in APPPATH\Views\pages\admin\dashboard.php on line 44.
+ 1 APPPATH\Views\pages\admin\dashboard.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(41): view('pages/admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:49:17 --> Undefined variable $totalAlbums
+in APPPATH\Views\pages\admin\dashboard.php on line 44.
+ 1 APPPATH\Views\pages\admin\dashboard.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalAlbums', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(41): view('pages/admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:49:41 --> Undefined variable $topAlbums
+in APPPATH\Controllers\AdminController.php on line 32.
+ 1 APPPATH\Controllers\AdminController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topAlbums', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:53:15 --> Undefined array key "album_id"
+in APPPATH\Controllers\AdminController.php on line 32.
+ 1 APPPATH\Controllers\AdminController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "album_id"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:53:23 --> Undefined array key 0
+in APPPATH\Controllers\AdminController.php on line 32.
+ 1 APPPATH\Controllers\AdminController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:55:37 --> Undefined array key "topAlbums"
+in APPPATH\Controllers\AdminController.php on line 32.
+ 1 APPPATH\Controllers\AdminController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "topAlbums"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:56:02 --> Undefined array key "topAlbums"
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 APPPATH\Controllers\AdminController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "topAlbums"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:56:22 --> Undefined variable $topAlbums
+in APPPATH\Views\pages\admin\dashboard.php on line 76.
+ 1 APPPATH\Views\pages\admin\dashboard.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topAlbums', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(53): view('pages/admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:56:43 --> Undefined variable $topAlbums
+in APPPATH\Views\pages\admin\dashboard.php on line 76.
+ 1 APPPATH\Views\pages\admin\dashboard.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topAlbums', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('pages/admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:56:51 --> Undefined variable $topAlbums
+in APPPATH\Views\pages\admin\dashboard.php on line 76.
+ 1 APPPATH\Views\pages\admin\dashboard.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topAlbums', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('pages/admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:57:28 --> Undefined array key "album_title"
+in APPPATH\Views\pages\admin\dashboard.php on line 78.
+ 1 APPPATH\Views\pages\admin\dashboard.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "album_title"', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('pages/admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:57:47 --> Undefined array key "album_title"
+in APPPATH\Views\pages\admin\dashboard.php on line 78.
+ 1 APPPATH\Views\pages\admin\dashboard.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "album_title"', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('pages/admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 21:11:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\DashboardModel.php(37): CodeIgniter\Model->__get('userAlbumsModel')
+ 4 APPPATH\Controllers\AdminController.php(31): App\Models\DashboardModel->getTotalAmount()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 21:14:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AdminController.php(32): CodeIgniter\Model->__call('getTotalAlbums', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 21:14:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AdminController.php(32): CodeIgniter\Model->__call('getTotalAlbums', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 21:14:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\DashboardModel.php(53): CodeIgniter\Model->__get('userAlbumsModel')
+ 4 APPPATH\Controllers\AdminController.php(33): App\Models\DashboardModel->getTotalAlbumsBuy()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()

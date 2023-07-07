@@ -63,11 +63,13 @@
 
 .hyper-link {
   color: #ffffff;
-  text-decoration: underline;
+
+  cursor: pointer;
 }
 
 .hyper-link:hover {
   color: #fec27e;
+  text-decoration: underline !important;
 }
 
 .billing-detail {

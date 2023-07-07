@@ -445,7 +445,7 @@ const cardSelect = document.getElementById('card-select');
 
 
   const cartItems = JSON.parse(localStorage.getItem('cartItems'));
-  localStorage.removeItem('cartItems');
+  // localStorage.removeItem('cartItems');
   // Set the cartItems value to the hidden input field
 document.getElementById('cartItemsInput').value = JSON.stringify(cartItems);
 console.log(document.getElementById('cartItemsInput').value = JSON.stringify(cartItems));

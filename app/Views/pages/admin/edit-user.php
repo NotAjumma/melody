@@ -1,5 +1,6 @@
  <link rel="stylesheet" href="<?= base_url('css/editprofile.css') ?>" />
  <link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
+ 
 
  <script src="js/index.js"></script>
  <script src="js/navbar.js"></script>
@@ -10,7 +11,7 @@
 <!-- edit here for profile page -->
 <div style=" width: 70%; background-color: white; margin: 0 auto;">
         <!-- edit here for profile page -->
-        <form action="http://localhost/melody/public/admin/submit-edit-profile" method="post">
+        <form action="admin/submit-edit-user" method="post">
         <div class="profile-content">
           <div class="edit-header-text extralarge-bold-text">Edit Profile</div>
           <div class="input-container">
@@ -36,6 +37,7 @@
                 />
               </div>
             </div>
+            
             <div class="input-row">
               <div class="label-input-edit karla-regular-blod-small-text">
                 Email
@@ -83,6 +85,35 @@
               </div>
             </div>
             <div class="input-row">
+                <div class="label-input-edit karla-regular-blod-small-text">
+                    Plan
+                </div>
+                <div>
+                    <select class="select-edit-profile karla-regular-small-text" id="plan-select" name="plan_update" onchange="handlePlanSelect(this)">
+                        <option value="<?php echo $sub_id ?>"><?php echo $sub_name ?></option>
+                        <?php foreach ($subscriptionTypes as $subscriptionType): ?>
+                            <option value="<?php echo $subscriptionType['id']; ?>">
+                                <?php echo $subscriptionType['sub_name']; ?>
+                            </option>
+                        <?php endforeach; ?>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="input-row" id="status-row">
+                <div class="label-input-edit karla-regular-blod-small-text">
+                    Status
+                </div>
+                <div>
+                    <select class="select-edit-profile karla-regular-small-text" id="status-select" name="status_update">
+                        <option value=""><?php echo $status ?></option>
+                        <option value="Free">Free</option>
+                        <option value="Active">Active</option>
+                        <option value="Unactive">Unactive</option>
+                    </select>
+                </div>
+            </div>
+            <!-- <div class="input-row">
               <div class="label-input-edit karla-regular-blod-small-text">
                 Profile Picture
               </div>
@@ -94,14 +125,14 @@
                   id="profile_pic"
                 />
               </div>
-            </div>
+            </div> -->
           </div>
 
           <input type="hidden" value="<?php echo $username ?>" name="username" id="username" />
 
           <div class="grey-line"></div>
           <div class="save-profile-button-container">
-            <div class="cancel-profile-button button-bold-text" onclick="sidebarButton('<?php base_url()?>','profile')">Cancel</div>
+            <div class="cancel-profile-button button-bold-text" onclick="goBack()">Cancel</div>
             <button type="submit" class="save-profile-button button-bold-text">Save Profile</button>
           </div>
         </div>
@@ -112,3 +143,16 @@
 </div>
 </div>
 </div>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+    // function handlePlanSelect(selectElement) {
+    //     var statusRow = document.getElementById('status-row');
+    //     if (selectElement.value === '0') {
+    //         statusRow.style.display = 'none';
+    //     } else {
+    //         statusRow.style.display = 'block';
+    //     }
+    // }
+</script>

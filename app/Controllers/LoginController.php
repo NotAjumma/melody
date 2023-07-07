@@ -196,8 +196,12 @@ class LoginController extends Controller
         // Check if the user is logged in
         if (session()->has('username')) {
             // User is logged in, redirect to the specified page
-            if ($page == 'checkout') {
-               return redirect()->to(site_url('plan/checkout/promote'));
+            if ($page == 'checkout1m') {
+               return redirect()->to(site_url('plan/checkout/1m'));
+            } elseif ($page == 'checkout3m') {
+               return redirect()->to(site_url('plan/checkout/3m'));
+            } elseif ($page == 'checkout6m') {
+               return redirect()->to(site_url('plan/checkout/6m'));
             } elseif ($page == 'promotion') {
                 return redirect()->to('promotion');
             } elseif ($page == 'checkoutAlbums') {
@@ -207,8 +211,12 @@ class LoginController extends Controller
                 // return redirect()->to('default');
             }
         } else {
-             if ($page == 'checkout') {
-               return redirect()->to('login?message=plan/checkout/promote');
+             if ($page == 'checkout1m') {
+               return redirect()->to('login?message=plan/checkout/1m');
+            } else if ($page == 'checkout3m') {
+               return redirect()->to('login?message=plan/checkout/3m');
+            }else if ($page == 'checkout6m') {
+               return redirect()->to('login?message=plan/checkout/6m');
             } elseif ($page == 'promotion') {
                 return redirect()->to('promotion');
             }elseif ($page == 'checkoutAlbums') {

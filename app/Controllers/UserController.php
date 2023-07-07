@@ -8,6 +8,7 @@ use App\Models\SubscriptionModel;
 use App\Models\CardModel;
 use App\Models\AlbumsListModel;
 use App\Models\UserAlbumsListModel;
+use App\Models\UserAlbumsDetailsListModel;
 use CodeIgniter\Controller;
 
 class UserController extends Controller
@@ -46,6 +47,7 @@ class UserController extends Controller
             if (!empty($dataUserSub)) {
                 $sub_id = $dataUserSub[0]['sub_id'];
                 $data['sub_id'] = $dataUserSub[0]['sub_id'];
+                // $data['status'] = $dataUserSub[0]['status'];
 
                 $dataSub = $subscriptionModel->getSubUsingSubId($sub_id);
 
@@ -58,7 +60,7 @@ class UserController extends Controller
                 $data['sub_id'] = ''; // Set a default value if sub_id is not found
                 $data['sub_name'] = ''; // Set a default value if sub_name is not found
             }
-
+            // echo $data['sub_name'];
             $data['formattedDate'] = date('F j, Y', strtotime($dob));   
 
             return  view('components/navbar',$data) .
@@ -177,6 +179,7 @@ class UserController extends Controller
             $dataUser = $usersModel->getUserByUsername($username);
             $data['username'] = $dataUser['username'];
             $data['nickname'] = $dataUser['nickname']; 
+            $data['password'] = $dataUser['password']; 
             // $data['email'] = $session->get('email'); 
             // $dob = $session->get('dob'); 
             // $data['plan_name'] = $session->get('plan_name'); 
@@ -484,10 +487,98 @@ class UserController extends Controller
         // $data['title'] = 'Receipt'; 
         // Update the password in the database
         // $user = $usersModel->where('username', $username)->first();
-                return  redirect()->to('receipt');
+        // return  redirect()->to('receipt');
+        return redirect()->to('receipt')->with('albumsID', $albumsID);
 
 
        
+    }
+
+    public function receipt()
+    {
+        $session = session();
+        $username = $session->get('username'); 
+        // Create an instance of the UsersModel
+        $usersModel = new UsersModel();
+        $userSubscriptionModel = new UserSubscriptionModel();
+        $subscriptionModel = new SubscriptionModel();
+        $userAlbumsListModel = new UserAlbumsListModel();
+        $userAlbumsDetailsListModel= new UserAlbumsDetailsListModel();
+        $cardModel = new CardModel();
+        $albumsListModel = new AlbumsListModel();
+        // echo $albumsIDfromCheckout;
+        $albumsID = session('albumsID');
+            // echo $albumsID;
+
+
+        // Check if the user is logged in
+        // && $albumsID != null
+        if (session()->has('username') && session('role_id') == 2 ) {
+            $data['title'] = 'Receipt'; 
+            $dataUser = $usersModel->getUserByUsername($username);
+            $data['username'] = $dataUser['username'];
+            $data['nickname'] = $dataUser['nickname']; 
+            $data['email'] = $dataUser['email']; 
+            $dataUserSub = $userSubscriptionModel->getUserSubUsingUsername($username);
+            $sub_id = $dataUserSub[0]['sub_id'];
+            $data['sub_id'] = $dataUserSub[0]['sub_id'];
+    
+            $dataSub = $subscriptionModel->getSubUsingSubId($sub_id);
+            // echo $albumsID;
+            
+            
+            $data['sub_name'] = $dataSub[0]['sub_name'];
+            $dataUserAlbums = $userAlbumsListModel->getAlbumsByUsernameAndAlbumdId($username, $albumsID);
+            // print_r($dataUserAlbums);
+            $data['date_purchased'] = $dataUserAlbums[0]['date_purchased'];
+            $data['total_amount'] = $dataUserAlbums[0]['total_amount']; 
+            $data['order_id'] = $dataUserAlbums[0]['id']; 
+            $order_id = $dataUserAlbums[0]['id']; 
+            $card_id = $dataUserAlbums[0]['card_id']; 
+            // echo $card_id;
+            $dataCard = $cardModel->getCardById($card_id);
+            $dataUserAlbumsDetails = $userAlbumsDetailsListModel->getAlbumsDetailsByUserAlbumId($order_id);
+            // print_r($dataUserAlbumsDetails);
+
+
+            $data['card_type'] = $dataCard[0]['card_type']; 
+            $data['card_number'] = $dataCard[0]['card_number']; 
+
+            $albumListBuyed = [];
+            // $albumIDs = array_column($dataUserAlbumsDetails, 'id');
+            foreach ($dataUserAlbumsDetails as $album) {
+                $albumID = $album['album_id'];
+                $dataAlbums = $albumsListModel->getSingleAlbumsByIDs($albumID);
+                $albumListBuyed[] = $dataAlbums; // Append $dataAlbums to the $result array
+               
+            }
+            $data['ListAlbumsBuyed'] = $albumListBuyed;
+            //  print_r($albumListBuyed);
+
+            // echo $data['card_number'];
+
+
+            // print_r($dataUserAlbums);
+
+
+            // $data['email'] = $session->get('email'); 
+            // $data['formattedDate'] = date('F j, Y', strtotime($dob));   
+
+            return  view('components/navbar',$data) .
+                    // view('components/promotionHeader.php') .
+                    view('pages/receipt',$data) .
+                    view('components/footer.php');
+        } else {
+
+             $data['title'] = 'Homepage'; 
+
+            return  view('components/navbar',$data) .
+                    // view('components/promotionHeader.php') .
+                    view('pages/index') .
+                    view('components/footer.php');
+            
+        }
+        
     }
     
 }

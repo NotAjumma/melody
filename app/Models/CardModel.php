@@ -13,6 +13,12 @@ class CardModel extends Model
         return $this->where('username', $username)
                     ->findAll();
     }
+
+     public function getCardById($card_id)
+    {
+        return $this->where('id', $card_id)
+                    ->findAll();
+    }
     
     public function addCard($data)
     {

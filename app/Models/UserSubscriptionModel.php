@@ -9,9 +9,16 @@ class UserSubscriptionModel extends Model
     
     protected $allowedFields = ['sub_id', 'username', 'started_date', 'ended_date', 'durationMonth', 'total_amount', 'status', 'card_id'];
 
+    public function insertUserSub($data){
+        // echo "insdie";
+        $this->insert($data);
+        return $this->getInsertID();
+
+    }
     public function getUserSubUsingUsername($username)
     {
         return $this->where('username', $username)
+                    ->where('status', 'active')
                     ->findAll();
     }
 
@@ -30,20 +37,62 @@ public function getSubscriptions()
 
     $users = array_merge($usersWithSubscription, $usersWithoutSubscription);
     
+    $data = $users;
+    $uniqueData = [];
+    $existingUsernames = [];
+
+    foreach ($data as $item) {
+        $username = $item['username'];
+        if (!in_array($username, $existingUsernames)) {
+            $uniqueData[] = $item;
+            $existingUsernames[] = $username;
+        }
+    }
+
+    // print_r($uniqueData);
 
         // print_r($usersWithoutSubscription);
     // $users = array_merge($usersWithSubscription, $usersWithoutSubscription);
 
-    return $users;
+    return $uniqueData;
 }
 
-public function getUsersWithoutSubscription()
+public function getSubscriptionsByUsername($username)
 {
-    
-    
 
-    return $users;
+    $usersWithSubscription = $this->select('usersubscription.*, users.*, subscriptions.sub_name')
+    ->join('subscriptions', 'subscriptions.id = usersubscription.sub_id', 'left')
+    ->join('users', 'users.username = usersubscription.username', 'left')
+    ->where('users.username', $username)
+    ->findAll();
+    // print_r($usersWithSubscription);
+    $usersModel = new UsersModel();
+    $usersWithoutSubscription = $usersModel->where('username', $username)
+        ->findAll();
+
+
+    $users = array_merge($usersWithSubscription, $usersWithoutSubscription);
+    
+    $data = $users;
+    $uniqueData = [];
+    $existingUsernames = [];
+
+    foreach ($data as $item) {
+        $username = $item['username'];
+        if (!in_array($username, $existingUsernames)) {
+            $uniqueData[] = $item;
+            $existingUsernames[] = $username;
+        }
+    }
+
+    // print_r($uniqueData);
+
+        // print_r($usersWithoutSubscription);
+    // $users = array_merge($usersWithSubscription, $usersWithoutSubscription);
+
+    return $uniqueData;
 }
+
 
 
 

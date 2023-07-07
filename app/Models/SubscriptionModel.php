@@ -14,4 +14,9 @@ class SubscriptionModel extends Model
                     ->findAll();
     }
 
+    public function getAllSub()
+    {
+        return $this->findAll();
+    }
+
 }

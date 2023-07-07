@@ -55,4 +55,21 @@ class UserAlbumsListModel extends Model
 
         return $userAlbumId;
     }
+
+     public function getAlbumsByUsernameAndAlbumdId($username,$albumsID)
+    {
+        return $this->where('username', $username)->where('id', $albumsID)->findAll();
+    }
+
+    public function lineChart(){
+
+    // $data = $this->db->table('user_albums')
+    //             ->select('date_purchased, COUNT(*) as total_users')
+    //             ->where('date_purchased >=', date('Y-m-d', strtotime('-7 days')))
+    //             ->groupBy('date_purchased')
+    //             ->get()
+    //             ->getResultArray();
+    //             return $data;
+    }
+    
 }

@@ -35,6 +35,7 @@
             <th class="header-data">Nickname</th>
             <th class="header-data">Plan</th>
             <th class="header-data">Ended Date</th>
+            <th class="header-data">Status</th>
             <th class="header-data">Action</th>
           </tr>
         </thead>
@@ -46,6 +47,7 @@
             <td class="table-data"><?php echo $user['nickname']; ?></td>
             <td class="table-data"><?php echo $user['sub_name']; ?></td>
             <td class="table-data"><?php echo ($user['ended_date'] !== "-") ? date('M d, Y', strtotime($user['ended_date'])) : '-'; ?></td>
+            <td class="table-data"><?php echo $user['status']; ?></td>
 
             <td class="table-data">
               <a href="<?php echo ('edit-view/'.$user['username']);?>" class="btn btn-primary btn-sm">Edit</a>
