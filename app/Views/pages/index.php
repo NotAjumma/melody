@@ -85,8 +85,8 @@
             Listen without limits on your phone, speaker, and other devices.
           </div>
           <div class="plan-container-layer">
-            <div class="plan-container-outside">
-              <div class="plan-container-inside">
+            <!-- <div class="plan-container-outside"> -->
+              <!-- <div class="plan-container-inside">
                 <div class="top-layer-container">
                   <div class="plan-badge small-bold-text">
                     <div class="badge-text">
@@ -129,17 +129,17 @@
                     </div>
                   </div>
                   
-                  </div>
+                  </div> -->
                   <!-- <a href="<?= base_url('check-login-status/individual') ?>" class="get-started-button top-button button-text"> -->
-                  
+<!--                   
                   <div onclick="planButton('<?php base_url()?>','check-login-status/individual')" class="get-started-button top-button button-text">
                     Get Started
-                  </div>
-                  <div class="term-container-bottom small-text">
+                  </div> -->
+                  <!-- <div class="term-container-bottom small-text">
                     Offer not available for users who have already tried Premium
-                  </div>
-                </div>
-              </div>
+                  </div> -->
+                <!-- </div> -->
+              <!-- </div> -->
 
               <!-- Individual Plan -->
               <div class="plan-container-inside">
@@ -197,7 +197,7 @@
                     
                   </div>
                   
-                  <div onclick="planButton('<?php base_url()?>','individual')" class="get-started-button top-button button-text">
+                  <div onclick="planButton('<?php base_url()?>','check-login-status/individual')" class="get-started-button top-button button-text">
                     Get Started
                   </div>
                   <div class="term-container-bottom small-text">
@@ -298,7 +298,7 @@
                   </div>
                   
                 
-                  <div onclick="planButton('<?php base_url()?>','yearly')" class="get-started-button top-button button-text">
+                  <div onclick="planButton('<?php base_url()?>','check-login-status/yearly')" class="get-started-button top-button button-text">
                     Get started
                   </div>
                   <div class="term-container-bottom small-text">

@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="first-time-plan">
-        <div class="top-inside-header">
+        <div class="yearly-top-inside-header">
           <div class="first-top">
             <div>
               <div class="small-double-extrabold-text">Yearly Premium</div>
@@ -129,7 +129,7 @@
              <input type="hidden" name="cartItems" id="cartItemsInput">
              <input type="hidden" name="totalInput" id="totalInput" >
              <input type="hidden" name="username" id="username" value="<?php echo $username; ?>" >
-             <button type="submit" class="buy-now-button button-text">BUY NOW</button>
+             <button id="buy-now-button" type="submit" class="buy-now-button button-text" style="cursor: not-allowed">BUY NOW</button>
               <div class="bottom-footer-layer"></div>
             </div>
         </form>
@@ -447,5 +447,28 @@ const cardSelect = document.getElementById('card-select');
   function goBack() {
         window.history.back();
     }
+
+    document.addEventListener('DOMContentLoaded', function() {
+    // Get the dropdown element and the BUY NOW button
+    const cardSelect = document.getElementById('card-select');
+    const buyNowButton = document.getElementById('buy-now-button');
+
+    // Disable the BUY NOW button initially
+    buyNowButton.disabled = true;
+
+    // Add an event listener to the card select dropdown
+    cardSelect.addEventListener('change', function() {
+      // Check if a card is selected
+      if (cardSelect.value !== '') {
+        // Enable the BUY NOW button
+        buyNowButton.disabled = false;
+        buyNowButton.style.cursor = 'pointer';
+      } else {
+        // No card selected, disable the BUY NOW button
+        buyNowButton.disabled = true;
+        buyNowButton.style.cursor = 'not-allowed';
+      }
+    });
+  });
   </script>
 <?php } ?>

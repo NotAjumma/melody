@@ -2,11 +2,16 @@
 <link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
 
 <script src="<?= base_url('js/plan.js') ?>"></script>
+
+<?php if (session()->has('alert')): ?>
+    <?= session('alert') ?>
+<?php endif; ?>
+
     <div class="first-layer">
       <div class="header-top">
         <div class="large-medium-text">You chose</div>
         <div class="hyper-text small-extrabold-text ">
-          <a class="hyper-link" href="#">Change plan</a>
+          <a class="hyper-link" href="<?= base_url('#plan-layer') ?>">Change plan</a>
         </div>
       </div>
       <div class="chose-container">

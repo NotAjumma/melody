@@ -47,7 +47,8 @@
                                 </div>
                                 <div class="card-container-id" data-card-id="<?= $card['id'] ?>">
                                     
-                                    <div onclick="deleteCard(this)" class="delete-card-button karla-medium-text" data-card-id="<?= $card['id'] ?>">
+                                    <div onclick="confirmDeleteCard(this)" class="delete-card-button karla-medium-text" 
+                                    data-card-id="<?= $card['id'] ?>" data-card-number="<?= $card['card_number'] ?>" data-card-exp="<?= $card['expiration'] ?>">
                                         <i class="fa-solid fa-trash"></i>
                                     </div>
                                     
@@ -349,9 +350,15 @@
           <div class="out-bottom-footer-layer"></div>
 
         <script>
-    var baseUrl = "<?php echo base_url(); ?>"; // Add this line to set the base URL
-    
-    function deleteCard(element) {
+
+          function confirmDeleteCard(element) {
+    // var cardId = element.getAttribute('data-card-id');
+    var number = element.getAttribute('data-card-number');
+    var exp = element.getAttribute('data-card-exp');
+
+    var confirmMessage = "Are you sure you want to delete card ending with ****" + number + " | "+exp+ " ?";
+
+    if (confirm(confirmMessage)) {
         var cardId = element.getAttribute('data-card-id');
         var cardContainer = element.closest('.card-container');
         var url = baseUrl + 'cards/delete/' + cardId; // Use the base URL here
@@ -372,6 +379,12 @@
                 // Handle the error if needed
             }
         });
+    }
+}
+    var baseUrl = "<?php echo base_url(); ?>"; // Add this line to set the base URL
+    
+    function deleteCard(element) {
+       
     }
   fetch("add-card")
   .then((response) => response.text())

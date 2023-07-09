@@ -2,14 +2,17 @@
 <link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
 
 <script src="<?= base_url('js/plan.js') ?>"></script>
-    <div class="first-layer">
+<?php if (session()->has('alert')): ?>
+    <?= session('alert') ?>
+<?php endif; ?>
+    <div class="first-layer" >
       <div class="header-top">
         <div class="large-medium-text">You chose</div>
         <div class="hyper-text small-extrabold-text ">
-          <a class="hyper-link" href="#">Change plan</a>
+          <a class="hyper-link" href="<?= base_url('#plan-layer') ?>">Change plan</a>
         </div>
       </div>
-      <div class="chose-container">
+      <div class="yearly-chose-container">
         <div class="small-extrabold-text">Yearly Premium</div>
         <div class="small-text">1 account</div>
       </div>
@@ -21,9 +24,9 @@
         <div class="sub-text karla-regular-blod-small-text">
           Use your card; cancel anytime.
         </div>
-        <a href="<?= base_url('check-login-status/checkout1y') ?>" style="color: #000000; text-decoration: none;" >
+        <a href="<?= base_url('check-sub/checkout1y') ?>" style="color: #000000; text-decoration: none;" >
         <div class="method-container" >
-          <div class="badge">
+          <div class="yearly-badge">
             <div class="button-text">Hots Deals</div>
           </div>
           <div class="method-text karla-medium-text midle-text">

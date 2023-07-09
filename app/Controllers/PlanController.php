@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\UserSubscriptionModel;
+use App\Models\SubscriptionModel;
 use App\Models\CardModel;
 use CodeIgniter\Controller;
 
@@ -51,7 +52,8 @@ class PlanController extends Controller
     
         //Store user card
         $cardId = $this->request->getPost('cardCheckoutInput');
-
+        $sub_id = $this->request->getVar('sub_id');
+        // echo $sub_id;
 
 
         // Store Subscription made by user
@@ -67,11 +69,23 @@ class PlanController extends Controller
         ];
         // print_r($dataSubscription);
         $userSubscriptionModel = new UserSubscriptionModel();
+        $subscriptionModel = new SubscriptionModel();
 
 
         $userSubId = $userSubscriptionModel->insertUserSub($dataSubscription);
         // echo $dataSubInsert;
-        return redirect()->to(base_url());
+        // return redirect()->to('profile');getSubUsingSubId
+        // $subModel = $subscriptionModel->getSubUsingSubId($sub_id);
+        // $subName = $subModel['sub_name'];
+        // echo $subName;
+        if($sub_id==1){
+            $sub_name="Monthly";
+        }elseif($sub_id==2){
+            $sub_name="Yearly";
+        }
+        $data['alertBody'] = "Succesfully buy ". $sub_name ." membership.";
+
+        return redirect()->to('profile')->with('alertSuccess', view('components/alertSuccess',$data));
 
     }
 
@@ -123,6 +137,10 @@ class PlanController extends Controller
 
         $cardId = $cardModel->addCard($data);
         return  redirect()->to('plan/checkout/1m');
+
+        // $data['alertBody'] = "Succesfully buy membership.";
+
+        // return redirect()->to('plan/checkout/1m')->with('alertSuccess', view('components/alertSuccess',$data));
     }
 
     public function addCardCheckout1y(){

@@ -75,7 +75,7 @@
           </div>
 
           <?php  $session = session(); 
-        $db_password = $session->get('password');
+        $db_password = $password;
         $username = $session->get('username');
         
         // if (password_verify($currentPassword, $storedPassword)) {

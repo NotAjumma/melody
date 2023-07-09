@@ -99,6 +99,22 @@
                     </select>
                 </div>
             </div>
+
+            <div class="input-row" id="start-row">
+              <div class="label-input-edit karla-regular-blod-small-text">
+                Start Date
+              </div>
+              <div>
+                <input
+                  class="input-edit-profile karla-regular-small-text"
+                  type="date"
+                  name="start_date"
+                  value="<?php echo $start_date ?>"
+
+                />
+              </div>
+            </div>
+            
             
             <div class="input-row" id="status-row">
                 <div class="label-input-edit karla-regular-blod-small-text">
@@ -106,12 +122,16 @@
                 </div>
                 <div>
                     <select class="select-edit-profile karla-regular-small-text" id="status-select" name="status_update">
-                        <option value=""><?php echo $status ?></option>
-                        <option value="Free">Free</option>
+                      <?php if ($sub_id == 1 || $sub_id == 2) {?>
+                        <option value="<?php echo $status ?>"><?php echo $status ?></option>
+                        <?php }?>
+                        <!-- <option value="Free">Free</option> -->
                         <option value="Active">Active</option>
                         <option value="Unactive">Unactive</option>
                     </select>
                 </div>
+                <!-- <input type="hidden" value="Insert" name="updateOrInsert"  /> -->
+
             </div>
             <!-- <div class="input-row">
               <div class="label-input-edit karla-regular-blod-small-text">
@@ -129,6 +149,8 @@
           </div>
 
           <input type="hidden" value="<?php echo $username ?>" name="username" id="username" />
+          <input type="hidden" value="<?php echo $sub_id ?>" name="sub_id"  />
+          <input type="hidden" value="<?php echo $id ?>" name="id"  />
 
           <div class="grey-line"></div>
           <div class="save-profile-button-container">
@@ -147,12 +169,21 @@
     function goBack() {
         window.history.back();
     }
-    // function handlePlanSelect(selectElement) {
-    //     var statusRow = document.getElementById('status-row');
-    //     if (selectElement.value === '0') {
-    //         statusRow.style.display = 'none';
-    //     } else {
-    //         statusRow.style.display = 'block';
-    //     }
-    // }
+    document.addEventListener("DOMContentLoaded", function() {
+    var selectElement = document.getElementById('plan-select');
+    handlePlanSelect(selectElement);
+});
+   function handlePlanSelect(selectElement) {
+    var statusRow = document.getElementById('status-row');
+    var startRow = document.getElementById('start-row');
+    var subIdDd = "<?php echo $sub_id ?>";
+    if (selectElement.value === '0' || subIdDd === 0) {
+        statusRow.style.display = 'none';
+        startRow.style.display = 'none';
+    } else {
+        statusRow.style.display = 'block';
+        startRow.style.display = 'block';
+    }
+}
+
 </script>

@@ -7,7 +7,7 @@
  
  <div style=" width: 70%; background-color: white">
         <!-- edit here for profile page -->
-        <form action="submit-edit-profile" method="post">
+        <form action="submit-edit-profile" method="post" enctype="multipart/form-data">
         <div class="profile-content">
           <div class="edit-header-text extralarge-bold-text">Edit Profile</div>
           <div class="input-container">

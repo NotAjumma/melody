@@ -1,0 +1,790 @@
+CRITICAL - 2023-07-08 16:38:35 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 67.
+ 1 APPPATH\Controllers\UserController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:38:38 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 67.
+ 1 APPPATH\Controllers\UserController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:38:39 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 67.
+ 1 APPPATH\Controllers\UserController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:38:40 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 67.
+ 1 APPPATH\Controllers\UserController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:38:44 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 67.
+ 1 APPPATH\Controllers\UserController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:39:03 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 67.
+ 1 APPPATH\Controllers\UserController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:40:23 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 67.
+ 1 APPPATH\Controllers\UserController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:41:43 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 68.
+ 1 APPPATH\Controllers\UserController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:41:44 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 68.
+ 1 APPPATH\Controllers\UserController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:41:44 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 68.
+ 1 APPPATH\Controllers\UserController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:41:45 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 68.
+ 1 APPPATH\Controllers\UserController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:41:45 --> Undefined variable $userSubId
+in APPPATH\Controllers\UserController.php on line 68.
+ 1 APPPATH\Controllers\UserController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userSubId', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:44:00 --> Call to undefined function App\Controllers\checkLoginStatus()
+in APPPATH\Controllers\LoginController.php on line 264.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkSub('checkout1m')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:44:14 --> Call to undefined function App\Controllers\checkLoginStatus()
+in APPPATH\Controllers\LoginController.php on line 264.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkSub('checkout1m')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:44:57 --> Call to undefined function App\Controllers\checkLoginStatus()
+in APPPATH\Controllers\LoginController.php on line 264.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkSub('checkout1m')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 17:05:35 --> Undefined variable $data
+in APPPATH\Controllers\LoginController.php on line 262.
+ 1 APPPATH\Controllers\LoginController.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkSub('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 17:05:59 --> Undefined variable $data
+in APPPATH\Controllers\LoginController.php on line 262.
+ 1 APPPATH\Controllers\LoginController.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkSub('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 17:06:11 --> Undefined variable $data
+in APPPATH\Controllers\LoginController.php on line 262.
+ 1 APPPATH\Controllers\LoginController.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->checkSub('checkout1m')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:38:53 --> Undefined variable $selected
+in APPPATH\Views\pages\admin\edit-user.php on line 95.
+ 1 APPPATH\Views\pages\admin\edit-user.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selected', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\edit-user.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\edit-user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/edit-user', [], true)
+ 5 APPPATH\Controllers\AdminController.php(192): view('pages/admin/edit-user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->singleUser('ali')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:39:00 --> Undefined variable $selected
+in APPPATH\Views\pages\admin\edit-user.php on line 110.
+ 1 APPPATH\Views\pages\admin\edit-user.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selected', 'C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\edit-user.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\pages\\admin\\edit-user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/edit-user', [], true)
+ 5 APPPATH\Controllers\AdminController.php(192): view('pages/admin/edit-user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->singleUser('ali')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:50:12 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(228): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:50:18 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(228): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:50:40 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(229): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:50:44 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(229): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:51:00 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(229): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:51:29 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(229): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:51:39 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(229): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:51:46 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(229): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:52:06 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(229): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:53:04 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(230): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:53:40 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(230): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:53:51 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(230): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:53:59 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(230): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:55:26 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(230): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:55:29 --> Call to undefined method App\Models\UserSubscriptionModel::updateUserSubByUsername
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(230): CodeIgniter\Model->__call('updateUserSubByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->updateSingleUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 19:05:53 --> Undefined array key "started_date"
+in APPPATH\Controllers\AdminController.php on line 186.
+ 1 APPPATH\Controllers\AdminController.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "started_date"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 186)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->singleUser('naim')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 19:05:55 --> Undefined array key "started_date"
+in APPPATH\Controllers\AdminController.php on line 186.
+ 1 APPPATH\Controllers\AdminController.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "started_date"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 186)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->singleUser('naim')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 19:06:36 --> Undefined array key "started_date"
+in APPPATH\Controllers\AdminController.php on line 188.
+ 1 APPPATH\Controllers\AdminController.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "started_date"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\AdminController.php', 188)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->singleUser('naim')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 19:58:07 --> Call to undefined method CodeIgniter\Session\Session::hasFlashdata()
+in APPPATH\Views\pages\login.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 4 APPPATH\Controllers\LoginController.php(32): view('pages/login')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 19:58:49 --> Call to undefined method CodeIgniter\Session\Session::hasFlashdata()
+in APPPATH\Views\pages\login.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 4 APPPATH\Controllers\LoginController.php(32): view('pages/login')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 19:59:13 --> Call to undefined method CodeIgniter\Session\Session::hasFlashdata()
+in APPPATH\Views\pages\login.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 4 APPPATH\Controllers\LoginController.php(32): view('pages/login')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 19:59:22 --> Call to undefined method CodeIgniter\Session\Session::hasFlashdata()
+in APPPATH\Views\pages\login.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 4 APPPATH\Controllers\LoginController.php(32): view('pages/login')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 19:59:36 --> Call to undefined method CodeIgniter\Session\Session::hasFlashdata()
+in APPPATH\Views\pages\login.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/login', [], true)
+ 4 APPPATH\Controllers\LoginController.php(32): view('pages/login')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 20:06:52 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::with(), 1 passed in C:\xampp\htdocs\melody\app\Controllers\LoginController.php on line 126 and exactly 2 expected
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 130.
+ 1 APPPATH\Controllers\LoginController.php(126): CodeIgniter\HTTP\RedirectResponse->with('<div class="alert" id="alert-div">
+  
+<div style="margin: 0 auto; width: 50%;">
+  <span class="closebtn" onclick="hideAlert()">&times;</span> 
+  <div style="">
+    <strong>Sorry!</strong> Invalid username or password  </div>
+</div>
+</div>
+<style>
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
+<script>
+  function hideAlert(){
+    console.log("alert");
+    // var alertDiv = document.getElementsById("alert-div");
+   var alertDiv = document.getElementById("alert-div");
+
+    alertDiv.style.display = "none";
+  }
+</script>')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->loginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 20:07:20 --> Unclosed '{' on line 117 does not match ')'
+in APPPATH\Controllers\LoginController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-08 20:39:09 --> mysqli_sql_exception: Column 'gender' cannot be null in C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\melody\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\melody\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\melody\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\melody\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\melody\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\melody\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\melody\app\Models\UsersModel.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\melody\app\Controllers\LoginController.php(175): App\Models\UsersModel->addUser(Array)
+#9 C:\xampp\htdocs\melody\system\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+#10 C:\xampp\htdocs\melody\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#11 C:\xampp\htdocs\melody\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\melody\public\index.php(71): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-08 20:39:09 --> Column 'gender' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `users` (`email`, `username`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'\', \'\', \'\', \'$2y$10$5Z9eLzdSYtTLn.pxhqMLe.4S0vX7FQoCm1rrTmVjnuTXUHalYEHEe\', \'\', NULL, 2, \'none\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `username`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'\', \'\', \'\', \'$2y$10$5Z9eLzdSYtTLn.pxhqMLe.4S0vX7FQoCm1rrTmVjnuTXUHalYEHEe\', \'\', NULL, 2, \'none\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `username`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (\'\', \'\', \'\', \'$2y$10$5Z9eLzdSYtTLn.pxhqMLe.4S0vX7FQoCm1rrTmVjnuTXUHalYEHEe\', \'\', NULL, 2, \'none\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `username`, `nickname`, `password`, `date_of_birth`, `gender`, `role_id`, `profile_pic`) VALUES (:email:, :username:, :nickname:, :password:, :date_of_birth:, :gender:, :role_id:, :profile_pic:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UsersModel.php(26): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\LoginController.php(175): App\Models\UsersModel->addUser([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->signupProcess()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 20:59:43 --> Undefined array key 0
+in APPPATH\Controllers\UserController.php on line 571.
+ 1 APPPATH\Controllers\UserController.php(571): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php', 571)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:00:53 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\UserController.php on line 616.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:00:58 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\UserController.php on line 616.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\melody\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:14:01 --> Class "App\Controllers\SubscriptionModel" not found
+in APPPATH\Controllers\PlanController.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:14:14 --> Class "App\Controllers\SubscriptionModel" not found
+in APPPATH\Controllers\PlanController.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:14:28 --> Undefined array key "sub_name"
+in APPPATH\Controllers\PlanController.php on line 79.
+ 1 APPPATH\Controllers\PlanController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:14:46 --> Undefined array key "sub_name"
+in APPPATH\Controllers\PlanController.php on line 79.
+ 1 APPPATH\Controllers\PlanController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_name"', 'C:\\xampp\\htdocs\\melody\\app\\Controllers\\PlanController.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutStore()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:19:59 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 255.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:20:15 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:20:52 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 257.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:20:57 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 258.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:20:58 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 258.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:20:58 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 258.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:21:03 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 257.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:21:16 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 257.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:21:16 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 257.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:22:39 --> Call to a member function getName() on null
+in APPPATH\Controllers\UserController.php on line 253.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:22:40 --> Call to a member function getName() on null
+in APPPATH\Controllers\UserController.php on line 253.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:23:02 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 258.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:23:03 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 258.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:23:05 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 258.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:23:15 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 259.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:23:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 261.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:23:57 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 261.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->editProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:32:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\LoginController.php(16): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:33:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\LoginController.php(16): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:33:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\LoginController.php(16): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:33:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\PlanController.php(46): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('1m')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:33:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\PlanController.php(46): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('1m')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:33:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\PlanController.php(46): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('1m')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:34:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\PlanController.php(46): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('1m')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:34:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\PlanController.php(46): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('1m')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:34:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\PlanController.php(46): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('1m')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:34:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\PlanController.php(46): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->checkoutForm('1m')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:34:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\LoginController.php(16): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:34:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\PlanController.php(22): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->yearly()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:34:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\PlanController.php(22): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->yearly()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:34:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\PlanController.php(22): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PlanController->yearly()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:34:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\LoginController.php(16): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:34:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\LoginController.php(16): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:35:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\LoginController.php(16): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:35:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\LoginController.php(16): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:35:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\LoginController.php(16): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:36:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\LoginController.php(16): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 21:37:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\components\navbar.php on line 42.
+ 1 APPPATH\Views\components\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\melody\\app\\Views\\components\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('components/navbar', [], true)
+ 5 APPPATH\Controllers\LoginController.php(16): view('components/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(71): CodeIgniter\CodeIgniter->run()

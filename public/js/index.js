@@ -37,3 +37,7 @@ function hideAddCardContainer() {
     inputcontainer.style.display = "block";
   }
 }
+
+function confirmCancellation() {
+  return confirm("Are you sure you want to cancel the premium subscription?");
+}

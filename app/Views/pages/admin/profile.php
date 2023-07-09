@@ -8,7 +8,9 @@
 
 
 <!-- edit here for profile page -->
+
 <div class="profile-content">
+ 
           <div class="header-text extralarge-bold-text">Account overview</div>
           <div class="sub-header-text large-regular-text">Profile</div>
           <div class="table-rows">

@@ -100,6 +100,14 @@ public function deleteSubscriptionByUsernameAndId($username, $usersubscriptionId
                 ->delete();
 }
 
+public function updateUserSubByUsername($username, $updatedUserSubData){
+    $this->where('username', $username)
+    ->set($updatedUserSubData)
+    ->update();
+
+    
+}
+
 
 
 

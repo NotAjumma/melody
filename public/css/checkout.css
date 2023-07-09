@@ -25,6 +25,12 @@
   padding: 1rem;
 }
 
+.yearly-top-inside-header {
+  border-radius: 1rem 1rem 0rem 0;
+  background-color: #009ffd;
+  padding: 1rem;
+}
+
 .first-top,
 .sec-top {
   display: flex;

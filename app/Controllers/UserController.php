@@ -46,7 +46,7 @@ class UserController extends Controller
             // print_r($dataUserSub);
             if (!empty($dataUserSub)) {
                 $sub_id = $dataUserSub[0]['sub_id'];
-                $userSubId = $dataUserSub[0]['id'];
+                // $userSubId = $dataUserSub[0]['id'];
                 $data['userSubId'] = $dataUserSub[0]['id'];
 
                 $data['sub_id'] = $dataUserSub[0]['sub_id'];
@@ -62,9 +62,10 @@ class UserController extends Controller
             } else {
                 $data['sub_id'] = ''; // Set a default value if sub_id is not found
                 $data['sub_name'] = ''; // Set a default value if sub_name is not found
+                $data['userSubId'] = '';
             }
             // echo $data['sub_name'];
-            $data['userSubId'] = $userSubId;
+            // $data['userSubId'] = $userSubId;
             $data['formattedDate'] = date('F j, Y', strtotime($dob));   
 
             return  view('components/navbar',$data) .
@@ -222,11 +223,14 @@ class UserController extends Controller
             ];
             $usersModel->update($user['username'], $data);
 
-            return redirect()->to('profile');
+            $data['alertBody'] = "Successfully updated new password";
+
+            return redirect()->to('profile')->with('alertSuccess', view('components/alertSuccess',$data));
 
             // return false; // Current password is incorrect
         }else{
             return redirect()->to('edit-profile');
+            
         }
 
        
@@ -245,24 +249,59 @@ class UserController extends Controller
         // Create an instance of the UsersModel
         $usersModel = new UsersModel();
 
-        // Prepare the updated user data
-        $updatedUserData = [
-            'email' => $email,
-            'nickname' => $nickname,
-            'date_of_birth' => $dateOfBirth,
-            'gender' => $gender
-        ];
+        $profilePicFile = $this->request->getFile('profile_pic');
+        // echo $profilePicFile->getName();
 
-        var_dump($updatedUserData);
-        var_dump($username);
+            // echo "out";
+            var_dump($profilePicFile);
+
+
+
+        // Check if a new profile picture was uploaded
+        if ($profilePicFile->isValid()) {
+            echo "if";
+            // Generate a new unique filename for the uploaded profile picture
+            $newProfilePicName = $profilePicFile->getRandomName();
+
+            // Move the uploaded profile picture to the desired directory
+            $profilePicFile->move(ROOTPATH . 'public/uploads/profile_pics', $newProfilePicName);
+
+            // Prepare the updated user data including the new profile picture filename
+            $updatedUserData = [
+                'email' => $email,
+                'nickname' => $nickname,
+                'date_of_birth' => $dateOfBirth,
+                'gender' => $gender,
+                'profile_pic' => $newProfilePicName // Add the new profile picture filename
+            ];
+        } else {
+            echo "else";
+
+            // Prepare the updated user data without the profile picture
+            $updatedUserData = [
+                'email' => $email,
+                'nickname' => $nickname,
+                'date_of_birth' => $dateOfBirth,
+                'gender' => $gender
+            ];
+        }
+
+        // var_dump($updatedUserData);
+        // var_dump($username);
 
         // Update the user profile
         $usersModel->update($username, $updatedUserData);
 
         if($username=="admin"){
-            return redirect()->to('admin/profile');
+            // return redirect()->to('admin/profile');
+            $data['alertBody'] = "Successfully updated admin profile info";
+
+            return redirect()->to('admin/profile')->with('alertSuccess', view('components/alertSuccess',$data));
         }else{
-            return redirect()->to('profile');
+            $data['alertBody'] = "Successfully updated profile info";
+
+            // return redirect()->to('profile');
+            return redirect()->to('profile')->with('alertSuccess', view('components/alertSuccess',$data));
         }
         
 
@@ -339,7 +378,9 @@ class UserController extends Controller
             'message' => 'Subscription deleted successfully', // Optional message
         ];
 
-        return redirect()->to('profile');
+        $data['alertBody'] = "Subscription deleted successfully";
+
+        return redirect()->to('profile')->with('alertSuccess', view('components/alertSuccess',$data));
 
     }
 
@@ -597,11 +638,17 @@ class UserController extends Controller
         } else {
 
              $data['title'] = 'Homepage'; 
+            $data['alertBody'] = "Successfully buy album(s)";
+
 
             return  view('components/navbar',$data) .
-                    // view('components/promotionHeader.php') .
+                    // with('alertSuccess', view('components/alertSuccess',$data)) .
                     view('pages/index') .
                     view('components/footer.php');
+
+
+            // return redirect()->to('profile')->with('alertSuccess', view('components/alertSuccess',$data));
+                    
             
         }
         

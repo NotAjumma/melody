@@ -88,7 +88,7 @@
                   </div>
                 </div>
                   <div class="cancelbuttonid" data-usersubscription-id="<?= $userSubId ?>"> 
-                <a href="<?php echo ('userSubscription-delete/'.$userSubId) ?>" class="cancel-premium-button button-bold-text" data-usersubscription-id="<?= $userSubId ?>" >Cancel Premium</a>
+                <a onclick="return confirmCancellation()" href="<?php echo ('userSubscription-delete/'.$userSubId) ?>" class="cancel-premium-button button-bold-text" data-usersubscription-id="<?= $userSubId ?>" >Cancel Premium</a>
                 <!-- <div class="member-container karla-half-medium-small-text">
                   You're a member of a Custom plan.
                 </div> -->
@@ -134,7 +134,7 @@
                 </div>
                 
                   <div class="cancelbuttonid" data-usersubscription-id="<?= $userSubId ?>"> 
-                  <a href="<?php echo ('userSubscription-delete/'.$userSubId) ?>" class="cancel-yearly-button button-bold-text" data-usersubscription-id="<?= $userSubId ?>" >Cancel Premium</a>
+                  <a onclick="return confirmCancellation()" href="<?php echo ('userSubscription-delete/'.$userSubId) ?>" class="cancel-yearly-button button-bold-text" data-usersubscription-id="<?= $userSubId ?>" >Cancel Premium</a>
                   <!-- <div class="member-container karla-half-medium-small-text">
                     You're a member of a Custom plan.
                   </div> -->
@@ -195,6 +195,10 @@
             }
         });
     }
+
+    function confirmCancellation() {
+  return confirm("Are you sure you want to cancel the premium subscription?");
+}
 
 </script>
 

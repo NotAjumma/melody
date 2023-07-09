@@ -45,7 +45,7 @@ $routes->get('admin/user-list', 'AdminController::userList');
 $routes->get('admin/verify-membership', 'AdminController::memberships');
 $routes->get('admin/edit-profile', 'AdminController::editProfile');
 $routes->get('admin/edit-view/(:segment)', 'AdminController::singleUser/$1');
-$routes->post('admin/submit-edit-user', 'AdminController::updateSingleUser');
+$routes->post('admin/edit-view/admin/submit-edit-user', 'AdminController::updateSingleUser');
 $routes->get('admin/delete/(:segment)', 'AdminController::deleteUser/$1');
 $routes->get('admin/albums-list', 'AdminController::albumsList');
 $routes->get('admin/change-password', 'AdminController::changePassword');
@@ -95,8 +95,8 @@ $routes->post('/checkout-albums-list', 'LoginController::albumCheckout');
 
 
 //Plans
-$routes->get('plan/individual', 'PlanController::individual');
-$routes->get('plan/yearly', 'PlanController::yearly');
+$routes->get('individual', 'PlanController::individual');
+$routes->get('yearly', 'PlanController::yearly');
 //Checkout
 $routes->get('plan/checkout/1month', 'PlanController::checkoutForm');
 $routes->get('plan/checkout/(:segment)', 'PlanController::checkoutForm/$1');

@@ -104,6 +104,7 @@
 
 .plan-container-layer {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .plan-container-outside {

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 03, 2023 at 10:14 AM
+-- Generation Time: Jul 09, 2023 at 10:09 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -107,8 +107,9 @@ INSERT INTO `card` (`id`, `username`, `name`, `card_number`, `expiration`, `secu
 (6, 'naim', 'muhd naim', 4000, '09/25', '4322', 'visa'),
 (7, 'naim', 'Nina', 3566, '10/02', '1234', 'jcb'),
 (11, 'naim', 'Sharul', 6759, '08/88', '7777', 'maestro'),
-(16, 'ali', 'Ali baba', 3566, '09/99', '7655', 'jcb'),
-(17, 'kaka', 'Kaka', 5200, '07/77', '655', 'mastercard');
+(17, 'kaka', 'Kaka', 5200, '07/77', '655', 'mastercard'),
+(30, 'paksamad', 'Sharul', 3056, '08/88', '8989', 'diners'),
+(44, 'ali', '8967', 3566, '08/90', '890', 'jcb');
 
 -- --------------------------------------------------------
 
@@ -165,9 +166,9 @@ CREATE TABLE `subscriptions` (
 --
 
 INSERT INTO `subscriptions` (`id`, `sub_name`) VALUES
+(0, 'Free Plan'),
 (1, 'Monthly'),
-(2, 'Yearly'),
-(3, 'Mini');
+(2, 'Yearly');
 
 -- --------------------------------------------------------
 
@@ -191,13 +192,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`username`, `password`, `email`, `nickname`, `date_of_birth`, `gender`, `profile_pic`, `role_id`) VALUES
-('adha', '$2y$10$4X1hFDOKIXLcRsQC4ZkGwudUETCd4sGdRoNIa4AXP18e/zA8jpueW', 'paksamad55@gmail.com', 'adha', '2023-06-07', 'Prefer not to say', '', 2),
-('admin', '$2y$10$ZaN2UHK6omY8MK0J0x19L.0Dslh.2nn5kfhbYkZYo0YPYGeM2mGSm', 'admin@gmail.com', 'admin 2', '2023-05-29', 'Male', '', 1),
-('akmal', '$2y$10$iPKKm5Gy911RDFUaVixn4e9e7pVxSjhyPZn6oD0KB2cDjb1c1Z46e', 'akmal@gmail.com', 'akmal', '2023-06-27', 'Prefer not to say', 'none', 2),
-('ali', '$2y$10$lCLfoK.al73nleZhu/DcY.s0woQUHER7qlJy0tiwRr4f3./x6qlwe', 'ali@gmail.com', 'ali the Slayesssss', '2023-05-29', 'Male', '', 2),
-('kaka', '$2y$10$OjcTphh/VBrEehPTws2rfuOrmlOiIhvCd/wFxg5rO39iMhYGbQb4S', 'kaka@gmail.com', 'kaka', '2023-06-27', 'Male', 'none', 2),
-('naim', '$2y$10$H14Ii3zULAx9MkuRBNwZouuVoFDsUaCmM4QCge98aGiZndpxJ1.Hi', 'naim99@yahoo.com', 'damnboi', '2003-12-29', 'Prefer not to say', '', 2),
-('paksamad', '$2y$10$N5YC0MzOAsd2HetzpjKLa.tTBUfWoboJGMO71r3lCFnZBnxZ88H8K', 'paksamad55@gmail.com', 'paksamad rangers', '2023-05-31', 'Male', '', 2);
+('admin', '$2y$10$bwz2yctmbgpiYQAl5BUPPeEe9HNsrzgJPyUslrlNeJmLrpU4s6t1S', 'admin@gmail.com', 'admin', '2023-05-29', 'Male', '', 1),
+('ali', '$2y$10$2N5acmBBJS74iHtVOOExWeULRelq4EZ9Xidv3XkEQvGx47U7qB8KS', 'ali@gmail.com', 'ali the Slayesssss', '2023-05-29', 'Male', '1688851934_085d51f29320a0bdd865.jpg', 2),
+('naim', '$2y$10$5oyXdD4lwTUniBDmUXzxveTrm4uzUCKyL2m622Dux3ZvFvdOhmH7W', 'naim99@yahoo.com', 'damnboison', '2003-12-29', 'Prefer not to say', '', 2),
+('paksamad', '$2y$10$NUHxxb.7oTxFhG8sgoxkqu2QPvz6kqJxzURN9nLt0An1jWeo5lypq', 'paksamad55@gmail.com', 'paksamads', '2023-07-05', 'Male', '', 2);
 
 -- --------------------------------------------------------
 
@@ -222,9 +220,9 @@ CREATE TABLE `usersubscription` (
 --
 
 INSERT INTO `usersubscription` (`id`, `sub_id`, `username`, `started_date`, `ended_date`, `durationMonth`, `total_amount`, `status`, `card_id`) VALUES
-(13, 1, 'naim', '2023-06-30', '2023-08-30', 2, 14.9, 'active', 9),
-(14, 1, 'ali', '2023-07-02', '2023-09-02', 2, 14.9, 'active', 16),
-(15, 1, 'kaka', '2023-07-03', '2023-09-03', 2, 14.9, 'active', 17);
+(39, 2, 'naim', '2023-07-11', '2024-07-11', 12, 130.9, 'Active', 0),
+(48, 1, 'paksamad', '2023-07-12', '2023-08-12', 12, 130.9, 'Active', 0),
+(56, 1, 'ali', '2023-07-08', '2023-08-08', 1, 14.9, 'active', 44);
 
 -- --------------------------------------------------------
 
@@ -234,9 +232,88 @@ INSERT INTO `usersubscription` (`id`, `sub_id`, `username`, `started_date`, `end
 
 CREATE TABLE `user_albums` (
   `id` int(11) NOT NULL,
+  `username` varchar(50) NOT NULL,
   `date_purchased` date NOT NULL,
+  `card_id` int(50) NOT NULL,
   `total_amount` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `user_albums`
+--
+
+INSERT INTO `user_albums` (`id`, `username`, `date_purchased`, `card_id`, `total_amount`) VALUES
+(1, 'naim', '2023-07-01', 6, 192.6),
+(2, 'naim', '2023-07-01', 4, 96.3),
+(3, 'ali', '2023-07-01', 23, 117.9),
+(4, 'paksamad', '2023-07-02', 19, 115),
+(5, 'ali', '2023-07-02', 23, 186.3),
+(6, 'ali', '2023-07-02', 23, 178.2),
+(7, 'ali', '2023-07-02', 23, 178.2),
+(8, 'ali', '2023-07-02', 23, 178.2),
+(9, 'ali', '2023-07-02', 23, 178.2),
+(10, 'ali', '2023-07-03', 23, 178.2),
+(11, 'ali', '2023-07-03', 23, 178.2),
+(12, 'ali', '2023-07-03', 23, 178.2),
+(13, 'ali', '2023-07-04', 23, 178.2),
+(14, 'ali', '2023-07-04', 23, 178.2),
+(15, 'ali', '2023-07-04', 23, 178.2),
+(16, 'ali', '2023-07-04', 23, 178.2),
+(17, 'ali', '2023-07-04', 23, 178.2),
+(18, 'ali', '2023-07-05', 23, 178.2),
+(19, 'ali', '2023-07-05', 23, 178.2),
+(20, 'ali', '2023-07-05', 23, 178.2),
+(21, 'ali', '2023-07-05', 23, 20.7),
+(22, 'ali', '2023-07-05', 23, 19.8),
+(23, 'ali', '2023-07-05', 23, 19.8),
+(24, 'ali', '2023-07-05', 23, 19.8),
+(25, 'ali', '2023-07-05', 23, 19.8),
+(26, 'ali', '2023-07-05', 23, 147.6),
+(27, 'ali', '2023-07-05', 23, 19.8),
+(28, 'ali', '2023-07-05', 23, 117.9),
+(29, 'paksamad', '2023-07-05', 24, 80.1),
+(30, 'paksamad', '2023-07-05', 19, 261.9),
+(31, 'paksamad', '2023-07-05', 24, 51.3),
+(32, 'paksamad', '2023-07-05', 19, 82.8),
+(33, 'paksamad', '2023-07-05', 19, 279),
+(34, 'paksamad', '2023-07-05', 24, 105.3),
+(35, 'paksamad', '2023-07-05', 19, 82.8),
+(36, 'paksamad', '2023-07-05', 24, 82.8),
+(37, 'paksamad', '2023-07-05', 24, 54),
+(38, 'paksamad', '2023-07-05', 24, 261.9),
+(39, 'paksamad', '2023-07-05', 24, 262.8),
+(40, 'paksamad', '2023-07-05', 19, 262.8),
+(41, 'paksamad', '2023-07-05', 19, 262.8),
+(42, 'paksamad', '2023-07-05', 19, 149.4),
+(43, 'paksamad', '2023-07-05', 24, 82.8),
+(44, 'paksamad', '2023-07-05', 19, 117.9),
+(45, 'paksamad', '2023-07-05', 19, 262.8),
+(46, 'paksamad', '2023-07-05', 24, 105.3),
+(47, 'paksamad', '2023-07-05', 19, 117.9),
+(48, 'paksamad', '2023-07-05', 24, 0),
+(49, 'paksamad', '2023-07-05', 19, 117.9),
+(50, 'paksamad', '2023-07-05', 24, 105.3),
+(51, 'paksamad', '2023-07-05', 24, 103.5),
+(52, 'paksamad', '2023-07-05', 19, 262.8),
+(53, 'paksamad', '2023-07-05', 24, 147.6),
+(54, 'paksamad', '2023-07-05', 19, 148.5),
+(55, 'paksamad', '2023-07-05', 19, 54),
+(56, 'paksamad', '2023-07-05', 24, 43.2),
+(57, 'paksamad', '2023-07-05', 24, 82.8),
+(58, 'paksamad', '2023-07-05', 24, 105.3),
+(59, 'paksamad', '2023-07-05', 19, 117.9),
+(60, 'paksamad', '2023-07-05', 19, 51.3),
+(61, 'paksamad', '2023-07-05', 24, 82.8),
+(62, 'paksamad', '2023-07-05', 24, 103.5),
+(63, 'paksamad', '2023-07-06', 24, 425.7),
+(64, 'paksamad', '2023-07-06', 24, 186.3),
+(65, 'ali', '2023-07-08', 44, 342.9),
+(66, 'ali', '2023-07-08', 44, 117.9),
+(67, 'ali', '2023-07-08', 44, 117.9),
+(68, 'ali', '2023-07-08', 44, 117.9),
+(69, 'ali', '2023-07-08', 44, 147.6),
+(70, 'ali', '2023-07-08', 44, 147.6),
+(71, 'ali', '2023-07-08', 44, 147.6);
 
 -- --------------------------------------------------------
 
@@ -246,10 +323,172 @@ CREATE TABLE `user_albums` (
 
 CREATE TABLE `user_albums_details` (
   `id` int(11) NOT NULL,
-  `username` varchar(50) NOT NULL,
   `album_id` int(50) NOT NULL,
   `user_album_id` int(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `user_albums_details`
+--
+
+INSERT INTO `user_albums_details` (`id`, `album_id`, `user_album_id`) VALUES
+(1, 31, 1),
+(2, 21, 1),
+(3, 5, 1),
+(4, 18, 1),
+(5, 1, 2),
+(6, 12, 2),
+(7, 32, 3),
+(8, 31, 3),
+(9, 5, 4),
+(10, 21, 4),
+(11, 32, 5),
+(12, 31, 5),
+(13, 25, 5),
+(14, 25, 6),
+(15, 21, 6),
+(16, 4, 6),
+(17, 25, 7),
+(18, 21, 7),
+(19, 4, 7),
+(20, 25, 8),
+(21, 21, 8),
+(22, 4, 8),
+(23, 25, 9),
+(24, 21, 9),
+(25, 4, 9),
+(26, 25, 10),
+(27, 21, 10),
+(28, 4, 10),
+(29, 25, 11),
+(30, 21, 11),
+(31, 4, 11),
+(32, 25, 12),
+(33, 21, 12),
+(34, 4, 12),
+(35, 25, 13),
+(36, 21, 13),
+(37, 4, 13),
+(38, 25, 14),
+(39, 21, 14),
+(40, 4, 14),
+(41, 25, 15),
+(42, 21, 15),
+(43, 4, 15),
+(44, 25, 16),
+(45, 21, 16),
+(46, 4, 16),
+(47, 25, 17),
+(48, 21, 17),
+(49, 4, 17),
+(50, 25, 18),
+(51, 21, 18),
+(52, 4, 18),
+(53, 25, 19),
+(54, 21, 19),
+(55, 4, 19),
+(56, 25, 20),
+(57, 21, 20),
+(58, 4, 20),
+(59, 9, 21),
+(60, 7, 22),
+(61, 7, 23),
+(62, 7, 24),
+(63, 7, 25),
+(64, 21, 26),
+(65, 25, 26),
+(66, 7, 27),
+(67, 31, 28),
+(68, 32, 28),
+(69, 17, 29),
+(70, 27, 30),
+(71, 17, 30),
+(72, 4, 31),
+(73, 9, 31),
+(74, 30, 32),
+(75, 18, 32),
+(76, 10, 33),
+(77, 15, 33),
+(78, 25, 34),
+(79, 31, 34),
+(80, 30, 35),
+(81, 18, 35),
+(82, 30, 36),
+(83, 18, 36),
+(84, 30, 37),
+(85, 10, 37),
+(86, 27, 38),
+(87, 17, 38),
+(88, 32, 39),
+(89, 27, 39),
+(90, 32, 40),
+(91, 27, 40),
+(92, 32, 41),
+(93, 27, 41),
+(94, 32, 42),
+(95, 25, 42),
+(96, 18, 43),
+(97, 30, 43),
+(98, 31, 44),
+(99, 32, 44),
+(100, 32, 45),
+(101, 27, 45),
+(102, 25, 46),
+(103, 31, 46),
+(104, 31, 47),
+(105, 32, 47),
+(106, 31, 49),
+(107, 32, 49),
+(108, 25, 50),
+(109, 31, 50),
+(110, 21, 51),
+(111, 5, 51),
+(112, 32, 52),
+(113, 27, 52),
+(114, 21, 53),
+(115, 25, 53),
+(116, 12, 54),
+(117, 17, 54),
+(118, 30, 55),
+(119, 10, 55),
+(120, 7, 56),
+(121, 10, 56),
+(122, 18, 57),
+(123, 30, 57),
+(124, 25, 58),
+(125, 31, 58),
+(126, 32, 59),
+(127, 31, 59),
+(128, 9, 60),
+(129, 4, 60),
+(130, 18, 61),
+(131, 30, 61),
+(132, 21, 62),
+(133, 5, 62),
+(134, 17, 63),
+(135, 27, 63),
+(136, 32, 63),
+(137, 18, 63),
+(138, 30, 63),
+(139, 10, 64),
+(140, 30, 64),
+(141, 18, 64),
+(142, 17, 64),
+(143, 32, 65),
+(144, 27, 65),
+(145, 17, 65),
+(146, 31, 66),
+(147, 32, 66),
+(148, 31, 67),
+(149, 32, 67),
+(150, 31, 68),
+(151, 32, 68),
+(152, 25, 69),
+(153, 21, 69),
+(154, 25, 70),
+(155, 21, 70),
+(156, 25, 71),
+(157, 21, 71);
 
 --
 -- Indexes for dumped tables
@@ -327,7 +566,7 @@ ALTER TABLE `albums`
 -- AUTO_INCREMENT for table `card`
 --
 ALTER TABLE `card`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 
 --
 -- AUTO_INCREMENT for table `features`
@@ -345,25 +584,25 @@ ALTER TABLE `roles`
 -- AUTO_INCREMENT for table `subscriptions`
 --
 ALTER TABLE `subscriptions`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `usersubscription`
 --
 ALTER TABLE `usersubscription`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
 
 --
 -- AUTO_INCREMENT for table `user_albums`
 --
 ALTER TABLE `user_albums`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 
 --
 -- AUTO_INCREMENT for table `user_albums_details`
 --
 ALTER TABLE `user_albums_details`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=158;
 
 --
 -- Constraints for dumped tables

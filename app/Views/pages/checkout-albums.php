@@ -15,6 +15,9 @@
 
 <script src="<?= base_url('js/checkout.js') ?>"></script>
 <script src="<?= base_url('js/plan.js') ?>"></script>
+ <?php if (session()->has('alertSuccess')): ?>
+    <?= session('alertSuccess') ?>
+<?php endif; ?>
  <div class="outer-checkout"></div>
     <div class="checkout-content">
       <div class="left-content">

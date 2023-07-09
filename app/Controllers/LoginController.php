@@ -28,6 +28,7 @@ class LoginController extends Controller
         } else {
             // User is not logged in, redirect to login page
             $data['title'] = 'Login'; 
+            $data['error'] = session()->getFlashdata('error'); // Pass the flash message to the view
             return  view('components/navbar',$data) .
                     view('pages/login') ;
         }
@@ -118,8 +119,11 @@ class LoginController extends Controller
             // You can customize this part based on your application's requirements
 
             // Example: Set flashdata and redirect back to login page
-            session()->setFlashdata('error', 'Invalid username or password');
-            return redirect()->back();
+        //    session()->setFlashdata('error', 'Invalid username or password');
+        // echo "wrong";
+            $data['alertBody'] = "Invalid username or password";
+
+            return redirect()->to('login')->with('alert', view('components/alert',$data));
         }
     }
 
@@ -202,6 +206,8 @@ class LoginController extends Controller
                return redirect()->to(site_url('plan/checkout/3m'));
             } elseif ($page == 'individual') {
                return redirect()->to(site_url('individual'));
+            } elseif ($page == 'yearly') {
+               return redirect()->to(site_url('yearly'));
             } elseif ($page == 'checkout6m') {
                return redirect()->to(site_url('plan/checkout/6m'));
             } elseif ($page == 'checkout1y') {
@@ -221,6 +227,8 @@ class LoginController extends Controller
                return redirect()->to('login?message=plan/checkout/3m');
             }else if ($page == 'individual') {
                return redirect()->to('login?message=individual');
+            }else if ($page == 'yearly') {
+               return redirect()->to('login?message=yearly');
             }else if ($page == 'checkout6m') {
                return redirect()->to('login?message=plan/checkout/6m');
             }else if ($page == 'checkout1y') {
@@ -244,19 +252,83 @@ class LoginController extends Controller
     {
      $session = session();
         $username = $session->get('username'); 
-        echo $username;
+        // echo $page;
         // Check if the user is already subscribed
            
             $userSubscriptionModel= new UserSubscriptionModel;
             $subscription = $userSubscriptionModel->where('username', $username)->first();
             // echo $subscription;
             if ($subscription) {
-                echo "inside";
+                $data['alertBody'] = "You already subscribe membership, need to cancel membership first.";
                 // User is already subscribed, display the pop-up message
-                echo "<script>alert('Already subscribed!');</script>";
+            //    include(APPPATH . 'Views/components/popup.php');
                 // Add the necessary logic or redirect to the desired page if needed
+              
+                if ($page == 'checkout1m') {
+                return redirect()->to('individual')->with('alert', view('components/alert',$data));
+                } elseif ($page == 'checkout3m') {
+                return redirect()->to('individual')->with('alert', view('components/alert',$data));
+                } elseif ($page == 'checkout6m') {
+                return redirect()->to('individual')->with('alert', view('components/alert',$data));
+                } elseif ($page == 'checkout1y') {
+                return redirect()->to('yearly')->with('alert', view('components/alert',$data));
+                }else {
+                    // Invalid page parameter, redirect to default page
+                    // return redirect()->to('default');
+                }
+                
+
+            } else {
+                if (session()->has('username')) {
+            // User is logged in, redirect to the specified page
+            if ($page == 'checkout1m') {
+               return redirect()->to(site_url('plan/checkout/1m'));
+            } elseif ($page == 'checkout3m') {
+               return redirect()->to(site_url('plan/checkout/3m'));
+            } elseif ($page == 'individual') {
+               return redirect()->to(site_url('individual'));
+            } elseif ($page == 'yearly') {
+               return redirect()->to(site_url('yearly'));
+            } elseif ($page == 'checkout6m') {
+               return redirect()->to(site_url('plan/checkout/6m'));
+            } elseif ($page == 'checkout1y') {
+                return redirect()->to(site_url('plan/checkout/1y'));
+            } elseif ($page == 'promotion') {
+                return redirect()->to('promotion');
+            } elseif ($page == 'checkoutAlbums') {
+                return redirect()->to('checkout-albums-list');
+            }else {
+                // Invalid page parameter, redirect to default page
+                // return redirect()->to('default');
+            }
+        } else {
+             if ($page == 'checkout1m') {
+               return redirect()->to('login?message=plan/checkout/1m');
+            } else if ($page == 'checkout3m') {
+               return redirect()->to('login?message=plan/checkout/3m');
+            }else if ($page == 'individual') {
+               return redirect()->to('login?message=individual');
+            }else if ($page == 'yearly') {
+               return redirect()->to('login?message=yearly');
+            }else if ($page == 'checkout6m') {
+               return redirect()->to('login?message=plan/checkout/6m');
+            }else if ($page == 'checkout1y') {
+                return redirect()->to('login?message=plan/checkout/1y');
+            } elseif ($page == 'promotion') {
+                return redirect()->to('promotion');
+            }elseif ($page == 'checkoutAlbums') {
+                return redirect()->to('login?message=checkout-albums-list');
+            }else {
+                // Invalid page parameter, redirect to default page
                 return redirect()->to('/');
-            } 
+            }
+            // User is not logged in, redirect to login page
+            
+        }
+            }
+            // $this->checkLoginStatus($page);
+            // Check if the user is logged in
+        
         }
 
 

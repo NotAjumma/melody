@@ -1,6 +1,7 @@
 .first-layer {
   margin: 0 auto;
   width: 35%;
+  height: 80vh;
 }
 
 .header-top {
@@ -11,6 +12,14 @@
 
 .chose-container {
   background-color: #ffc862;
+  border-radius: 1rem 1rem 0 0;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.yearly-chose-container {
+  background-color: #009ffd;
   border-radius: 1rem 1rem 0 0;
   padding: 1rem;
   margin-top: 1rem;
@@ -47,6 +56,13 @@
 .badge {
   padding: 0.3rem;
   background-color: #ffc862;
+  border-radius: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.yearly-badge {
+  padding: 0.3rem;
+  background-color: #009ffd;
   border-radius: 0.2rem;
   margin-bottom: 0.5rem;
 }
