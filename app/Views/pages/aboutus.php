@@ -88,6 +88,7 @@
   const originalSrc4 = image4.src;
   const hoverSrc = "<?= base_url('assets/members/profile.jpg') ?>";
   const hoverSrc2 = "<?= base_url('assets/members/sharulHover.jpg') ?>";
+  const hoverSrc3 = "<?= base_url('assets/members/iqbal.jpg') ?>";
   const hoverSrc4 = "<?= base_url('assets/members/haziqHover.jpg') ?>";
 
   image1.addEventListener("mouseover", function () {
@@ -105,7 +106,7 @@
   });
 
   image3.addEventListener("mouseover", function () {
-    image3.src = hoverSrc;
+    image3.src = hoverSrc3;
   });
   image3.addEventListener("mouseout", function () {
     image3.src = originalSrc3;

@@ -13,7 +13,7 @@
         <!-- edit here for profile page -->
         <form action="admin/submit-edit-user" method="post">
         <div class="profile-content">
-          <div class="edit-header-text extralarge-bold-text">Edit Profile</div>
+          <div class="edit-header-text extralarge-bold-text">Edit <?php echo $username ?> Profile</div>
           <div class="input-container">
             <div class="input-row">
               <div class="label-input-edit karla-regular-blod-small-text">

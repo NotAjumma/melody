@@ -79,6 +79,62 @@ class DashboardModel extends Model
         return $query->getResultArray();
     }
 
+    public function findAllAlbums()
+    {
+        // echo "this";
+        // $query = $this->db->table('albums_details')
+        //     ->select('album_id, COUNT(album_id) AS occurrence')
+        //     ->groupBy('album_id')
+        //     ->orderBy('occurrence', 'DESC')
+        //     // ->limit() // Change the limit according to your requirement
+        //     ->get();
+        $query = $this->db->table('user_albums_details')
+            ->select('album_id, COUNT(album_id) AS occurrence')
+            ->groupBy('album_id')
+            ->orderBy('occurrence', 'DESC')
+            // ->limit() // Change the limit according to your requirement
+            ->get();
+
+        $topAlbums= $query->getResultArray();
+        $albumsListModel = new AlbumsListModel();
+
+        $albums = $this->albumsListModel->findAll();
+
+        $occurrences = [];
+
+// Iterate over the $topAlbums array
+foreach ($topAlbums as $album) {
+    $albumId = $album['album_id'];
+    $occurrences[$albumId] = $album['occurrence'];
+}
+        $newAlbums = [];
+// print_r($albums);
+// Iterate over the $albums array
+foreach ($albums as $album) {
+    $albumId = $album['id'];
+    // echo $albumId;
+    
+    // Check if the album exists in $topAlbums
+    if (isset($occurrences[$albumId])) {
+        // Album exists in $topAlbums, set the occurrence count
+        $album['occurrence'] = $occurrences[$albumId];
+    } else {
+        // Album does not exist in $topAlbums, set occurrence as 0
+        $album['occurrence'] = 0;
+    }
+    
+    // Add the album to the new array
+    $newAlbums[] = $album;
+}
+
+        // print_r($newAlbums); // or echo "Debug message";
+
+        // print_r($albums);
+            return $newAlbums;
+
+        // return $query->getResultArray();
+    }
+
     public function countTotalAlbumOccurrences()
     {
         return $this->db->table('user_albums_details')

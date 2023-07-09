@@ -12,14 +12,14 @@ class AlbumsListModel extends Model
         
         'album_title',
         'artist',
-        'genre'
-        // 'release_date',
-        // 'average_rating',
-        // 'descriptions',
-        // 'ranking',
-        // 'number_ratings',
-        // 'number_reviews',
-        // 'price'
+        'genre',
+        'release_date',
+        'average_rating',
+        'descriptions',
+        'ranking',
+        'number_ratings',
+        'number_reviews',
+        'price'
     ];
 
   public function getAlbumsSortedByGenre()
@@ -44,7 +44,7 @@ public function getAlbumsByIDs(array $albumIDs)
     {
         $this->whereIn('id', $albumIDs);
         $query = $this->findAll();
-
+        // print_r($query);
         return $query;
     }
 
@@ -53,7 +53,19 @@ public function getAlbumsByIDs(array $albumIDs)
          return $this->where('id', $albumIDs)->findAll();
     }
 
+public function updateAlbum($id, $updatedAlbumData)
+    {
+        echo $id;
+        print_r($updatedAlbumData);
+        $this->update($id, $updatedAlbumData);
+        return true;
+    }
 
+    public function deleteAlbumById($id)
+    {
+        return $this->where('id', $id)
+                    ->delete();
+    }
 
 
     

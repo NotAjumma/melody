@@ -50,6 +50,12 @@ $routes->get('admin/delete/(:segment)', 'AdminController::deleteUser/$1');
 $routes->get('admin/albums-list', 'AdminController::albumsList');
 $routes->get('admin/change-password', 'AdminController::changePassword');
 $routes->post('admin/submit-change-password', 'AdminController::changePasswordProcess');
+$routes->get('admin/edit-album/(:num)', 'AdminController::singleAlbum/$1');
+$routes->post('admin/edit-album/submit-edit-album', 'AdminController::updateSingleAlbum');
+$routes->get('admin/delete-album/(:num)', 'AdminController::deleteAlbum/$1');
+
+
+
 
 
 

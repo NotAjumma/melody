@@ -115,14 +115,20 @@ use App\Models\UsersModel;
 
 <?php 
 $currentUrl = uri_string();
+// $currentUrl2 = uri_string();
 // Define the pattern for the desired URL structure
 $pattern = 'admin/edit-view/';
+$patternAlbum = 'admin/edit-album/';
+
+$username = '';
+$album_id = '';
 
 // Check if the current URL matches the desired pattern
 if (strpos($currentUrl, $pattern) !== false) {
     // Extract the username from the URL
     $segments = explode('/', $currentUrl);
     $username = end($segments);
+    // print_r($segments) ;
 
     // Your sidebar code goes here
 
@@ -130,15 +136,29 @@ if (strpos($currentUrl, $pattern) !== false) {
     // echo "Username:" . $username;
   
 }
+else if (strpos($currentUrl, $patternAlbum) !== false) {
+    // Extract the username from the URL
+    $segments2 = explode('/', $currentUrl);
+    $album_id = end($segments2);
+    // print_r($segments2) ;
+
+    // Your sidebar code goes here
+
+    // Example: Display the username
+    // echo "album_id:" . $album_id;
+  
+}
   $urlEditView = 'admin/edit-view/' . $username;
-    // echo $urlEditView;
+  $urlEditAlbum = 'admin/edit-album/' . $album_id;
+    // echo $urlEditAlbum;
 
 if (current_url() === site_url('submit-login') || current_url() === site_url('profile') 
 || current_url() === site_url('edit-profile') || current_url() === site_url('change-password') 
 || current_url() === site_url('saved-payment-cards') || current_url() === site_url('admin/dashboard') 
 || current_url() === site_url('admin/profile') || current_url() === site_url('admin/edit-profile') || current_url() === site_url($urlEditView) 
 || current_url() === site_url('admin/user-list') || current_url() === site_url('admin/verify-membership') 
-|| current_url() === site_url('admin/albums-list') || current_url() === site_url('admin/change-password')) : ?>
+|| current_url() === site_url('admin/albums-list') || current_url() === site_url($urlEditAlbum) 
+|| current_url() === site_url('admin/change-password')) : ?>
   <?php if (session()->has('role_id')) { ?>
     <div class="body-back">
     <?php if  (session('role_id') == 2 && current_url() === site_url('profile')){ ?>

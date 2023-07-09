@@ -1,8 +1,8 @@
  <link rel="stylesheet" href="<?= base_url('css/dashboard.css') ?>" />
  <link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
 
- <script src="js/index.js"></script>
- <script src="js/navbar.js"></script>
+ <script src="<?= base_url('js/index.js') ?>"></script>
+ <script src="<?= base_url('js/navbar.js') ?>"></script>
 
  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"> -->
@@ -36,25 +36,27 @@
             <th class="header-data">Artist</th>
             <th class="header-data">Release Date</th>
             <th class="header-data">Price</th>
-            <th class="header-data">Total Buyed</th>
+            <th class="header-data">Total Albums buy</th>
+            <!-- <th class="header-data">Total Buyed</th> -->
             <th class="header-data">Action</th>
           </tr>
         </thead>
         <tbody>
           <?php if($TopAlbumListBuyed): ?>
+            <!-- <?php print_r($TopAlbumListBuyed);?> -->
           <?php foreach($TopAlbumListBuyed as $album): ?>
-        <?php $formattedDate = date("d M Y", strtotime($album[0]['release_date']));?>
+        <?php $formattedDate = date("d M Y", strtotime($album['release_date']));?>
           <tr class="table-row-data karla-regular-small-text">
-          <td class="table-data"><img style="height: 5rem; width: 5rem;" src="<?php echo $album[0]['album_cover']?>" /></td>
-          <td class="table-data"><?php echo $album[0]['album_title']?></td>
-          <td class="table-data"><?php echo $album[0]['artist']?></td>
-          <!-- <td class="table-data"><?php echo $album[0]['genre']?></td> -->
+          <td class="table-data"><img style="height: 5rem; width: 5rem;" src="<?php echo $album['album_cover']?>" /></td>
+          <td class="table-data"><?php echo $album['album_title']?></td>
+          <td class="table-data"><?php echo $album['artist']?></td>
+          <!-- <td class="table-data"><?php echo $album['genre']?></td> -->
           <td class="table-data"><?php echo $formattedDate?></td>
-          <td class="table-data">RM <?php echo $album[0]['price']?></td>
-          <td class="table-data"><?php echo $album[0]['occurrence']?> albums</td>
+          <td class="table-data">RM <?php echo $album['price']?></td>
+          <td class="table-data"><?php echo $album['occurrence']?></td>
             <td class="table-data">
-              <a href="<?php echo ('edit-view/'.$album[0]['id']);?>" class="btn btn-primary btn-sm">Edit</a>
-              <a href="<?php echo ('delete/'.$album[0]['id']);?>" class="btn btn-danger btn-sm">Delete</a>
+              <a href="<?php echo ('edit-album/'.$album['id']);?>" class="btn btn-primary btn-sm">Edit</a>
+              <a onclick="return confirmCancellation()" href="<?php echo ('delete-album/'.$album['id']);?>" class="btn btn-danger btn-sm">Delete</a>
             </td>
           </tr>
           <?php endforeach; ?>
@@ -69,6 +71,9 @@
     $(document).ready(function () {
       $('#users-list').DataTable();
     });
+     function confirmCancellation() {
+  return confirm("Are you sure you want to delete this album?");
+}
   </script>
   
 </div>
