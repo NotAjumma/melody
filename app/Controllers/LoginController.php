@@ -17,6 +17,16 @@ class LoginController extends Controller
                 view('pages/index') .
                 view('components/footer.php');
     }
+
+     public function aboutus()
+    {
+        $data['title'] = 'About us'; 
+        return  view('components/navbar',$data) .
+                view('pages/aboutus') .
+                view('components/footer.php');
+    }
+
+
     public function login()
     {
         $session = session();
@@ -151,7 +161,9 @@ class LoginController extends Controller
         // Check if the username already exists
         if ($usersModel->where('username', $username)->first()) {
             session()->setFlashdata('error', 'Username already exists');
-            return redirect()->back();
+             $data['alertBody'] = "Username already exists";
+
+            return redirect()->to('signup')->with('alert', view('components/alert',$data));
         }
 
         // Hash the password
@@ -165,8 +177,7 @@ class LoginController extends Controller
             'password' => $hashedPassword,
             'date_of_birth' => $dob,
             'gender' => $gender,
-            "role_id" => 2,
-            'profile_pic' => "none"
+            "role_id" => 2
         ];
 
         // print_r($data);
@@ -176,7 +187,10 @@ class LoginController extends Controller
 
         // Set success flashdata and redirect to login page
         // session()->setFlashdata('success', 'Signup successful. Please login.');
-        return redirect()->to('login');
+        $data['alertBody'] = "Successfull register new account";
+
+            return redirect()->to('login')->with('alertSuccess', view('components/alertSuccess',$data));
+        // return redirect()->to('login');
     }
 
 

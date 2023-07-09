@@ -8,10 +8,10 @@
         <div class="header-index">
           <div class="header-index-text">
             <div class="large-bold-text">
-              Get 2 months of Premium only at RM14.90 for first time user.
+              Get 1 months of Premium only at RM14.90 for all user.
             </div>
             <div class="regular-medium-text">
-              Just RM14.90/month after. Cancel anytime
+              Just RM14.90/month. Cancel anytime
             </div>
             <div class="button-container button-text">
                 <a href="<?= base_url('check-login-status/checkout') ?>" style="color: #ffffff; text-decoration: none;" >
@@ -23,7 +23,7 @@
               </div>
             </div>
             <div class="term-container small-text">
-              Offer not available for users who have already tried Premium.
+              Offer available for all users who want try Premium plan.
             </div>
           </div>
         </div>
@@ -146,15 +146,14 @@
                 <div class="top-layer-container">
                   <div class="plan-badge small-bold-text">
                     <div class="badge-text">
-                      2 months for RM14.90 for first time user
+                      1 months for RM14.90 for all user.
                     </div>
                   </div>
                   <div class="top-container">
                     <div class="top-name large-medium-text">Monthly</div>
                     <div class="top-desc regular-medium-text">
-                      RM14.90/month after offer period
+                      RM14.90/month.
                       <br />
-                      Discount 10% for buy albums
                     </div>
                   </div>
                 </div>
@@ -194,6 +193,18 @@
                         On-demand playback
                       </div>
                     </div>
+                     <div class="features-list">
+                      <div class="feature-icon">
+                        <i
+                          class="fa-solid fa-check fa-lg"
+                          style="color: #000000"
+                        ></i>
+                      </div>
+                      <div class="feature-desc regular-small-text">
+                                              Discount 10% for buy albums
+
+                      </div>
+                    </div>
                     
                   </div>
                   
@@ -201,7 +212,7 @@
                     Get Started
                   </div>
                   <div class="term-container-bottom small-text">
-                    Offer not available for users who have already tried Premium
+                    Offer available for all users who want try Premium plan.
                   </div>
                 </div>
               </div>
@@ -221,7 +232,7 @@
                     <div class="top-desc regular-medium-text">
                       RM130.90/yearly after offer period
                       <br />
-                      Discount 20% for buy albums
+                      
                     </div>
                   </div>
               </div>
@@ -291,7 +302,7 @@
                       ></i>
                     </div>
                     <div class="feature-desc regular-small-text">
-                      and more ..
+                      Discount 20% for buy albums
                     </div>
                   </div>
 
@@ -302,7 +313,7 @@
                     Get started
                   </div>
                   <div class="term-container-bottom small-text">
-                    Offer not available for users who have already tried Premium
+                    Offer available for all users who want try Premium plan.
                   </div>
                 </div>
               </div>

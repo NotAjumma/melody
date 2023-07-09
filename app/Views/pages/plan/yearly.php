@@ -17,7 +17,8 @@
         <div class="small-text">1 account</div>
       </div>
       <div class="term-text extrasmall-bold-text">
-        Open only to users who haven't already tried Premium
+                Open to all user who want try Premium plan.
+
       </div>
       <div class="subscribe-container">
         <div class="subscribe-text large-medium-text">Subscribe</div>

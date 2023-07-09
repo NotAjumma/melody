@@ -322,6 +322,144 @@ class AdminController extends Controller
                 view('components/footer.php');
     }
 
+    public function singleAlbum($album_id){
+        $albumsListModel = new AlbumsListModel();
+        // $userSubscriptionModel = new UserSubscriptionModel();
+        // $subscriptionModel = new SubscriptionModel();
+
+        $data['title'] = 'Edit' ; 
+        $dataUser = $albumsListModel->getUserByUsername($username);
+        $data['users'] = $userSubscriptionModel->getSubscriptionsByUsername($username);
+        $dataUserSub=$data['users'];
+        // print_r($dataUserSub);
+
+        // $data['users'] = $userSubscriptionModel->getUsersWithoutSubscription();
+        // print_r($data['users']);
+
+        foreach ($data['users'] as &$user) {
+            if (!isset($user['sub_name'])) {
+                $user['sub_name'] = "Free Plan";
+                $user['sub_id'] = "0";
+                $user['status'] = "Free";
+                $user['id'] = "0";
+                
+            }
+            if (!isset($user['ended_date'])) {
+                $user['ended_date'] = "-";
+            }
+             if (!isset($user['started_date'])) {
+                $user['started_date'] = "-";
+            }
+        }
+
+            $data['username'] = $dataUser['username'];
+            $data['nickname'] = $dataUser['nickname'];
+            $data['gender'] = $dataUser['gender'];
+            $data['email'] = $dataUser['email'];
+            $data['dob'] = $dataUser['date_of_birth'];
+            $data['sub_name'] = $user['sub_name'];
+            $data['sub_id'] = $user['sub_id'];
+            $data['subscriptionTypes'] = $subscriptionModel->getAllSub();
+            $data['status']=$user['status'];
+            $data['id'] = $user['id'];
+            $data['start_date']=$user['started_date'];
+            // print_r($data['subscriptionTypes']);
+            // echo $data['sub_name'];
+            // print_r($data['users']);
+            
+            
+        return  view('components/navbar',$data) .
+                view('pages/admin/edit-user',$data) .
+                view('components/footer.php');
+    }
+
+    public function updateSingleAlbum()
+    {
+        // Get the form input values
+        // echo "inside";
+        $username = $this->request->getPost('username');
+        $plan = $this->request->getPost('plan_update');
+        $sub_id = $this->request->getPost('sub_id');
+        $id = $this->request->getPost('id');
+        $status = $this->request->getPost('status_update');
+        $email = $this->request->getPost('email');
+        $nickname = $this->request->getPost('nickname');
+        $dateOfBirth = $this->request->getPost('dob');
+        $gender = $this->request->getPost('gender');
+        $start_date = $this->request->getPost('start_date');
+        $userSubId = $this->request->getPost('id');
+        
+
+        // Create an instance of the UsersModel
+        $usersModel = new UsersModel();
+        $userSubscriptionModel = new UserSubscriptionModel();
+
+        // Prepare the updated user data
+        $updatedUserData = [
+            'email' => $email,
+            'nickname' => $nickname,
+            'date_of_birth' => $dateOfBirth,
+            'gender' => $gender
+        ];
+        $updatedUserSubData = [
+            'sub_id' => $plan,
+            'started_date' => ($plan == 0) ? null : $start_date,
+            'status' => ($plan == 0) ? 'Free' : $status,
+            'ended_date' => ($plan == 1) ? date('Y-m-d', strtotime('+1 month', strtotime($start_date))) :
+                (($plan == 2) ? date('Y-m-d', strtotime('+1 year', strtotime($start_date))) : null)
+        ];
+
+        $insertUserSubData = [
+            'sub_id' => $plan,
+            'username' => $username,
+            'durationMonth' => ($plan == 1) ? 1 : 12,
+            'total_amount' => ($plan == 1) ? 14.9 : 130.9,
+            'started_date' =>  $start_date,
+            'status' => $status,
+            'card_id' => 0,
+            'ended_date' => ($plan == 1) ? date('Y-m-d', strtotime('+1 month', strtotime($start_date))) :
+                (($plan == 2) ? date('Y-m-d', strtotime('+1 year', strtotime($start_date))) : null)
+        ];
+
+        // var_dump($updatedUserData);
+        // var_dump($updatedUserSubData);
+
+        // Update the user profile
+        $afterInsertUser = $usersModel->update($username, $updatedUserData);
+        if(!empty($id) && $plan){
+            echo "if";
+            $afterInsertUserSub = $userSubscriptionModel->updateUserSubByUsername($username, $updatedUserSubData);
+        }elseif (empty($id)){
+            echo "elseif";
+            $afterInsertUserSub = $userSubscriptionModel->insertUserSub($insertUserSubData);
+        }else{
+            echo "else";
+            $afterUpdateUserSub = $userSubscriptionModel->deleteSubscriptionByUsernameAndId($username, $userSubId);
+        }
+        
+        // var_dump($insertUserSubData);
+        // var_dump($afterInsertUserSub);
+
+        $data['alertBody'] = "Succesfully updated user profile.";
+
+        return redirect()->to('admin/user-list')->with('alertSuccess', view('components/alertSuccess',$data));
+
+        // Handle successful profile update
+        // Return a success message or redirect to a success page
+    }
+
+    public function deleteAlbum($album_id)
+    {
+
+        $usersModel = new UsersModel();
+        $session = session(); 
+        $dataUser = $usersModel->deleteUserByUsername($username);
+        $data['title'] = 'Delete'; 
+
+
+        return redirect()->to('admin/user-list');
+    }
+
      public function changePassword()
     {
         $session = session();

@@ -58,6 +58,7 @@ $routes->post('submit-add-card-checkout', 'UserController::addCardCheckout');
 $routes->get('add-card', 'UserController::addCardModal');
 $routes->post('submit-checkout-albums-list', 'UserController::albumCheckoutProcess');
 $routes->get('receipt', 'UserController::receipt');
+$routes->get('about-us', 'LoginController::aboutUs');
 
 
 

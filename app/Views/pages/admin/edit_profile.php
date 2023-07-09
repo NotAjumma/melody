@@ -74,6 +74,7 @@
                   type="date"
                   name="dob"
                   value="<?php echo $dob ?>"
+                  id="dob"
                 />
               </div>
             </div>
@@ -109,3 +110,18 @@
 </div>
 </div>
 </div>
+<script>
+  // Get the current date
+  var currentDate = new Date().toISOString().split("T")[0];
+  
+  // Get the value of the input field
+  var dobValue = document.getElementById("dob").value;
+  
+  // If the input field has a value, set the maximum date to the maximum of the current date and the input value
+  if (dobValue) {
+    currentDate = new Date(Math.max(new Date(dobValue), new Date())).toISOString().split("T")[0];
+  }
+  
+  // Set the maximum date for the input field
+  document.getElementById("dob").setAttribute("max", currentDate);
+</script> 

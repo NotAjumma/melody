@@ -1,0 +1,55 @@
+.body-content-aboutus {
+  background-color: #071933;
+}
+.list-members {
+  display: flex;
+  gap: 2rem;
+}
+
+.members-container {
+  padding: 5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header-about-us {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 3rem;
+  color: #ffffff;
+  line-height: 80px !important;
+  font-weight: 500 !important;
+}
+
+.member-name {
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+.title {
+  color: #525d70;
+  margin-left: 0.5rem;
+}
+
+.img-profile {
+  width: 20rem;
+  height: 30rem;
+  border-radius: 0 2rem 0 0;
+  /* transition: transform 0.3s ease-in-out; */
+  overflow: hidden;
+}
+
+img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.sub-text {
+  color: #ffffff;
+  padding: 4rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sub-text-first {
+  margin-bottom: 2rem;
+}
